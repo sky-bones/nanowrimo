@@ -1,2 +1,2 @@
-# nanowrimo
+# NaNoWriMo
 National Novel Writing Month
