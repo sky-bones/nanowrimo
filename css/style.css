@@ -15,6 +15,7 @@ img {
   width: 100%;
 }
 
+/* BANNER */
 .nav-bar {
   background-color: #73dad2;
   height: 100px;
@@ -51,6 +52,11 @@ img {
   text-decoration: none;
 }
 
+.link:hover {
+  color: #005352;
+  font-weight: 800;
+}
+
 .link p {
   margin-bottom: 0;
 }
@@ -82,6 +88,7 @@ h1 {
   color: #e6e6e6;
 }
 
+/* SIDE BAR */
 .side-bar {
   background-color: #e6e6e6;
   overflow: hidden;
@@ -102,8 +109,13 @@ h1 {
   color: black;
 }
 
+.skip-links li:hover {
+  background-color: #005352;
+  padding-left: 10px;
+}
+
 .skip-links a:hover {
-  color: #fdc46e;
+  color: #e6e6e6;
 }
 
 .skip-div {
@@ -127,6 +139,14 @@ h1 {
   margin: 0;
 }
 
+/* BODY */
+.content {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 2rem;
+}
+
+/* FOOTER */
 .social-media {
   padding-top: 40px;
   padding-bottom: 5px;

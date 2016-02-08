@@ -15,6 +15,8 @@ img {
     width: 100%;
 }
 
+/* BANNER */
+
 .nav-bar {
     background-color: $lightteal;
     height: 100px;
@@ -42,6 +44,11 @@ img {
 .link {
     color: $lightgrey;
     text-decoration: none;
+}
+
+.link:hover {
+    color: $darkteal;
+    font-weight: 800;
 }
 
 .link p{
@@ -76,6 +83,9 @@ h1 {
     color: $lightgrey;
 }
 
+
+/* SIDE BAR */
+
 .side-bar {
     background-color: $lightgrey;
     overflow:hidden;
@@ -96,8 +106,14 @@ h1 {
     color: black;
 }
 
+.skip-links li:hover {
+    background-color: $darkteal;
+    padding-left: 10px;
+    
+}
+
 .skip-links a:hover {
-    color: $golden;
+    color: $lightgrey;
 }
 
 .skip-div {
@@ -120,6 +136,20 @@ h1 {
     padding: 0;
     margin: 0;
 }
+
+
+/* BODY */
+
+.content {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 2rem;
+}
+
+
+
+
+/* FOOTER */
 
 .social-media {
     padding-top: 40px;
