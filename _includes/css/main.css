@@ -114,3 +114,38 @@ h1 {
     padding: 0;
     margin: 0;
 }
+
+
+
+
+
+
+.social-media {
+    padding-top: 40px;
+    padding-bottom: 5px;
+    position: relative;
+    left: calc(50% - 9rem);
+}
+
+.social {
+    width: 2rem;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.social-btns {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.footer {
+    height: 18rem;
+    background-color: #e6e6e6;
+    overflow: hidden;
+}
+
+.legal-info {
+    font-size: 8px;
+    margin: 20px;
+    text-align: center;
+}
