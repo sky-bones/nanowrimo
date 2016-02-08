@@ -1,0 +1,67 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: auto;   
+    font-family: 'Raleway', sans-serif;;
+}
+
+img {
+    width: 100%;
+}
+
+.nav-bar {
+    background-color:  #e6e6e6;
+    height: 8vh;
+}
+
+
+
+.sign-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.btn {
+    background-color: #fdc46e;
+    height: 25px;
+    text-align: center;
+    width: 5rem;
+    border-radius: 5px;
+}
+
+.nav-btn {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    width: 2rem;
+}
+
+.banner {
+    background-color: #fdc46e;
+    height: 70vh;
+}
+
+.banner-logo {
+    position: absolute;
+    width: 60vw;
+    height: auto;
+    left: calc(50% - 30vw);
+    top: calc(50% - 20vh);
+}
+
+.side-bar {
+    background-color: ;
+}
