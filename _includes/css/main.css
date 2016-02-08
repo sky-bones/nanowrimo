@@ -23,7 +23,7 @@ img {
 
 .nav-bar {
     background-color:  #e6e6e6;
-    height: 8vh;
+    height: 4rem;
 }
 
 
@@ -61,7 +61,7 @@ img {
     background-size: cover;
     background-position: center;
     background-color: #fdc46e;
-    height: 93vh;
+    height: 40rem;
 }
 
 .banner-logo {
@@ -70,11 +70,11 @@ img {
     height: auto;
     display: block;
     margin: auto;
-    padding-top: 20vh;
+    padding-top: 15vh;
+    text-align: center;
 }
 
 h1 {
-    text-align: center;
     padding-top: 2rem;
     color: white;
 }
