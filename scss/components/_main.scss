@@ -8,7 +8,7 @@ html {
 
 body {
     margin: auto;   
-    font-family: $raleway;
+    font-family: $font;
 }
 
 img {
@@ -16,15 +16,15 @@ img {
 }
 
 .nav-bar {
-  background-color: $lightgrey;
-  height: 4rem;
+    background-color: $lightteal;
+    height: 100px;
+
 }
 
 .sign-btn {
     position: absolute;
-    top: 1rem;
-    right: 1rem;
     top: 30px;
+    right: 20px;
 }
 
 .btn {
@@ -34,18 +34,26 @@ img {
 .nav-btn {
     position: absolute;
     top: 30px;
-    left: 1rem;
+    left: 20px;
     width: 35px;
     font-size: 40px;
 }
 
+.link {
+    color: $lightgrey;
+    text-decoration: none;
+}
+
+.link p{
+    margin-bottom: 0;
+}
 
 
 .banner {
     background-image: url(../../images/header.jpg);
     background-size: cover;
     background-position: center;
-    background-color: $yellow;
+    background-color: grey;
     height: 40rem;
 }
 

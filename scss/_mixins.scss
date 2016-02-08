@@ -1,8 +1,7 @@
 @mixin btn-design {
-  background-color: $red;
-  height: 30px;
-  text-align: center;
-  width: 5rem;
-  border-radius: 5px;
-  color: white;
+    background-color: $darkteal; 
+    line-height: 35px;
+    text-align: center;
+    width: 5rem;
+    color: $lightgrey;
 }
