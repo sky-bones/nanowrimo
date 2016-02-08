@@ -35,11 +35,12 @@ img {
 }
 
 .btn {
-    background-color: #fdc46e;
-    height: 25px;
+    background-color: #dd1945;
+    height: 30px;
     text-align: center;
     width: 5rem;
     border-radius: 5px;
+    color: white; 
 }
 
 .nav-btn {
@@ -47,23 +48,43 @@ img {
     top: 1rem;
     left: 1rem;
     width: 2rem;
+    font-size: 40px;
+    line-height: 25px;
+}
+
+.btn p{
+    padding-top: 3px;
 }
 
 .banner {
+    background-image: url(../../images/header.jpg);
+    background-size: cover;
+    background-position: center;
     background-color: #fdc46e;
-    height: 80vh;
+    height: 93vh;
 }
 
 .banner-logo {
-    position: absolute;
     width: 60vw;
+    max-width: 40rem;
     height: auto;
-    left: calc(50% - 30vw);
-    top: calc(50% - 20vh);
+    display: block;
+    margin: auto;
+    padding-top: 20vh;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 2rem;
+    color: white;
+}
+
+.banner-logo p {
+    color: #e6e6e6;
 }
 
 .side-bar {
-    background-color: #005352;
+    background-color: #e6e6e6;
     overflow:hidden;
 }
 
@@ -75,16 +96,18 @@ img {
 .skip-div {
     padding-top: 2rem;
     padding-bottom: .5rem;
+    padding-left: 10px;
 }
 
 .donate-img {
     width: 80%;
     display: block;
     margin: auto;
+    padding: 15px;
 }
 
 .donate-info {
-    margin-left: 10px;
+    padding: 15px;
 }
 
 .donate-info h2 {
