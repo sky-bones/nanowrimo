@@ -4,4 +4,7 @@
     text-align: center;
     width: 5rem;
     color: $lightgrey;
+    &:hover {
+    background-color: $golden;
+  }
 }
