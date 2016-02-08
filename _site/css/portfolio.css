@@ -51,7 +51,7 @@ img {
 
 .banner {
     background-color: #fdc46e;
-    height: 70vh;
+    height: 80vh;
 }
 
 .banner-logo {
@@ -63,9 +63,34 @@ img {
 }
 
 .side-bar {
-    background-color: ;
+    background-color: #005352;
+    overflow:hidden;
 }
 
+.skip-links {
+    list-style-type: none;
+    
+}
+
+.skip-div {
+    padding-top: 2rem;
+    padding-bottom: .5rem;
+}
+
+.donate-img {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.donate-info {
+    margin-left: 10px;
+}
+
+.donate-info h2 {
+    padding: 0;
+    margin: 0;
+}
 /*
   Gridifier || Code released under the UNLICENSE
   https://thomasjbradley.github.io/gridifier/#xs,2,0,0,0;s,2,25,0,0;m,4,38,1,1;l,12,60,1,1
