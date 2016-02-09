@@ -71,7 +71,7 @@ img {
     height: auto;
     display: block;
     margin: auto;
-    padding-top: 15vh;
+    padding-top: 90px;
     text-align: center;
 }
 
@@ -103,18 +103,15 @@ h1 {
 }
 
 .skip-links a{
+    display: block;
     text-decoration: none;
     color: black;
 }
 
-.skip-links li:hover {
-    background-color: $darkteal;
-    padding-left: 10px;
-    
-}
-
 .skip-links a:hover {
     color: $lightgrey;
+    background-color: $darkteal;
+    padding-left: 15px;
 }
 
 .skip-div {
