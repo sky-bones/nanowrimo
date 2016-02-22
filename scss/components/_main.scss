@@ -52,14 +52,31 @@ img {
 }
 
 
+
+
+
+
 .banner {
-    background-image: url({{site.baseurl}}../../images/header.jpg);
+    background-image: url({{site.baseurl}}../images/header.jpg);
     background-size: cover;
     background-position: center;
-    background-color: grey;
+    background-color: $darkteal;
     margin-top: 60px;
     height: 38rem;
 }
+
+
+
+.acro-mark {
+    display: block;
+    height: 15rem;
+    padding-top: 4rem;
+}
+
+.full-mark {
+    display: none;
+}
+
 
 .banner-logo {
     width: 60vw;
@@ -69,6 +86,7 @@ img {
     margin: auto;
     padding-top: 90px;
     text-align: center;
+    
 }
 
 h1 {
@@ -376,6 +394,21 @@ li {
     transform: rotate(45deg);
         position: absolute;
 }
+    
+    
+.acro-mark {
+    display: none;
+}
+
+.full-mark {
+    display: block;
+    width: 20rem;
+    margin: auto;
+    padding-top: 3rem;
+}
+    
+    
+    
     
     
 }
