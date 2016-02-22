@@ -261,6 +261,7 @@ li {
 .side-bar {
     background-color: $lightgrey;
     overflow:hidden;
+    padding-bottom: 4rem;
 }
 
 .skip-title {
@@ -310,7 +311,7 @@ li {
 }
 
 .join-icon {
-    margin-top: 6rem;
+    margin-top: 5rem;
 }
 
 
@@ -454,6 +455,9 @@ footer {
     margin-top: 4rem;
 }
     
+.donate-icon {
+        padding-top: 4rem;
+    }
     
 }
 
