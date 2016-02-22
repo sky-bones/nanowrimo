@@ -328,17 +328,28 @@ li {
 
 /* FOOTER */
 
-.footer-nav {
-  display: none;
+
+.back-top {
+    text-align: center;
+    padding-top: 2rem;
+    
+}
+
+.up-arrow {
+    color: $white;
+    font-size: 60px;
+    text-decoration: none;
 }
 
 .social-media {
-    width: 20em;
-    padding-top: 60px;
+    padding-top: 
     padding-bottom: 5px;
+    width: 20rem;
     position: relative;
-    left: calc(50% - 10em);
+    
+    left: calc(50% - 7rem);
 }
+
 
 .social-media ul {
     padding: 0;
@@ -353,23 +364,36 @@ li {
 
 .social-btns {
     display: inline-block;
+    color: $white;
     padding: 15px;
-    color: white;
     background-color: $darkteal;
+}
+
+li.social-btns {
+    margin: 15px;
+    line-height: 8px;
 }
 
 .social-btns a {
     text-decoration: none;
+    color: $white;
 }
 
 footer {
-    height: 18rem;
-    background-color: $lightgrey;
+    background-color: $lightteal;
     overflow: hidden;
 }
 
 .ftr-links {
     font-size: 10px;
+}
+
+.ftr-links ul {
+    
+}
+
+.ftr-links li {
+    width: 2rem;
 }
 
 .legal-info {
@@ -399,10 +423,15 @@ footer {
 @media only screen and (min-width: 38em) {
     
     .footer-nav {
-        display: all;
-        width: 100%;
+        display: block;
+        margin: auto;
     }
     
+    .footer-nav.grid {
+        max-width: 500px;
+        margin: 0 auto;
+        margin-top: 3rem;
+    }
 }
 
 
