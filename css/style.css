@@ -120,7 +120,7 @@ li {
   width: 9rem;
   left: 20px;
   top: 30px;
-  background: rgba(0, 83, 82, 0.8);
+  background: rgba(115, 218, 210, 0.4);
   height: 28rem;
   transition: all 0.3s ease-in-out;
 }
@@ -268,20 +268,25 @@ li {
   padding-bottom: .5rem;
 }
 
-.donate-img {
-  width: 80%;
+.donate-btn {
   display: block;
   margin: auto;
-  padding: 15px;
+  margin-top: 1rem;
 }
 
-.donate-info {
-  padding: 15px;
+.nav-icon {
+  width: 70%;
+  display: block;
+  margin: auto;
+  margin-top: 4rem;
 }
 
-.donate-info h2 {
-  padding: 0;
-  margin: 0;
+.donate-icon {
+  margin-top: 5rem;
+}
+
+.join-icon {
+  margin-top: 6rem;
 }
 
 /* BODY */
@@ -387,7 +392,7 @@ footer {
     margin-top: -7rem;
     margin-left: -4rem;
   }
-  .push {
+  .intro {
     margin-top: 4rem;
   }
 }
