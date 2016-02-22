@@ -294,10 +294,16 @@ li {
 
 /* FOOTER */
 .social-media {
-  padding-top: 40px;
+  width: 20em;
+  padding-top: 60px;
   padding-bottom: 5px;
   position: relative;
-  left: calc(50% - 9rem);
+  left: calc(50% - 10em);
+}
+
+.social-media ul {
+  padding: 0;
+  margin: 0;
 }
 
 .social {
@@ -307,13 +313,16 @@ li {
 }
 
 .social-btns {
-  list-style-type: none;
   display: inline-block;
+}
+
+.social-btns a {
+  text-decoration: none;
 }
 
 .footer {
   height: 18rem;
-  background-color: #e6e6e6;
+  background-color: #73dad2;
   overflow: hidden;
 }
 
@@ -321,6 +330,10 @@ li {
   font-size: 10px;
   margin: 20px;
   text-align: center;
+}
+
+.icon-facebook {
+  text-decoration: none;
 }
 
 @media only screen and (min-width: 60em) {
