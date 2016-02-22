@@ -326,14 +326,10 @@ li {
   text-decoration: none;
 }
 
-footer {
+.footer {
   height: 18rem;
-  background-color: #e6e6e6;
+  background-color: #73dad2;
   overflow: hidden;
-}
-
-.ftr-links {
-  font-size: 12px;
 }
 
 .legal-info {

@@ -349,10 +349,14 @@ li {
     text-decoration: none;
 }
 
-.footer {
+footer {
     height: 18rem;
-    background-color: $lightteal;
+    background-color: $lightgrey;
     overflow: hidden;
+}
+
+.ftr-links {
+    font-size: 12px;
 }
 
 .legal-info {
