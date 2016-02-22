@@ -299,6 +299,10 @@ li {
 }
 
 /* FOOTER */
+.footer-nav {
+  display: none;
+}
+
 .social-media {
   width: 20em;
   padding-top: 60px;
@@ -320,6 +324,9 @@ li {
 
 .social-btns {
   display: inline-block;
+  padding: 15px;
+  color: white;
+  background-color: #005352;
 }
 
 .social-btns a {
@@ -333,7 +340,7 @@ footer {
 }
 
 .ftr-links {
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .legal-info {
@@ -344,6 +351,13 @@ footer {
 
 .icon-facebook {
   text-decoration: none;
+}
+
+@media only screen and (min-width: 38em) {
+  .footer-nav {
+    display: all;
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 60em) {
