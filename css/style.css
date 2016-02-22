@@ -59,7 +59,7 @@ img {
 }
 
 .banner {
-  background-image: url({{site.baseurl}}../images/header.jpg);
+  background-image: url({{site.baseurl}}/../../images/header.jpg);
   background-size: cover;
   background-position: center;
   background-color: #fff;
