@@ -293,6 +293,10 @@ li {
 }
 
 /* FOOTER */
+.footer-nav {
+  display: none;
+}
+
 .social-media {
   width: 20em;
   padding-top: 60px;
@@ -314,16 +318,23 @@ li {
 
 .social-btns {
   display: inline-block;
+  padding: 15px;
+  color: white;
+  background-color: #005352;
 }
 
 .social-btns a {
   text-decoration: none;
 }
 
-.footer {
+footer {
   height: 18rem;
-  background-color: #73dad2;
+  background-color: #e6e6e6;
   overflow: hidden;
+}
+
+.ftr-links {
+  font-size: 10px;
 }
 
 .legal-info {
@@ -334,6 +345,13 @@ li {
 
 .icon-facebook {
   text-decoration: none;
+}
+
+@media only screen and (min-width: 38em) {
+  .footer-nav {
+    display: all;
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 60em) {
