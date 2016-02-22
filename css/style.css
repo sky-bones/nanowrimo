@@ -64,7 +64,7 @@ img {
   background-position: center;
   background-color: #005352;
   margin-top: 60px;
-  height: 38rem;
+  padding-bottom: 3rem;
 }
 
 .acro-mark {
@@ -381,9 +381,15 @@ footer {
   }
   .full-mark {
     display: block;
-    width: 25rem;
+    font-size: 40vw;
+    line-height: 0;
     margin: auto;
-    padding-top: 3rem;
+    color: #fff;
+    margin-top: -7rem;
+    margin-left: -4rem;
+  }
+  .push {
+    margin-top: 4rem;
   }
 }
 
