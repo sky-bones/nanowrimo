@@ -41,6 +41,7 @@ img {
 
 .btn:hover {
   background-color: #fdc46e;
+  color: #005352;
 }
 
 .link {
@@ -168,6 +169,12 @@ li {
   z-index: 500;
   width: 30px;
   height: 30px;
+}
+
+#toggle-nav-label:hover {
+  background: #fdc46e;
+  color: #005352;
+  font-weight: 600;
 }
 
 #menu li a:hover {
@@ -343,7 +350,7 @@ li {
   }
   .full-mark {
     display: block;
-    width: 20rem;
+    width: 25rem;
     margin: auto;
     padding-top: 3rem;
   }

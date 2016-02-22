@@ -183,6 +183,13 @@ li {
 	height: 30px;
 }
 
+#toggle-nav-label:hover {
+    background: $golden;
+    color: $darkteal;
+    font-weight: 600;
+}
+
+
 #menu li a:hover { 
     background-color: $darkteal;
     color: $white;
@@ -402,7 +409,7 @@ li {
 
 .full-mark {
     display: block;
-    width: 20rem;
+    width: 25rem;
     margin: auto;
     padding-top: 3rem;
 }
