@@ -59,10 +59,10 @@ img {
 }
 
 .banner {
-  background-image: url({{site.baseurl}}../images/header.jpg);
+  background-image: url({{site.baseurl}}/../../images/header.jpg);
   background-size: cover;
   background-position: center;
-  background-color: #005352;
+  background-color: #fff;
   margin-top: 60px;
   padding-bottom: 3rem;
 }
@@ -117,11 +117,11 @@ li {
   overflow: hidden;
   z-index: -1;
   opacity: 0;
-  width: 11rem;
-  height: 100vh;
-  left: 0px;
-  top: 0px;
-  background: #e6e6e6;
+  width: 9rem;
+  left: 20px;
+  top: 30px;
+  background: rgba(115, 218, 210, 0.4);
+  height: 28rem;
   transition: all 0.3s ease-in-out;
 }
 
@@ -131,7 +131,7 @@ li {
 
 #menu ul {
   position: relative;
-  top: 100px;
+  top: 60px;
   padding: 0;
   padding-left: 20px;
   transform: scale(2);
@@ -151,7 +151,7 @@ li {
   border: 1px solid transparent;
   text-decoration: none;
   font-size: 18px;
-  color: #000;
+  color: #fff;
   transition: all 0.2s ease-in-out;
 }
 
@@ -203,9 +203,8 @@ li {
 }
 
 #toggle-nav:checked ~ #toggle-nav-label {
-  background: #fdc46e;
-  color: #005352;
-  font-weight: 700;
+  background: #005352;
+  color: #fff;
 }
 
 #toggle-nav:checked ~ #toggle-nav-label .plus {
@@ -239,6 +238,7 @@ li {
 .side-bar {
   background-color: #e6e6e6;
   overflow: hidden;
+  padding-bottom: 4rem;
 }
 
 .skip-title {
@@ -269,20 +269,25 @@ li {
   padding-bottom: .5rem;
 }
 
-.donate-img {
-  width: 80%;
+.donate-btn {
   display: block;
   margin: auto;
-  padding: 15px;
+  margin-top: 1rem;
 }
 
-.donate-info {
-  padding: 15px;
+.nav-icon {
+  width: 70%;
+  display: block;
+  margin: auto;
+  margin-top: 4rem;
 }
 
-.donate-info h2 {
-  padding: 0;
-  margin: 0;
+.donate-icon {
+  margin-top: 5rem;
+}
+
+.join-icon {
+  margin-top: 5rem;
 }
 
 /* BODY */
@@ -367,7 +372,7 @@ footer {
   }
   #toggle-nav-label {
     display: inline-block;
-    width: 120px;
+    width: 9rem;
     font-size: 20px;
     text-align: left;
     padding-left: 8px;
@@ -388,8 +393,11 @@ footer {
     margin-top: -7rem;
     margin-left: -4rem;
   }
-  .push {
+  .intro {
     margin-top: 4rem;
+  }
+  .donate-icon {
+    padding-top: 4rem;
   }
 }
 

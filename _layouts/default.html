@@ -26,9 +26,10 @@
 
     		      <input type="checkbox" id="toggle-nav"/>
     		      <label id="toggle-nav-label" for="toggle-nav">
-
+                    
+                    <div class="hidden-nav">Navigate</div>
                     <div class="plus">+ </div>
-                      <div class="hidden-nav">Navigate</div>
+                      
 
 
 
@@ -37,10 +38,11 @@
     		<div class="box">
 	    		<ul>
 	    			<li><a href="#">Home</a></li>
+	    			<li><a href="#">Donate</a></li>
+	    			<li><a href="#">Join Us</a></li>
 	    			<li><a href="#">Profile</a></li>
 	    			<li><a href="#">Resources</a></li>
 	    			<li><a href="#">FAQ</a></li>
-	    			<li><a href="#">Join Us</a></li>
 	    			<li><a href="#">Sponsors</a></li>
 	    			<li><a href="#">Shop</a></li>
 	    		</ul>
@@ -59,16 +61,14 @@
 
                 <div class="banner-logo">
 
-                    <img class="acro-mark" src="{{site.baseurl}}../images/acro-mark.svg">
+                    <img class="acro-mark" src="{{site.baseurl}}/images/acro-mark.svg">
 
                     <div class="full-mark">
                         <a class="icon icon-wordmark-nnwm"></a>
                     </div>
 
-                    <img class="acro-mark" src="{{site.baseurl}}/../images/acro-mark.svg">
 
-
-                    <h1 class="push">Welcome!</h1>
+                    <h1 class="push-0 intro">Welcome!</h1>
                     <p>National Novel Writing Month is a non for profit organization working to help writers from all over the world succeed in finishing their very own novel!</p>
                 </div>
 
@@ -78,8 +78,8 @@
 
 
                 <div class="grid">
-                    <div class="unit unit-xs-1 skip-div">
-                        <h6 class="skip-title">On this page:</h6>
+           <!--           <div class="unit unit-xs-1 skip-div">
+                      <h6 class="skip-title">On this page:</h6>
                         <ul class="skip-links">
                             <li><a href="">skip link</a></li>
                             <li><a href="">skip link</a></li>
@@ -88,16 +88,22 @@
                             <li><a href="">skip link</a></li>
                         </ul>
                     </div>
+-->
 
-                    <div class="donate-img unit unit-xs-1 unit-m-1-2 unit-l-1">
-                        <img src="{{site.baseurl}}/..url/images/header.jpg">
-                    </div>
 
                     <div class="donate-info unit unit-xs-1 unit-m-1-2 unit-l-1">
-                        <h2>Donate</h2>
+                        <img class="nav-icon donate-icon" src="{{site.baseurl}}/../icons/icon-donate-04.svg">
 
                         <div class="btn donate-btn">
                             <a class="link" href=""><p>Donate</p></a>
+                        </div>
+                    </div>
+                        
+                    <div class="donate-info unit unit-xs-1 unit-m-1-2 unit-l-1">
+                        <img class="nav-icon join-icon" src="{{site.baseurl}}/../icons/icon-join-01.svg">
+
+                        <div class="btn donate-btn">
+                            <a class="link" href=""><p>Join Us</p></a>
                         </div>
                     </div>
 
