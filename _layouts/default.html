@@ -17,7 +17,7 @@
 
     <body>
 
-<header>
+<header id="top">
         <section class="nav-bar">
 
 
@@ -92,7 +92,7 @@
 
 
                     <div class="donate-info unit unit-xs-1 unit-m-1-2 unit-l-1">
-                        <img class="nav-icon donate-icon" src="{{site.baseurl}}/../icons/icon-donate-04.svg">
+                        <img class="nav-icon donate-icon" src="{{site.baseurl}}/images/icon-donate-04.svg">
 
                         <div class="btn donate-btn">
                             <a class="link" href=""><p>Donate</p></a>
@@ -100,7 +100,7 @@
                     </div>
                         
                     <div class="donate-info unit unit-xs-1 unit-m-1-2 unit-l-1">
-                        <img class="nav-icon join-icon" src="{{site.baseurl}}/../icons/icon-join-01.svg">
+                        <img class="nav-icon join-icon" src="{{site.baseurl}}/images/icon-join-01.svg">
 
                         <div class="btn donate-btn">
                             <a class="link" href=""><p>Join Us</p></a>
@@ -117,13 +117,26 @@
 
 </header>
 
+        
+        
+        
+        
 
         {{content}}
 
 
+        
+        
+        
+        
         <footer class="footer">
 
-           <div class="social-media">
+            <div class="back-top">
+                <a class="up-arrow" href="#top"><i class="icon icon-up-open"></i></a>
+            </div>
+                
+                
+            <div class="social-media">
                <ul>
                     <li class="social-btns"><a href="https://www.facebook.com/nanowrimo"><i class="icon icon-facebook"></i></a></li>
                     <li class="social-btns"><a href="https://www.instagram.com/nanowrimo/"><i class="icon icon-instagrem"></i></a></li>
@@ -138,14 +151,8 @@
             </div>
 
             <div class="footer-nav grid">
-              <div class="footer-icon unit">
-                <img src="images/icon-logo-white.svg" class="footer-nnwm">
-                <img src="" class="book">
-              </div>
-
-
-
-              <div class="unit unit-m-1-5 ftr-links">
+                
+              <div class="unit unit-xs-hidden unit-m-1-4 ftr-links">
                 <ul>
                   <li class="push bold">Quick Links</li>
                   <li class="bold">My profile</li>
@@ -155,7 +162,7 @@
                 </ul>
               </div>
 
-              <div class="unit unit-m-1-5 ftr-links">
+              <div class="unit unit-xs-hidden unit-m-1-4 ftr-links">
                 <ul>
                   <li class="bold">Sign Up</li>
                   <li>Confirmation</li>
@@ -168,7 +175,7 @@
                 </ul>
               </div>
 
-              <div class="unit unit-m-1-5 ftr-links">
+              <div class="unit unit-xs-hidden unit-m-1-4 ftr-links">
                 <ul>
                   <li class="bold">Join Us</li>
                   <li>Events</li>
@@ -180,7 +187,7 @@
                 </ul>
               </div>
 
-              <div class="unit unit-m-1-5 ftr-links">
+              <div class="unit unit-xs-hidden unit-m-1-4 ftr-links">
                 <ul>
                   <li class="bold">A Look Inside</li>
                   <li>Board of Directors</li>
@@ -188,10 +195,11 @@
                   <li>Staff</li>
                 </ul>
               </div>
+            
             </div>
 
 
-            <div class="unit legal-info">
+            <div class="legal-info">
                 <p class="push-0">Copyright © 1999 - 2016 National Novel Writing Month</p>
                 <p>All posted novel excerpts remain copyright to their authors.</p>
             </div>
