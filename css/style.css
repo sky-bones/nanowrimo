@@ -305,13 +305,13 @@ li {
 
 .up-arrow {
   color: #fff;
-  font-size: 40px;
+  font-size: 60px;
   text-decoration: none;
 }
 
 .social-media {
   padding-bottom: 5px;
-  width: 20rem;
+  width: 20em;
   position: relative;
   left: calc(50% - 7rem);
 }
@@ -350,11 +350,7 @@ footer {
 }
 
 .ftr-links {
-  font-size: 10px;
-}
-
-.ftr-links li {
-  width: 2rem;
+  font-size: 12px;
 }
 
 .legal-info {

@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    margin: auto;   
+    margin: auto;
     font-family: $font;
 }
 
@@ -63,7 +63,7 @@ img {
     background-color: $white;
     margin-top: 60px;
     padding-bottom: 3rem;
-    
+
 }
 
 
@@ -87,7 +87,7 @@ img {
     margin: auto;
     padding-top: 90px;
     text-align: center;
-    
+
 }
 
 h1 {
@@ -108,8 +108,8 @@ h1 {
     font-size: 40px;
 }
 
-li { 
-    list-style: none; 
+li {
+    list-style: none;
 }
 
 .nnwm {
@@ -145,11 +145,11 @@ li {
     padding-left: 20px;
 
 	transform: scale(2);
- 
+
 	transition: all 0.3s ease-in-out;
 }
 
-#menu li { 
+#menu li {
 	display: block;
     margin-bottom: 20px;
 }
@@ -163,7 +163,7 @@ li {
 	text-decoration: none;
 	font-size: 18px;
 	color: $white;
- 
+
 	transition: all 0.2s ease-in-out;
 }
 
@@ -190,34 +190,34 @@ li {
 }
 
 
-#menu li a:hover { 
+#menu li a:hover {
     background-color: $darkteal;
     color: $white;
     margin-left: 15px;
     padding-left: 15px;
 }
 
-#menu li a i { 
-	margin-right: 5px; 
+#menu li a i {
+	margin-right: 5px;
 	font-size: 24px;
 }
 
-#toggle-nav { 
-    display: none; 
+#toggle-nav {
+    display: none;
 }
 
-#toggle-nav:checked ~ .box { 
+#toggle-nav:checked ~ .box {
 	opacity: 1;
 	z-index: 400;
 }
 
 #toggle-nav:checked ~ .box ul {
-    
+
 	transform: scale(1);
 }
 
 #toggle-nav:checked ~ #toggle-nav-label {
-	background: $darkteal; 
+	background: $darkteal;
 	color: $white;
 }
 
@@ -227,8 +227,8 @@ li {
 
 
 
-#content { 
-    margin: 0px 0px 20px 0px; 
+#content {
+    margin: 0px 0px 20px 0px;
     height: 100vh;
     background-color: $lightgrey;
 }
@@ -332,7 +332,7 @@ li {
 .back-top {
     text-align: center;
     padding-top: 2rem;
-    
+
 }
 
 .up-arrow {
@@ -342,11 +342,10 @@ li {
 }
 
 .social-media {
-    padding-top: 
     padding-bottom: 5px;
-    width: 20rem;
+    width: 20em;
     position: relative;
-    
+
     left: calc(50% - 7rem);
 }
 
@@ -385,15 +384,15 @@ footer {
 }
 
 .ftr-links {
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .ftr-links ul {
-    
+
 }
 
 .ftr-links li {
-    width: 2rem;
+    //width: 2rem;
 }
 
 .legal-info {
@@ -410,23 +409,23 @@ footer {
 
 
 @media only screen and (min-width: 25em) {
-    
-    
-    
-    
-    
+
+
+
+
+
 }
 
 
 
 
 @media only screen and (min-width: 38em) {
-    
+
     .footer-nav {
         display: block;
         margin: auto;
     }
-    
+
     .footer-nav.grid {
         max-width: 500px;
         margin: 0 auto;
@@ -437,11 +436,11 @@ footer {
 
 
 @media only screen and (min-width: 60em) {
-    
+
     .skip-title {
         margin-top: 80px;
     }
-    
+
      .hidden-nav {
         display: block;
         position: absolute;
@@ -449,7 +448,7 @@ footer {
         top: 0;
         padding-left: 5px;
 }
-    
+
     #toggle-nav-label {
         display: inline-block;
         width: 9rem;
@@ -457,14 +456,14 @@ footer {
         text-align: left;
         padding-left: 8px;
     }
-    
-    
+
+
     #toggle-nav:checked ~ #toggle-nav-label .plus {
     transform: rotate(45deg);
         position: absolute;
 }
-    
-    
+
+
 .acro-mark {
     display: none;
 }
@@ -474,20 +473,20 @@ footer {
     font-size: 40vw;
     line-height: 0;
     margin: auto;
-    color: $white; 
+    color: $white;
     margin-top: -7rem;
     margin-left: -4rem;
 }
-    
-    
+
+
 .intro {
     margin-top: 4rem;
 }
-    
+
 .donate-icon {
         padding-top: 4rem;
     }
-    
+
 }
 
 

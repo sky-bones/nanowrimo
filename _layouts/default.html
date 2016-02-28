@@ -26,10 +26,10 @@
 
     		      <input type="checkbox" id="toggle-nav"/>
     		      <label id="toggle-nav-label" for="toggle-nav">
-                    
+
                     <div class="hidden-nav">Navigate</div>
                     <div class="plus">+ </div>
-                      
+
 
 
 
@@ -37,14 +37,14 @@
 
     		<div class="box">
 	    		<ul>
-	    			<li><a href="#">Home</a></li>
-	    			<li><a href="#">Donate</a></li>
-	    			<li><a href="#">Join Us</a></li>
-	    			<li><a href="#">Profile</a></li>
-	    			<li><a href="#">Resources</a></li>
+	    			<li><a href="{{site.baseurl}}/">Home</a></li>
+	    			<li><a href="{{site.baseurl}}/donate">Donate</a></li>
+	    			<li><a href="{{site.baseurl}}/login">Join Us</a></li>
+	    			<li><a href="{{site.baseurl}}/profile">Profile</a></li>
+	    			<li><a href="{{site.baseurl}}/resources-prep">Resources</a></li>
 	    			<li><a href="#">FAQ</a></li>
 	    			<li><a href="#">Sponsors</a></li>
-	    			<li><a href="#">Shop</a></li>
+	    			<li><a href="{{site.baseurl}}/shop">Shop</a></li>
 	    		</ul>
     		</div>
 
@@ -52,7 +52,7 @@
 	</div>
 
             <div class="sign-btn btn">
-                <a class="link" href="#"><p>Sign In</p></a>
+                <a class="link" href="{{site.baseurl}}/login"><p>Sign In</p></a>
             </div>
         </section>
 
@@ -98,7 +98,7 @@
                             <a class="link" href=""><p>Donate</p></a>
                         </div>
                     </div>
-                        
+
                     <div class="donate-info unit unit-xs-1 unit-m-1-2 unit-l-1">
                         <img class="nav-icon join-icon" src="{{site.baseurl}}/images/icon-join-01.svg">
 
@@ -117,25 +117,25 @@
 
 </header>
 
-        
-        
-        
-        
+
+
+
+
 
         {{content}}
 
 
-        
-        
-        
-        
+
+
+
+
         <footer class="footer">
 
             <div class="back-top">
                 <a class="up-arrow" href="#top"><i class="icon icon-up-open"></i></a>
             </div>
-                
-                
+
+
             <div class="social-media">
                <ul>
                     <li class="social-btns"><a href="https://www.facebook.com/nanowrimo"><i class="icon icon-facebook"></i></a></li>
@@ -150,8 +150,12 @@
 
             </div>
 
-            <div class="footer-nav grid">
-                
+            <div class="grid">
+              <div class="unit unit-xs-hidden unit-m-1-4 ftr-links">
+                  <img class="" src="{{site.baseurl}}/images/acro-mark.svg">
+              </div>
+
+<div class="footer-nav grid">
               <div class="unit unit-xs-hidden unit-m-1-4 ftr-links">
                 <ul>
                   <li class="push bold">Quick Links</li>
@@ -195,7 +199,7 @@
                   <li>Staff</li>
                 </ul>
               </div>
-            
+</div>
             </div>
 
 
@@ -205,7 +209,6 @@
             </div>
 
         </footer>
-
 
 
 
