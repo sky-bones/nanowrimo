@@ -23,6 +23,7 @@ img {
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 100;
 }
 
 .sign-btn {
@@ -397,14 +398,27 @@ footer {
   padding-bottom: 10px;
   margin-bottom: 0;
   font-size: 17px;
+  color: #dd1945;
 }
 
 .slider-item p {
   font-size: 12px;
+  color: #005352;
 }
 
 .slider-item img {
   border: solid 4px #000;
+}
+
+.slider-item img:hover {
+  border: solid 4px #dd1945;
+}
+
+.slider h3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+  color: #dd1945;
 }
 
 @media only screen and (min-width: 38em) {
