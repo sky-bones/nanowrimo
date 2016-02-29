@@ -121,11 +121,11 @@ li {
   overflow: hidden;
   z-index: -1;
   opacity: 0;
-  width: 9rem;
+  width: 10rem;
   left: 20px;
   top: 30px;
+  height: 30rem;
   background: rgba(0, 83, 82, 0.8);
-  height: 28rem;
   transition: all 0.3s ease-in-out;
 }
 
@@ -182,7 +182,7 @@ li {
 }
 
 #menu li a:hover {
-  background-color: #005352;
+  background-color: #dd1945;
   color: #fff;
   margin-left: 15px;
   padding-left: 15px;

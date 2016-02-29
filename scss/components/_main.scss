@@ -130,11 +130,11 @@ li {
 	overflow: hidden;
 	z-index: -1;
 	opacity: 0;
-	width: 9rem;
+	width: 10rem;
 	left: 20px;
 	top: 30px;
+    height: 30rem;
 	background: $opacdteal;
-    height: 28rem;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -148,7 +148,6 @@ li {
 	top: 60px;
     padding-top: 30px;
     padding-left: 20px;
-
 	transform: scale(2);
 
 	transition: all 0.3s ease-in-out;
@@ -196,7 +195,7 @@ li {
 
 
 #menu li a:hover {
-    background-color: $darkteal;
+    background-color: $darkpink;
     color: $white;
     margin-left: 15px;
     padding-left: 15px;
