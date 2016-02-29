@@ -400,6 +400,7 @@ input + label {
 
 .join-form h2 {
   text-align: center;
+  color: #005352;
 }
 
 .join-form {
@@ -417,21 +418,14 @@ textarea {
 }
 
 textarea {
-  height: 20em;
+  xheight: 20em;
   border-radius: 8px;
 }
 
-.sign-up-button {
-  text-align: center;
-  font-size: 0.75em;
-}
-
-button {
+.signup-btn {
   padding: 0.5em 2em;
-  font-size: 1.5em;
-  color: #005352;
-  background-color: #fff;
-  border-radius: 5px;
+  color: #fff;
+  background-color: #005352;
 }
 
 input {
@@ -439,41 +433,6 @@ input {
   border-radius: 5px;
 }
 
-/*#msform {
-	width: 400px;
-
-	margin: 50px auto;
-	text-align: center;
-	position: relative;
-}
-#msform fieldset {
-	background: white;
-	border: 0 none;
-	border-radius: 3px;
-	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
-	padding: 20px 30px;
-	
-	box-sizing: border-box;
-	width: 80%;
-	margin: 0 10%;
-	
-	position: relative;
-}
-#msform fieldset:not(:first-of-type) {
-	display: none;
-}
-/*inputs*/
-/*#msform input, #msform textarea {
-	padding: 15px;
-	border: 1px solid #ccc;
-	border-radius: 3px;
-	margin-bottom: 10px;
-	width: 100%;
-	box-sizing: border-box;
-	font-family: montserrat;
-	color: #2C3E50;
-	font-size: 13px;
-}*/
 @media only screen and (min-width: 38em) {
   .footer-nav {
     display: block;
@@ -534,6 +493,7 @@ input {
   margin-bottom: 0;
 }
 
+/* Prep */
 /*
   Gridifier || Code released under the UNLICENSE
   https://thomasjbradley.github.io/gridifier/#xs,2,0,0,0;s,2,25,0,0;m,4,38,1,1;l,12,60,1,1
