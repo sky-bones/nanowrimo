@@ -23,6 +23,7 @@ img {
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 100;
 }
 
 .sign-btn {
@@ -73,8 +74,11 @@ img {
 
 .acro-mark-top {
   display: block;
-  height: 15rem;
+  font-size: 200px;
   padding-top: 4rem;
+  padding-bottom: 0;
+  margin: 0;
+  color: #fff;
 }
 
 .full-mark {
@@ -121,11 +125,11 @@ li {
   overflow: hidden;
   z-index: -1;
   opacity: 0;
-  width: 9rem;
+  width: 10rem;
   left: 20px;
   top: 30px;
+  height: 30rem;
   background: rgba(0, 83, 82, 0.8);
-  height: 28rem;
   transition: all 0.3s ease-in-out;
 }
 
@@ -182,7 +186,7 @@ li {
 }
 
 #menu li a:hover {
-  background-color: #005352;
+  background-color: #dd1945;
   color: #fff;
   margin-left: 15px;
   padding-left: 15px;
@@ -362,15 +366,7 @@ footer {
 }
 
 .ftr-links li:hover {
-  color: #fff;
-}
-
-.acro-mark {
-  display: block;
-  font-size: 100px;
-  color: #fff;
-  text-align: center;
-  padding-top: none;
+  opacity: .5;
 }
 
 .legal-info {
@@ -381,6 +377,44 @@ footer {
 
 .icon-facebook {
   text-decoration: none;
+}
+
+/* CAROUSEL */
+.slider {
+  padding: 20px;
+}
+
+.slider-item {
+  padding: 8px;
+}
+
+.slider-item h5 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+  font-size: 17px;
+  color: #dd1945;
+}
+
+.slider-item p {
+  font-size: 12px;
+  color: #005352;
+}
+
+.slider-item img {
+  border: solid 4px #000;
+}
+
+.slider-item img:hover {
+  border: solid 4px #dd1945;
+}
+
+.slider h3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+  color: #005352;
+  padding-left: 8px;
 }
 
 @media only screen and (min-width: 38em) {
@@ -418,7 +452,8 @@ footer {
     position: absolute;
   }
   .full-mark {
-    display: block;
+    display: inherit;
+    text-align: center;
     font-size: 40vw;
     line-height: 0;
     margin: auto;
@@ -437,6 +472,7 @@ footer {
   }
 }
 
+/* Prep */
 /*
   Gridifier || Code released under the UNLICENSE
   https://thomasjbradley.github.io/gridifier/#xs,2,0,0,0;s,2,25,0,0;m,4,38,1,1;l,12,60,1,1

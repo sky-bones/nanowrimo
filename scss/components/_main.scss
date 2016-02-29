@@ -24,6 +24,7 @@ img {
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 100;
 
 }
 
@@ -75,8 +76,11 @@ img {
 
 .acro-mark-top {
     display: block;
-    height: 15rem;
+    font-size: 200px;
     padding-top: 4rem;
+    padding-bottom: 0;
+    margin: 0;
+    color: $white;
 }
 
 .full-mark {
@@ -130,11 +134,11 @@ li {
 	overflow: hidden;
 	z-index: -1;
 	opacity: 0;
-	width: 9rem;
+	width: 10rem;
 	left: 20px;
 	top: 30px;
+    height: 30rem;
 	background: $opacdteal;
-    height: 28rem;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -148,7 +152,6 @@ li {
 	top: 60px;
     padding-top: 30px;
     padding-left: 20px;
-
 	transform: scale(2);
 
 	transition: all 0.3s ease-in-out;
@@ -196,7 +199,7 @@ li {
 
 
 #menu li a:hover {
-    background-color: $darkteal;
+    background-color: $darkpink;
     color: $white;
     margin-left: 15px;
     padding-left: 15px;
@@ -398,17 +401,8 @@ footer {
 }
 
 .ftr-links li:hover {
-    color: $white;
+    opacity: .5;
 }
-
-.acro-mark {
-    display: block;
-    font-size: 100px;
-    color: $white;
-    text-align: center;
-    padding-top: none;
-}
-
 
 
 .legal-info {
@@ -423,6 +417,47 @@ footer {
 
 
 
+
+/* CAROUSEL */
+
+.slider {
+    padding: 20px;
+}
+
+.slider-item {
+    padding: 8px;
+}
+
+.slider-item h5 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    font-size: 17px;
+    color: $darkpink;
+
+}
+
+.slider-item p {
+    font-size: 12px;
+    color: $darkteal;
+
+}
+
+.slider-item img {
+    border: solid 4px $black;
+}
+
+.slider-item img:hover {
+    border: solid 4px $darkpink;
+}
+
+.slider h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    color: $darkteal;
+    padding-left: 8px;
+}
 
 @media only screen and (min-width: 25em) {
 
@@ -483,7 +518,8 @@ footer {
 
 
 .full-mark {
-    display: block;
+    display: inherit;
+    text-align: center;
     font-size: 40vw;
     line-height: 0;
     margin: auto;
@@ -506,6 +542,8 @@ footer {
 }
 
 }
+
+/* Prep */
 
 
 
