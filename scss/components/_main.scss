@@ -73,7 +73,7 @@ img {
 
 
 
-.acro-mark {
+.acro-mark-top {
     display: block;
     height: 15rem;
     padding-top: 4rem;
@@ -133,7 +133,7 @@ li {
 	width: 9rem;
 	left: 20px;
 	top: 30px;
-	background: $opacteal;
+	background: $opacdteal;
     height: 28rem;
 	transition: all 0.3s ease-in-out;
 }
@@ -146,7 +146,7 @@ li {
 #menu ul {
 	position: relative;
 	top: 60px;
-    padding: 0;
+    padding-top: 30px;
     padding-left: 20px;
 
 	transform: scale(2);
@@ -373,6 +373,10 @@ li {
     background-color: $darkteal;
 }
 
+.social-btns:hover  {
+    background-color: $golden;     
+}
+
 li.social-btns {
     margin: 15px;
     line-height: 8px;
@@ -383,6 +387,7 @@ li.social-btns {
     color: $white;
 }
 
+
 footer {
     background-color: $lightteal;
     overflow: hidden;
@@ -392,13 +397,19 @@ footer {
     font-size: 12px;
 }
 
-.ftr-links ul {
-
+.ftr-links li:hover {
+    color: $white;
 }
 
-.ftr-links li {
-    //width: 2rem;
+.acro-mark {
+    display: block;
+    font-size: 100px;
+    color: $white;
+    text-align: center;
+    padding-top: none;
 }
+
+
 
 .legal-info {
     font-size: 10px;
@@ -469,9 +480,7 @@ footer {
 }
 
 
-.acro-mark {
-    display: none;
-}
+
 
 .full-mark {
     display: block;
@@ -491,6 +500,10 @@ footer {
 .donate-icon {
         padding-top: 4rem;
     }
+    
+.acro-mark-top{
+    display: none;
+}
 
 }
 
