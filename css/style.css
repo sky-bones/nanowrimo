@@ -383,6 +383,30 @@ footer {
   text-decoration: none;
 }
 
+/* CAROUSEL */
+.slider {
+  padding: 10px;
+}
+
+.slider-item {
+  padding: 8px;
+}
+
+.slider-item h5 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+  font-size: 17px;
+}
+
+.slider-item p {
+  font-size: 12px;
+}
+
+.slider-item img {
+  border: solid 4px #000;
+}
+
 @media only screen and (min-width: 38em) {
   .footer-nav {
     display: block;
@@ -437,6 +461,7 @@ footer {
   }
 }
 
+/* Prep */
 /*
   Gridifier || Code released under the UNLICENSE
   https://thomasjbradley.github.io/gridifier/#xs,2,0,0,0;s,2,25,0,0;m,4,38,1,1;l,12,60,1,1
