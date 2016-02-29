@@ -373,6 +373,10 @@ li {
     background-color: $darkteal;
 }
 
+.social-btns:hover  {
+    background-color: $golden;     
+}
+
 li.social-btns {
     margin: 15px;
     line-height: 8px;
@@ -383,6 +387,7 @@ li.social-btns {
     color: $white;
 }
 
+
 footer {
     background-color: $lightteal;
     overflow: hidden;
@@ -392,13 +397,19 @@ footer {
     font-size: 12px;
 }
 
-.ftr-links ul {
-
+.ftr-links li:hover {
+    color: $white;
 }
 
-.ftr-links li {
-    //width: 2rem;
+.acro-mark {
+    display: block;
+    font-size: 100px;
+    color: $white;
+    text-align: center;
+    padding-top: none;
 }
+
+
 
 .legal-info {
     font-size: 10px;
@@ -469,9 +480,7 @@ footer {
 }
 
 
-.acro-mark {
-    display: none;
-}
+
 
 .full-mark {
     display: block;
