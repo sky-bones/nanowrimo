@@ -71,7 +71,7 @@ img {
   padding-bottom: 3rem;
 }
 
-.acro-mark {
+.acro-mark-top {
   display: block;
   height: 15rem;
   padding-top: 4rem;
@@ -124,7 +124,7 @@ li {
   width: 9rem;
   left: 20px;
   top: 30px;
-  background: rgba(115, 218, 210, 0.4);
+  background: rgba(0, 83, 82, 0.8);
   height: 28rem;
   transition: all 0.3s ease-in-out;
 }
@@ -136,7 +136,7 @@ li {
 #menu ul {
   position: relative;
   top: 60px;
-  padding: 0;
+  padding-top: 30px;
   padding-left: 20px;
   transform: scale(2);
   transition: all 0.3s ease-in-out;
@@ -431,6 +431,9 @@ footer {
   }
   .donate-icon {
     padding-top: 4rem;
+  }
+  .acro-mark-top {
+    display: none;
   }
 }
 
