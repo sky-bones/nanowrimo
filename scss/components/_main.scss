@@ -452,7 +452,7 @@ textarea {
 }
 
 textarea {
-  xheight: 20em;
+  height: auto;
   border-radius: 8px;
 }
 
@@ -467,9 +467,73 @@ input {
   border-radius: 5px;
 }
 
+/* Custom dropdown */
+.container {
+  margin: 80px auto;
+  width: 400px;
+  text-align: center;
+}
 
+.container > .dropdown {
+  margin: 0 20px;
+  vertical-align: top;
+}
 
+.dropdown {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  height: 2em;
+  width: 7em;
+  background: $darkteal;
+  border-radius: 3px;
+}
 
+.dropdown:before, .dropdown:after {
+  content: '';
+  position: absolute;
+  z-index: 2;
+  top: 9px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 4px dashed;
+  pointer-events: none;
+}
+
+.dropdown:before {
+  border-bottom-style: solid;
+  border-top: none;
+}
+
+.dropdown:after {
+  margin-top: 7px;
+  xpadding-left: 7px;
+  border-top-style: solid;
+  border-bottom: none;
+}
+
+.dropdown-select {
+  position: relative;
+  width: 130%;
+  margin: 0;
+  padding: 6px 8px 6px 10px;
+  height: 28px;
+  line-height: 14px;
+  font-size: 12px;
+  color: $white;
+  background: $darkteal;
+  border: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+.dropdown-select:focus {
+  z-index: 3;
+  width: 100%;
+  color: $white;
+  outline-offset: -2px;
+}
 
 
 
@@ -479,7 +543,39 @@ input {
 
 @media only screen and (min-width: 25em) {
 
-
+  .uname,
+  .e-mail,
+  .pword,
+  .cpword {
+    display: inline-block;
+    width: 40%;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  textarea {
+    width: 70%;
+  }
+  
+  .uname,
+  .pword,
+  .c-dropdown {
+    text-align: right;
+    margin-right: 10px;
+  }
+  
+  .e-mail,
+  .cpword,
+  .r-dropdown {
+    text-align: left;
+    margin-left: 10px;
+  }
+  
+  .uname,
+  .e-mail {
+    margin-bottom: 1em;
+  }
 
 
 
