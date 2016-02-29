@@ -74,8 +74,11 @@ img {
 
 .acro-mark-top {
   display: block;
-  height: 15rem;
+  font-size: 200px;
   padding-top: 4rem;
+  padding-bottom: 0;
+  margin: 0;
+  color: #fff;
 }
 
 .full-mark {
@@ -363,15 +366,7 @@ footer {
 }
 
 .ftr-links li:hover {
-  color: #fff;
-}
-
-.acro-mark {
-  display: block;
-  font-size: 100px;
-  color: #fff;
-  text-align: center;
-  padding-top: none;
+  opacity: .5;
 }
 
 .legal-info {
@@ -386,7 +381,7 @@ footer {
 
 /* CAROUSEL */
 .slider {
-  padding: 10px;
+  padding: 20px;
 }
 
 .slider-item {
@@ -418,7 +413,8 @@ footer {
   padding-top: 10px;
   padding-bottom: 10px;
   margin-bottom: 0;
-  color: #dd1945;
+  color: #005352;
+  padding-left: 8px;
 }
 
 @media only screen and (min-width: 38em) {
@@ -456,7 +452,8 @@ footer {
     position: absolute;
   }
   .full-mark {
-    display: block;
+    display: inherit;
+    text-align: center;
     font-size: 40vw;
     line-height: 0;
     margin: auto;
