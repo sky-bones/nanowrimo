@@ -113,8 +113,10 @@ h1 {
 
 /* DROP NAV */
 
-.plus p {
-    font-size: 40px;
+
+.plus {
+    font-size: 30px;
+    padding-right: 3px;
 }
 
 li {
@@ -138,7 +140,7 @@ li {
 	left: 20px;
 	top: 30px;
     height: 30rem;
-	background: $opacdteal;
+	background: $opacpink;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -225,8 +227,9 @@ li {
 }
 
 #toggle-nav:checked ~ #toggle-nav-label {
-	background: $darkteal;
+	background: $darkpink;
 	color: $white;
+    width: 10rem;
 }
 
 #toggle-nav:checked ~ #toggle-nav-label .plus {
@@ -377,7 +380,7 @@ li {
 }
 
 .social-btns:hover  {
-    background-color: $golden;     
+    background-color: $darkpink;     
 }
 
 li.social-btns {
@@ -495,14 +498,16 @@ footer {
      .hidden-nav {
         display: block;
         position: absolute;
-        left: 20px;
+        left: 40px;
         top: 0;
-        padding-left: 5px;
+        padding-left: 10px;
+         letter-spacing: 1px;
+         font-size: 20px;
 }
 
     #toggle-nav-label {
         display: inline-block;
-        width: 9rem;
+        width: 10rem;
         font-size: 20px;
         text-align: left;
         padding-left: 8px;
@@ -510,7 +515,7 @@ footer {
 
 
     #toggle-nav:checked ~ #toggle-nav-label .plus {
-    transform: rotate(45deg);
+        transform: rotate(45deg);
         position: absolute;
 }
 
