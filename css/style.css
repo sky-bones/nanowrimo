@@ -138,7 +138,9 @@ li {
   top: 60px;
   padding-top: 30px;
   padding-left: 20px;
-  transform: scale(2);
+  -webkit-transform: scale(2);
+      -ms-transform: scale(2);
+          transform: scale(2);
   transition: all 0.3s ease-in-out;
 }
 
@@ -203,7 +205,9 @@ li {
 }
 
 #toggle-nav:checked ~ .box ul {
-  transform: scale(1);
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
 }
 
 #toggle-nav:checked ~ #toggle-nav-label {
@@ -212,7 +216,9 @@ li {
 }
 
 #toggle-nav:checked ~ #toggle-nav-label .plus {
-  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 
 #content {
@@ -383,6 +389,91 @@ footer {
   text-decoration: none;
 }
 
+/* SIGN UP */
+label {
+  display: block;
+}
+
+input + label {
+  display: inline-block;
+}
+
+.join-form h2 {
+  text-align: center;
+}
+
+.join-form {
+  background-color: #fdc46e;
+  color: #FFF;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  padding: 0.5em;
+  width: 80%;
+}
+
+textarea {
+  height: 20em;
+  border-radius: 8px;
+}
+
+.sign-up-button {
+  text-align: center;
+  font-size: 0.75em;
+}
+
+button {
+  padding: 0.5em 2em;
+  font-size: 1.5em;
+  color: #005352;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+input {
+  font-size: 1em;
+  border-radius: 5px;
+}
+
+/*#msform {
+	width: 400px;
+
+	margin: 50px auto;
+	text-align: center;
+	position: relative;
+}
+#msform fieldset {
+	background: white;
+	border: 0 none;
+	border-radius: 3px;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+	padding: 20px 30px;
+	
+	box-sizing: border-box;
+	width: 80%;
+	margin: 0 10%;
+	
+	position: relative;
+}
+#msform fieldset:not(:first-of-type) {
+	display: none;
+}
+/*inputs*/
+/*#msform input, #msform textarea {
+	padding: 15px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: montserrat;
+	color: #2C3E50;
+	font-size: 13px;
+}*/
 @media only screen and (min-width: 38em) {
   .footer-nav {
     display: block;
@@ -414,7 +505,9 @@ footer {
     padding-left: 8px;
   }
   #toggle-nav:checked ~ #toggle-nav-label .plus {
-    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
     position: absolute;
   }
   .full-mark {
@@ -437,6 +530,10 @@ footer {
   }
 }
 
+.foot-layout {
+  margin-bottom: 0;
+}
+
 /*
   Gridifier || Code released under the UNLICENSE
   https://thomasjbradley.github.io/gridifier/#xs,2,0,0,0;s,2,25,0,0;m,4,38,1,1;l,12,60,1,1
@@ -451,25 +548,30 @@ footer {
   display: -ms-flexbox;
   -ms-flex-flow: row wrap;
   display: flex;
-  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
 }
 
 .grid-bottom {
   -webkit-align-items: flex-end;
   -ms-align-items: flex-end;
-  align-items: flex-end;
+  -ms-flex-align: end;
+      align-items: flex-end;
 }
 
 .grid-middle {
   -webkit-align-items: center;
   -ms-align-items: center;
-  align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
 }
 
 .grid-stretch {
   -webkit-align-items: stretch;
   -ms-align-items: stretch;
-  align-items: stretch;
+  -ms-flex-align: stretch;
+      align-items: stretch;
 }
 
 .opera-only :-o-prefocus, .grid {
@@ -1225,7 +1327,8 @@ footer {
 .content-fill {
   -ms-flex-grow: 2;
   -webkit-flex-grow: 2;
-  flex-grow: 2;
+  -ms-flex-positive: 2;
+      flex-grow: 2;
   max-width: 100%;
   /* @bugfix: IE 10, 11 */
 }
@@ -1233,7 +1336,8 @@ footer {
 .content-shrink {
   -ms-align-self: center;
   -webkit-align-self: center;
-  align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
 }
 
 html {

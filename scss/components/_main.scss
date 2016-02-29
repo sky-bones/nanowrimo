@@ -422,6 +422,105 @@ footer {
 }
 
 
+/* SIGN UP */
+
+
+
+
+
+label {
+  display: block;
+}
+
+input + label {
+  display: inline-block;
+}
+
+.join-form h2 {
+  text-align: center;
+}
+
+.join-form {
+  background-color: $golden;;
+  color: #FFF;
+  
+  text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  padding: 0.5em;
+  width: 80%;
+}
+
+textarea {
+  height: 20em;
+  border-radius: 8px;
+}
+
+.sign-up-button {
+  text-align: center;
+  font-size: 0.75em;
+}
+
+button {
+  padding: 0.5em 2em;
+  font-size: 1.5em;
+  color: $darkteal;
+  background-color: $white;
+  border-radius: 5px;
+}
+
+input {
+  font-size: 1em;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+/*#msform {
+	width: 400px;
+
+	margin: 50px auto;
+	text-align: center;
+	position: relative;
+}
+#msform fieldset {
+	background: white;
+	border: 0 none;
+	border-radius: 3px;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+	padding: 20px 30px;
+	
+	box-sizing: border-box;
+	width: 80%;
+	margin: 0 10%;
+	
+	position: relative;
+}
+#msform fieldset:not(:first-of-type) {
+	display: none;
+}
+/*inputs*/
+/*#msform input, #msform textarea {
+	padding: 15px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: montserrat;
+	color: #2C3E50;
+	font-size: 13px;
+}*/
+
+
 
 
 @media only screen and (min-width: 25em) {
@@ -479,9 +578,6 @@ footer {
         position: absolute;
 }
 
-
-
-
 .full-mark {
     display: block;
     font-size: 40vw;
@@ -504,7 +600,14 @@ footer {
 .acro-mark-top{
     display: none;
 }
+}
 
+.test {
+   
+}
+
+.foot-layout {
+  margin-bottom: 0;
 }
 
 
