@@ -58,6 +58,10 @@ img {
   margin-bottom: 0;
 }
 
+.light-grey {
+  background-color: #e6e6e6;
+}
+
 .banner {
   background-image: url({{site.baseurl}}/../../images/header.jpg);
   background-size: cover;
