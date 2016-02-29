@@ -104,9 +104,8 @@ h1 {
 }
 
 /* DROP NAV */
-.plus {
+.plus p {
   font-size: 30px;
-  padding-right: 3px;
 }
 
 li {
@@ -129,7 +128,7 @@ li {
   left: 20px;
   top: 30px;
   height: 30rem;
-  background: rgba(221, 25, 69, 0.8);
+  background: rgba(0, 83, 82, 0.8);
   transition: all 0.3s ease-in-out;
 }
 
@@ -211,9 +210,8 @@ li {
 }
 
 #toggle-nav:checked ~ #toggle-nav-label {
-  background: #dd1945;
+  background: #005352;
   color: #fff;
-  width: 10rem;
 }
 
 #toggle-nav:checked ~ #toggle-nav-label .plus {
@@ -344,7 +342,7 @@ li {
 }
 
 .social-btns:hover {
-  background-color: #dd1945;
+  background-color: #fdc46e;
 }
 
 li.social-btns {
@@ -428,6 +426,9 @@ footer {
     margin: 0 auto;
     margin-top: 3rem;
   }
+  .plus {
+    font-size: 40px;
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -437,15 +438,13 @@ footer {
   .hidden-nav {
     display: block;
     position: absolute;
-    left: 40px;
+    left: 20px;
     top: 0;
-    padding-left: 10px;
-    letter-spacing: 1px;
-    font-size: 20px;
+    padding-left: 20px;
   }
   #toggle-nav-label {
     display: inline-block;
-    width: 10rem;
+    width: 9rem;
     font-size: 20px;
     text-align: left;
     padding-left: 8px;

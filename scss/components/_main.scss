@@ -113,10 +113,8 @@ h1 {
 
 /* DROP NAV */
 
-
-.plus {
+.plus p {
     font-size: 30px;
-    padding-right: 3px;
 }
 
 li {
@@ -140,7 +138,7 @@ li {
 	left: 20px;
 	top: 30px;
     height: 30rem;
-	background: $opacpink;
+	background: $opacdteal;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -227,9 +225,8 @@ li {
 }
 
 #toggle-nav:checked ~ #toggle-nav-label {
-	background: $darkpink;
+	background: $darkteal;
 	color: $white;
-    width: 10rem;
 }
 
 #toggle-nav:checked ~ #toggle-nav-label .plus {
@@ -380,7 +377,7 @@ li {
 }
 
 .social-btns:hover  {
-    background-color: $darkpink;     
+    background-color: $golden;     
 }
 
 li.social-btns {
@@ -485,6 +482,10 @@ footer {
         margin: 0 auto;
         margin-top: 3rem;
     }
+    
+    .plus  {
+        font-size: 40px;
+}
 }
 
 
@@ -498,16 +499,14 @@ footer {
      .hidden-nav {
         display: block;
         position: absolute;
-        left: 40px;
+        left: 20px;
         top: 0;
-        padding-left: 10px;
-         letter-spacing: 1px;
-         font-size: 20px;
+        padding-left: 20px;
 }
 
     #toggle-nav-label {
         display: inline-block;
-        width: 10rem;
+        width: 9rem;
         font-size: 20px;
         text-align: left;
         padding-left: 8px;
@@ -515,7 +514,7 @@ footer {
 
 
     #toggle-nav:checked ~ #toggle-nav-label .plus {
-        transform: rotate(45deg);
+    transform: rotate(45deg);
         position: absolute;
 }
 
