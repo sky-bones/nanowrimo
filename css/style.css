@@ -63,7 +63,7 @@ img {
 }
 
 .banner {
-  background-image: url({{site.baseurl}}/../../images/header.jpg);
+  background-image: url(../images/header.jpg);
   background-size: cover;
   background-position: center;
   background-color: #fff;
@@ -368,6 +368,14 @@ footer {
   opacity: .5;
 }
 
+.acro-mark {
+  display: block;
+  font-size: 100px;
+  color: #fff;
+  text-align: center;
+  padding-top: none;
+}
+
 .legal-info {
   font-size: 10px;
   margin: 20px;
@@ -376,6 +384,148 @@ footer {
 
 .icon-facebook {
   text-decoration: none;
+}
+
+/* SIGN UP */
+.join-icon-2 {
+  z-index: 99;
+}
+
+.join-words {
+  padding: 5%;
+}
+
+label {
+  display: block;
+}
+
+input + label {
+  display: inline-block;
+}
+
+.join-icon {
+  width: 12em;
+  padding: 0;
+  position: relative;
+  left: calc(50% - 6em);
+  margin-top: 1em;
+}
+
+.join-words h1 {
+  color: #005352;
+}
+
+.join-form h2 {
+  text-align: center;
+  color: #fff;
+}
+
+.form-back {
+  background: url(../images/banner-images/header-signup.jpg);
+  padding-top: 1em;
+}
+
+.join-form {
+  color: #fff;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  padding: 0.75em;
+  width: 70%;
+}
+
+textarea {
+  height: auto;
+  border-radius: 8px;
+}
+
+.signup-btn {
+  padding: 0.5em 2em;
+  color: #000;
+  background-color: #fff;
+  font-size: 1.25em;
+}
+
+.signup-btn:hover {
+  color: #fff;
+  background-color: #dd1945;
+}
+
+input {
+  font-size: 0.75em;
+  border-radius: 5px;
+}
+
+/* Custom dropdown */
+.container {
+  margin: 80px auto;
+  width: 400px;
+  text-align: center;
+}
+
+.container > .dropdown {
+  margin: 0 20px;
+  vertical-align: top;
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  height: 2em;
+  width: 7em;
+  background: #fdc46e;
+  border-radius: 3px;
+}
+
+.dropdown:before, .dropdown:after {
+  content: '';
+  position: absolute;
+  z-index: 2;
+  top: 9px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 4px dashed;
+  pointer-events: none;
+}
+
+.dropdown:before {
+  border-bottom-style: solid;
+  border-top: none;
+}
+
+.dropdown:after {
+  margin-top: 7px;
+  xpadding-left: 7px;
+  border-top-style: solid;
+  border-bottom: none;
+}
+
+.dropdown-select {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 6px 8px 6px 10px;
+  height: 28px;
+  line-height: 14px;
+  font-size: 12px;
+  color: #000;
+  background: #fdc46e;
+  border: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+.dropdown-select:focus {
+  z-index: 3;
+  width: 100%;
+  color: #fff;
+  outline-offset: -2px;
 }
 
 /* CAROUSEL */
@@ -417,6 +567,9 @@ footer {
 }
 
 @media only screen and (min-width: 38em) {
+  .plus {
+    font-size: 40px;
+  }
   .footer-nav {
     display: block;
     margin: auto;
@@ -426,12 +579,41 @@ footer {
     margin: 0 auto;
     margin-top: 3rem;
   }
-  .plus {
-    font-size: 40px;
+  .uname,
+  .e-mail,
+  .pword,
+  .cpword {
+    display: inline-block;
+    width: 40%;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  textarea {
+    width: 90%;
+  }
+  .uname,
+  .pword,
+  .c-dropdown {
+    text-align: right;
+    margin-right: 10px;
+  }
+  .e-mail,
+  .cpword,
+  .r-dropdown {
+    text-align: left;
+    margin-left: 10px;
+  }
+  .uname,
+  .e-mail {
+    margin-bottom: 1em;
   }
 }
 
 @media only screen and (min-width: 60em) {
+  .form-back {
+    padding-top: 9em;
+  }
   .skip-title {
     margin-top: 80px;
   }
@@ -472,6 +654,10 @@ footer {
   .acro-mark-top {
     display: none;
   }
+}
+
+.foot-layout {
+  margin-bottom: 0;
 }
 
 /* Prep */
