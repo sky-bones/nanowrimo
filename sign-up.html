@@ -3,20 +3,21 @@ layout: default
 ---
 
 <div class="grid">
-  <div class="unit unit-xs-1 unit-l-1-2">
+  <div class="join-words unit unit-xs-1 unit-l-1-2">
     <h1>Welcome, Writer!</h1>
-    <p>At NaNoWriMo, we provide the support, encouragement, and good old-fashioned kick in the pants you need to write the rough draft of your novel in November.</p>
+    <p>At <strong>NaNoWriMo</strong>, we provide the support, encouragement, and good old-fashioned kick in the pants you need to write the rough draft of your novel in November.</p>
     <p>When you create an account, you'll be able to:</p>
       <ul>
-        <li>Plan your novel.</li>
-        <li>Join a local group of writers and attend in person writing events.</li>
-        <li>Receive online encouragement from staff and published authors.</li>
-        <li>Access a worldwide community of writers in our online forums.</li>
+        <li>• Plan your novel.</li>
+        <li>• Join a local group of writers and attend in person writing events.</li>
+        <li>• Receive online encouragement from staff and published authors.</li>
+        <li>• Access a worldwide community of writers in our online forums.</li>
       </ul>
   </div>
   
-  <div class="unit unit-xs-1 unit-l-1-2">
-  <form action="thanks.html" method="post" class="join-form island">
+  <div class="form-back unit unit-xs-1 unit-l-1-2">
+  <img src="{{site.baseurl}}/images/icon-join-01.svg" class="join-icon"> 
+  <form action="#" method="post" class="join-form island">
 
     <h2 class="exa">Create your account</h2>
 
@@ -33,25 +34,27 @@ layout: default
       <input type="password" id="password" placeholder="confirm password">
     </div>
     
-    <div class="c-dropdown dropdown push">
-      <select name="one" class="dropdown-select">
-        <option value="">Country</option>
-        <option value="1">Option #1</option>
-        <option value="2">Option #2</option>
-        <option value="3">Option #3</option>
-      </select>
-    </div>
-    <div class="r-dropdown dropdown push">
-      <select name="two" class="dropdown-select">
-        <option value="">Region</option>
-        <option value="1">Option #1</option>
-        <option value="2">Option #2</option>
-        <option value="3">Option #3</option>
-      </select>
+    <div class="unit unit-xs-1">
+      <div class="c-dropdown dropdown push">
+        <select name="one" class="dropdown-select">
+          <option value="" class="bold">Country</option>
+          <option value="1">Option #1</option>
+          <option value="2">Option #2</option>
+          <option value="3">Option #3</option>
+        </select>
+      </div>
+      <div class="r-dropdown dropdown push">
+        <select name="two" class="dropdown-select">
+          <option value="" class="bold">Region</option>
+          <option value="1">Option #1</option>
+          <option value="2">Option #2</option>
+          <option value="3">Option #3</option>
+        </select>
+      </div>
     </div>
     
     <div class="push-1-2">    
-        <button class="signup-btn giga">Sign Up</button>
+        <button class="signup-btn">Sign Up</button>
     </div>
     
 

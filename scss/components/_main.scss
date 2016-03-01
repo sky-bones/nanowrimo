@@ -62,7 +62,7 @@ img {
 
 
 .banner {
-    background-image: url({{site.baseurl}}/../../images/header.jpg);
+    background-image: url(../images/header.jpg);
     background-size: cover;
     background-position: center;
     background-color: $white;
@@ -327,9 +327,6 @@ li {
     margin-top: 2rem;
 }
 
-
-
-
 /* FOOTER */
 
 
@@ -408,8 +405,6 @@ footer {
     padding-top: none;
 }
 
-
-
 .legal-info {
     font-size: 10px;
     margin: 20px;
@@ -423,6 +418,14 @@ footer {
 
 /* SIGN UP */
 
+.join-icon-2 {
+  z-index: 99;
+}
+
+.join-words {
+  padding: 5%;
+}
+
 label {
   display: block;
 }
@@ -431,15 +434,30 @@ input + label {
   display: inline-block;
 }
 
-.join-form h2 {
-  text-align: center;
+.join-icon {
+  width: 12em;
+  padding: 0;
+  position: relative;
+  left: calc(50% - 6em);
+  margin-top: 1em;
+}
+
+.join-words h1 {
   color: $darkteal;
 }
 
+.join-form h2 {
+  text-align: center;
+  color: $white;
+}
+
+.form-back {
+  background: url(../images/banner-images/header-signup.jpg);
+  padding-top: 1em;
+}
+
 .join-form {
-  background-color: $golden;;
-  color: #FFF;
-  
+  color: $white; 
   text-align: center;
 }
 
@@ -447,8 +465,8 @@ input[type="text"],
 input[type="email"],
 input[type="password"],
 textarea {
-  padding: 0.5em;
-  width: 80%;
+  padding: 0.75em;
+  width: 70%;
 }
 
 textarea {
@@ -458,12 +476,18 @@ textarea {
 
 .signup-btn {
   padding: 0.5em 2em;
+  color: $black;
+  background-color: $white;
+  font-size: 1.25em;
+}
+
+.signup-btn:hover {
   color: $white;
-  background-color: $darkteal;
+  background-color: $darkpink;
 }
 
 input {
-  font-size: 1em;
+  font-size: 0.75em;
   border-radius: 5px;
 }
 
@@ -485,7 +509,7 @@ input {
   overflow: hidden;
   height: 2em;
   width: 7em;
-  background: $darkteal;
+  background: $golden;
   border-radius: 3px;
 }
 
@@ -515,14 +539,14 @@ input {
 
 .dropdown-select {
   position: relative;
-  width: 130%;
+  width: 100%;
   margin: 0;
   padding: 6px 8px 6px 10px;
   height: 28px;
   line-height: 14px;
   font-size: 12px;
-  color: $white;
-  background: $darkteal;
+  color: $black;
+  background: $golden;
   border: 0;
   border-radius: 0;
   -webkit-appearance: none;
@@ -543,6 +567,28 @@ input {
 
 @media only screen and (min-width: 25em) {
 
+
+
+
+
+}
+
+
+
+
+@media only screen and (min-width: 38em) {
+  
+  .footer-nav {
+      display: block;
+      margin: auto;
+  }
+
+  .footer-nav.grid {
+      max-width: 500px;
+      margin: 0 auto;
+      margin-top: 3rem;
+  }
+
   .uname,
   .e-mail,
   .pword,
@@ -555,7 +601,7 @@ input {
   input[type="email"],
   input[type="password"],
   textarea {
-    width: 70%;
+    width: 90%;
   }
   
   .uname,
@@ -576,32 +622,16 @@ input {
   .e-mail {
     margin-bottom: 1em;
   }
-
-
-
-}
-
-
-
-
-@media only screen and (min-width: 38em) {
-
-    .footer-nav {
-        display: block;
-        margin: auto;
-    }
-
-    .footer-nav.grid {
-        max-width: 500px;
-        margin: 0 auto;
-        margin-top: 3rem;
-    }
 }
 
 
 
 @media only screen and (min-width: 60em) {
 
+    .form-back {
+        padding-top: 9em;
+    }
+  
     .skip-title {
         margin-top: 80px;
     }
