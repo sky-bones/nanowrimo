@@ -611,6 +611,12 @@ input {
 }
 
 @media only screen and (min-width: 60em) {
+  .prep-intro-para {
+    padding-right: 33.3%;
+  }
+  .prep-para-event {
+    padding-top: 20em;
+  }
   .form-back {
     padding-top: 9em;
   }
