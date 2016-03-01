@@ -23,6 +23,7 @@ img {
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 100;
 }
 
 .sign-btn {
@@ -41,7 +42,6 @@ img {
 
 .btn:hover {
   background-color: #fdc46e;
-  color: #005352;
 }
 
 .link {
@@ -73,8 +73,11 @@ img {
 
 .acro-mark-top {
   display: block;
-  height: 15rem;
+  font-size: 200px;
   padding-top: 4rem;
+  padding-bottom: 0;
+  margin: 0;
+  color: #fff;
 }
 
 .full-mark {
@@ -102,7 +105,7 @@ h1 {
 
 /* DROP NAV */
 .plus p {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 li {
@@ -138,9 +141,7 @@ li {
   top: 60px;
   padding-top: 30px;
   padding-left: 20px;
-  -webkit-transform: scale(2);
-      -ms-transform: scale(2);
-          transform: scale(2);
+  transform: scale(2);
   transition: all 0.3s ease-in-out;
 }
 
@@ -205,9 +206,7 @@ li {
 }
 
 #toggle-nav:checked ~ .box ul {
-  -webkit-transform: scale(1);
-      -ms-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
 }
 
 #toggle-nav:checked ~ #toggle-nav-label {
@@ -216,9 +215,7 @@ li {
 }
 
 #toggle-nav:checked ~ #toggle-nav-label .plus {
-  -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 #content {
@@ -368,7 +365,7 @@ footer {
 }
 
 .ftr-links li:hover {
-  color: #fff;
+  opacity: .5;
 }
 
 .acro-mark {
@@ -531,7 +528,48 @@ input {
   outline-offset: -2px;
 }
 
+/* CAROUSEL */
+.slider {
+  padding: 20px;
+}
+
+.slider-item {
+  padding: 8px;
+}
+
+.slider-item h5 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+  font-size: 17px;
+  color: #dd1945;
+}
+
+.slider-item p {
+  font-size: 12px;
+  color: #005352;
+}
+
+.slider-item img {
+  border: solid 4px #000;
+}
+
+.slider-item img:hover {
+  border: solid 4px #dd1945;
+}
+
+.slider h3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+  color: #005352;
+  padding-left: 8px;
+}
+
 @media only screen and (min-width: 38em) {
+  .plus {
+    font-size: 40px;
+  }
   .footer-nav {
     display: block;
     margin: auto;
@@ -584,7 +622,7 @@ input {
     position: absolute;
     left: 20px;
     top: 0;
-    padding-left: 5px;
+    padding-left: 20px;
   }
   #toggle-nav-label {
     display: inline-block;
@@ -594,13 +632,12 @@ input {
     padding-left: 8px;
   }
   #toggle-nav:checked ~ #toggle-nav-label .plus {
-    -webkit-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-            transform: rotate(45deg);
+    transform: rotate(45deg);
     position: absolute;
   }
   .full-mark {
-    display: block;
+    display: inherit;
+    text-align: center;
     font-size: 40vw;
     line-height: 0;
     margin: auto;
@@ -638,30 +675,25 @@ input {
   display: -ms-flexbox;
   -ms-flex-flow: row wrap;
   display: flex;
-  -webkit-flex-flow: row wrap;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+  flex-flow: row wrap;
 }
 
 .grid-bottom {
   -webkit-align-items: flex-end;
   -ms-align-items: flex-end;
-  -ms-flex-align: end;
-      align-items: flex-end;
+  align-items: flex-end;
 }
 
 .grid-middle {
   -webkit-align-items: center;
   -ms-align-items: center;
-  -ms-flex-align: center;
-      align-items: center;
+  align-items: center;
 }
 
 .grid-stretch {
   -webkit-align-items: stretch;
   -ms-align-items: stretch;
-  -ms-flex-align: stretch;
-      align-items: stretch;
+  align-items: stretch;
 }
 
 .opera-only :-o-prefocus, .grid {
@@ -1417,8 +1449,7 @@ input {
 .content-fill {
   -ms-flex-grow: 2;
   -webkit-flex-grow: 2;
-  -ms-flex-positive: 2;
-      flex-grow: 2;
+  flex-grow: 2;
   max-width: 100%;
   /* @bugfix: IE 10, 11 */
 }
@@ -1426,8 +1457,7 @@ input {
 .content-shrink {
   -ms-align-self: center;
   -webkit-align-self: center;
-      -ms-flex-item-align: center;
-          align-self: center;
+  align-self: center;
 }
 
 html {

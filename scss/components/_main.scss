@@ -24,6 +24,7 @@ img {
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 100;
 
 }
 
@@ -75,8 +76,11 @@ img {
 
 .acro-mark-top {
     display: block;
-    height: 15rem;
+    font-size: 200px;
     padding-top: 4rem;
+    padding-bottom: 0;
+    margin: 0;
+    color: $white;
 }
 
 .full-mark {
@@ -110,7 +114,7 @@ h1 {
 /* DROP NAV */
 
 .plus p {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 li {
@@ -394,7 +398,7 @@ footer {
 }
 
 .ftr-links li:hover {
-    color: $white;
+    opacity: .5;
 }
 
 .acro-mark {
@@ -560,9 +564,46 @@ input {
 }
 
 
+/* CAROUSEL */
 
+.slider {
+    padding: 20px;
+}
 
+.slider-item {
+    padding: 8px;
+}
 
+.slider-item h5 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    font-size: 17px;
+    color: $darkpink;
+
+}
+
+.slider-item p {
+    font-size: 12px;
+    color: $darkteal;
+
+}
+
+.slider-item img {
+    border: solid 4px $black;
+}
+
+.slider-item img:hover {
+    border: solid 4px $darkpink;
+}
+
+.slider h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    color: $darkteal;
+    padding-left: 8px;
+}
 
 
 @media only screen and (min-width: 25em) {
@@ -573,11 +614,13 @@ input {
 
 }
 
-
-
-
 @media only screen and (min-width: 38em) {
   
+  .plus  {
+    font-size: 40px;
+  }
+
+    
   .footer-nav {
       display: block;
       margin: auto;
@@ -641,7 +684,7 @@ input {
         position: absolute;
         left: 20px;
         top: 0;
-        padding-left: 5px;
+        padding-left: 20px;
 }
 
     #toggle-nav-label {
@@ -659,7 +702,8 @@ input {
 }
 
 .full-mark {
-    display: block;
+    display: inherit;
+    text-align: center;
     font-size: 40vw;
     line-height: 0;
     margin: auto;
