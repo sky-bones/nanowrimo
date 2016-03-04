@@ -23,6 +23,7 @@ img {
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 100;
 }
 
 .sign-btn {
@@ -41,7 +42,6 @@ img {
 
 .btn:hover {
   background-color: #fdc46e;
-  color: #005352;
 }
 
 .link {
@@ -63,7 +63,7 @@ img {
 }
 
 .banner {
-  background-image: url({{site.baseurl}}/../../images/header.jpg);
+  background-image: url(../images/header.jpg);
   background-size: cover;
   background-position: center;
   background-color: #fff;
@@ -73,8 +73,11 @@ img {
 
 .acro-mark-top {
   display: block;
-  height: 15rem;
+  font-size: 200px;
   padding-top: 4rem;
+  padding-bottom: 0;
+  margin: 0;
+  color: #fff;
 }
 
 .full-mark {
@@ -102,7 +105,7 @@ h1 {
 
 /* DROP NAV */
 .plus p {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 li {
@@ -362,7 +365,7 @@ footer {
 }
 
 .ftr-links li:hover {
-  color: #fff;
+  opacity: .5;
 }
 
 .acro-mark {
@@ -383,7 +386,190 @@ footer {
   text-decoration: none;
 }
 
+/* SIGN UP */
+.join-icon-2 {
+  z-index: 99;
+}
+
+.join-words {
+  padding: 5%;
+}
+
+label {
+  display: block;
+}
+
+input + label {
+  display: inline-block;
+}
+
+.join-icon {
+  width: 12em;
+  padding: 0;
+  position: relative;
+  left: calc(50% - 6em);
+  margin-top: 1em;
+}
+
+.join-words h1 {
+  color: #005352;
+}
+
+.join-form h2 {
+  text-align: center;
+  color: #fff;
+}
+
+.form-back {
+  background: url(../images/banner-images/header-signup.jpg);
+  padding-top: 1em;
+}
+
+.join-form {
+  color: #fff;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  padding: 0.75em;
+  width: 70%;
+}
+
+textarea {
+  height: auto;
+  border-radius: 8px;
+}
+
+.signup-btn {
+  padding: 0.5em 2em;
+  color: #000;
+  background-color: #fff;
+  font-size: 1.25em;
+}
+
+.signup-btn:hover {
+  color: #fff;
+  background-color: #dd1945;
+}
+
+input {
+  font-size: 0.75em;
+  border-radius: 5px;
+}
+
+/* Custom dropdown */
+.container {
+  margin: 80px auto;
+  width: 400px;
+  text-align: center;
+}
+
+.container > .dropdown {
+  margin: 0 20px;
+  vertical-align: top;
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  height: 2em;
+  width: 7em;
+  background: #fdc46e;
+  border-radius: 3px;
+}
+
+.dropdown:before, .dropdown:after {
+  content: '';
+  position: absolute;
+  z-index: 2;
+  top: 9px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 4px dashed;
+  pointer-events: none;
+}
+
+.dropdown:before {
+  border-bottom-style: solid;
+  border-top: none;
+}
+
+.dropdown:after {
+  margin-top: 7px;
+  xpadding-left: 7px;
+  border-top-style: solid;
+  border-bottom: none;
+}
+
+.dropdown-select {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 6px 8px 6px 10px;
+  height: 28px;
+  line-height: 14px;
+  font-size: 12px;
+  color: #000;
+  background: #fdc46e;
+  border: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+.dropdown-select:focus {
+  z-index: 3;
+  width: 100%;
+  color: #fff;
+  outline-offset: -2px;
+}
+
+/* CAROUSEL */
+.slider {
+  padding: 20px;
+}
+
+.slider-item {
+  padding: 8px;
+}
+
+.slider-item h5 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+  font-size: 17px;
+  color: #dd1945;
+}
+
+.slider-item p {
+  font-size: 12px;
+  color: #005352;
+}
+
+.slider-item img {
+  border: solid 4px #000;
+}
+
+.slider-item img:hover {
+  border: solid 4px #dd1945;
+}
+
+.slider h3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+  color: #005352;
+  padding-left: 8px;
+}
+
 @media only screen and (min-width: 38em) {
+  .plus {
+    font-size: 40px;
+  }
   .footer-nav {
     display: block;
     margin: auto;
@@ -393,9 +579,47 @@ footer {
     margin: 0 auto;
     margin-top: 3rem;
   }
+  .uname,
+  .e-mail,
+  .pword,
+  .cpword {
+    display: inline-block;
+    width: 40%;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  textarea {
+    width: 90%;
+  }
+  .uname,
+  .pword,
+  .c-dropdown {
+    text-align: right;
+    margin-right: 10px;
+  }
+  .e-mail,
+  .cpword,
+  .r-dropdown {
+    text-align: left;
+    margin-left: 10px;
+  }
+  .uname,
+  .e-mail {
+    margin-bottom: 1em;
+  }
 }
 
 @media only screen and (min-width: 60em) {
+  .prep-intro-para {
+    padding-right: 33.3%;
+  }
+  .prep-para-event {
+    padding-top: 20em;
+  }
+  .form-back {
+    padding-top: 9em;
+  }
   .skip-title {
     margin-top: 80px;
   }
@@ -404,7 +628,7 @@ footer {
     position: absolute;
     left: 20px;
     top: 0;
-    padding-left: 5px;
+    padding-left: 20px;
   }
   #toggle-nav-label {
     display: inline-block;
@@ -418,7 +642,8 @@ footer {
     position: absolute;
   }
   .full-mark {
-    display: block;
+    display: inherit;
+    text-align: center;
     font-size: 40vw;
     line-height: 0;
     margin: auto;
@@ -437,7 +662,60 @@ footer {
   }
 }
 
+
+
+.foot-layout {
+  margin-bottom: 0;
+}
+
 /* Prep */
+.prep-title {
+  color: #dd1945;
+}
+
+.prep-para {
+  padding-top: 6em;
+}
+
+.prep-grey-bkg {
+  background-color: #e6e6e6;
+}
+
+.prep-podcast-thumbnail {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+}
+
+.prep-event-one {
+  display: block;
+  background-image: url(../images/thumbnail-pictures/event-2.jpg);
+  background-size: 100%;
+  height: 7em;
+  width: 7em;
+}
+
+.prep-event-one:hover {
+  opacity: .5;
+  background-image: url(../images/thumbnail-pictures/event-3.jpg);
+}
+
+.prep-pad-right {
+  padding-right: 1.13em;
+}
+
+.prep-lists {
+  padding-left: 1.3em;
+  padding-right: 2em;
+  padding-bottom: 2em;
+  transition: all 200ms ease-in-out;
+}
+
+.prep-lists li:hover {
+  color: #dd1945;
+}
+
+
 /*
   Gridifier || Code released under the UNLICENSE
   https://thomasjbradley.github.io/gridifier/#xs,2,0,0,0;s,2,25,0,0;m,4,38,1,1;l,12,60,1,1

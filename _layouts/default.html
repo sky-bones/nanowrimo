@@ -4,11 +4,14 @@
     <meta charset="utf-8">
     <title>NNWM</title>
     <meta name="description" content="NNWM is a non-for-profit organization">
+    
+    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/libraries/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/libraries/slick/slick-theme.css"/>
 
     <link href="{{site.baseurl}}/css/style.css" rel="stylesheet">
 
-    <link href="https://file.myfontastic.com/ByYgcfmddFUXmrFSe9SRAH/icons.css" rel="stylesheet">
-
+    <link href="https://file.myfontastic.com/FS7ojkLqCv6pfHasydRi5k/icons.css" rel="stylesheet">
+    
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,600,500,300' rel='stylesheet' type='text/css'>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,7 +31,7 @@
     		      <label id="toggle-nav-label" for="toggle-nav">
 
                     <div class="hidden-nav">Navigate</div>
-                    <div class="plus">+ </div>
+                    <div class="plus">+</div>
 
 
 
@@ -61,7 +64,9 @@
 
                 <div class="banner-logo">
 
-                    <img class="acro-mark-top" src="{{site.baseurl}}/images/acro-mark.svg">
+                    <div class="acro-mark-top">
+                        <a class="icon icon-nnwm"></a>
+                   </div>
 
                     <div class="full-mark">
                         <a class="icon icon-wordmark-nnwm"></a>
@@ -100,7 +105,7 @@
                     </div>
 
                     <div class="donate-info unit unit-xs-1-2 unit-m-1-2 unit-l-1">
-                        <img class="nav-icon join-icon" src="{{site.baseurl}}/images/icon-join-01.svg">
+                        <img class="nav-icon join-icon-2" src="{{site.baseurl}}/images/icon-join-01.svg">
 
                         <div class="btn donate-btn">
                             <a class="link" href=""><p>Join Us</p></a>
@@ -150,14 +155,6 @@
 
             </div>
 
-            <div class="grid">
-              <div class="unit unit-xs-hidden unit-m-1-4 unit-l-1-4">
-                    <div class="acro-mark">
-                        <a class="icon-search"></a>
-                   </div>
-              </div>
-
-                <div class="unit unit-xs-1 unit-m-3-4 unit-l-3-4">
                     <div class="footer-nav grid">
                                   <div class="unit unit-xs-hidden unit-m-1-4 ftr-links">
                                     <ul>
@@ -203,8 +200,7 @@
                                     </ul>
                                   </div>
                     </div>
-                </div>    
-            </div>
+ 
 
 
             <div class="legal-info">
@@ -215,9 +211,11 @@
         </footer>
 
 
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="{{site.baseurl}}/libraries/slick/slick.min.js"></script>
 
-
-
+        <script src="{{site.baseurl}}/js/main.js"></script>
     </body>
 
 </html>
