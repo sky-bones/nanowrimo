@@ -307,6 +307,8 @@ li {
     margin-top: 1rem;
 }
 
+
+
 .nav-icon {
     width: 70%;
     display: block;
@@ -318,7 +320,11 @@ li {
     margin-top: 5rem;
 }
 
-.join-icon {
+.donate-skip {
+    padding: 2rem;
+}
+
+.join-icon-2 {
     margin-top: 5rem;
 }
 
@@ -326,8 +332,6 @@ li {
 /* BODY */
 
 .content {
-    margin-left: 20px;
-    margin-right: 20px;
     margin-top: 2rem;
 }
 
@@ -421,10 +425,6 @@ footer {
 
 
 /* SIGN UP */
-
-.join-icon-2 {
-  z-index: 99;
-}
 
 .join-words {
   padding: 5%;
@@ -673,6 +673,24 @@ input {
   border-radius: 5px;
 }
 
+.join-us {
+    background-color: $opacgrey;
+    padding: 1rem;
+}
+
+.join-us-info {
+    padding: 20px;
+}
+
+.test-body {
+    max-width: 50rem;
+    display: block;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+
+
+
 /* Custom dropdown */
 .container {
   margin: 80px auto;
@@ -740,6 +758,31 @@ input {
   color: $white;
   outline-offset: -2px;
 }
+
+
+/* FAQ */
+
+.thanks {
+    background-color: $opacgrey;
+}
+
+.mission {
+    color: $darkteal;
+    margin-top: 2rem;
+}
+
+.mission h2 {
+    line-height: 30px;
+}
+
+.mission-pic {
+    border: 6px solid;
+}
+
+
+
+
+
 
 
 /* CAROUSEL */
