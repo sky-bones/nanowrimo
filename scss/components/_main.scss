@@ -55,7 +55,7 @@ img {
 .light-grey {
     background-color: $lightgrey;
 }
-    
+
 
 
 
@@ -374,7 +374,7 @@ li {
 }
 
 .social-btns:hover  {
-    background-color: $golden;     
+    background-color: $golden;
 }
 
 li.social-btns {
@@ -450,6 +450,7 @@ input + label {
   color: $darkteal;
 }
 
+
 .join-form h2 {
   text-align: center;
   color: $white;
@@ -461,7 +462,7 @@ input + label {
 }
 
 .join-form {
-  color: $white; 
+  color: $white;
   text-align: center;
 }
 
@@ -605,6 +606,183 @@ input {
     padding-left: 8px;
 }
 
+/* HOMEPAGE */
+
+.homepage-icon {
+    padding-top: 1.5em;
+}
+
+.homepage-grey {
+    background-color: $lightgrey;
+}
+
+@media only screen and (min-width: 25em) {
+
+
+
+.join-form h2 {
+  text-align: center;
+  color: $white;
+}
+
+.form-back {
+  background: url(../images/banner-images/header-signup.jpg);
+  padding-top: 1em;
+}
+
+.join-form {
+  color: $white;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  padding: 0.75em;
+  width: 70%;
+
+}
+
+textarea {
+  height: auto;
+  border-radius: 8px;
+}
+
+
+  .plus  {
+    font-size: 40px;
+  }
+
+
+
+.signup-btn {
+  padding: 0.5em 2em;
+  color: $black;
+  background-color: $white;
+  font-size: 1.25em;
+}
+
+.signup-btn:hover {
+  color: $white;
+  background-color: $darkpink;
+}
+
+input {
+  font-size: 0.75em;
+  border-radius: 5px;
+}
+
+/* Custom dropdown */
+.container {
+  margin: 80px auto;
+  width: 400px;
+  text-align: center;
+}
+
+.container > .dropdown {
+  margin: 0 20px;
+  vertical-align: top;
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  height: 2em;
+  width: 7em;
+  background: $golden;
+  border-radius: 3px;
+}
+
+.dropdown:before, .dropdown:after {
+  content: '';
+  position: absolute;
+  z-index: 2;
+  top: 9px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 4px dashed;
+  pointer-events: none;
+}
+
+.dropdown:before {
+  border-bottom-style: solid;
+  border-top: none;
+}
+
+.dropdown:after {
+  margin-top: 7px;
+  xpadding-left: 7px;
+  border-top-style: solid;
+  border-bottom: none;
+}
+
+.dropdown-select {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 6px 8px 6px 10px;
+  height: 28px;
+  line-height: 14px;
+  font-size: 12px;
+  color: $black;
+  background: $golden;
+  border: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+.dropdown-select:focus {
+  z-index: 3;
+  width: 100%;
+  color: $white;
+  outline-offset: -2px;
+}
+
+
+/* CAROUSEL */
+
+.slider {
+    padding: 20px;
+}
+
+.slider-item {
+    padding: 8px;
+}
+
+.slider-item h5 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    font-size: 17px;
+    color: $darkpink;
+
+}
+
+.slider-item p {
+    font-size: 12px;
+    color: $darkteal;
+
+}
+
+.slider-item img {
+    border: solid 4px $black;
+}
+
+.slider-item img:hover {
+    border: solid 4px $darkpink;
+}
+
+.slider h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    color: $darkteal;
+    padding-left: 8px;
+}
+
 
 @media only screen and (min-width: 25em) {
 
@@ -615,12 +793,13 @@ input {
 }
 
 @media only screen and (min-width: 38em) {
-  
+
   .plus  {
     font-size: 40px;
   }
 
-    
+
+
   .footer-nav {
       display: block;
       margin: auto;
@@ -639,28 +818,28 @@ input {
     display: inline-block;
     width: 40%;
   }
-  
+
   input[type="text"],
   input[type="email"],
   input[type="password"],
   textarea {
     width: 90%;
   }
-  
+
   .uname,
   .pword,
   .c-dropdown {
     text-align: right;
     margin-right: 10px;
   }
-  
+
   .e-mail,
   .cpword,
   .r-dropdown {
     text-align: left;
     margin-left: 10px;
   }
-  
+
   .uname,
   .e-mail {
     margin-bottom: 1em;
@@ -670,7 +849,15 @@ input {
 
 
 @media only screen and (min-width: 60em) {
-    
+
+    .prep-intro-para {
+        padding-right: 33.3%;
+    }
+    .prep-para-event {
+        padding-top: 20em;
+    }
+
+
     .prep-intro-para {
         padding-right: 33.3%;
     }
@@ -681,7 +868,8 @@ input {
     .form-back {
         padding-top: 9em;
     }
-  
+
+
     .skip-title {
         margin-top: 80px;
     }
@@ -727,14 +915,14 @@ input {
 .donate-icon {
         padding-top: 4rem;
     }
-    
+
 .acro-mark-top{
     display: none;
 }
 }
 
 .test {
-   
+
 }
 
 .foot-layout {
@@ -769,7 +957,9 @@ input {
     width: 7em;
 }
 
-.prep-event-one:hover { 
+
+.prep-event-one:hover {
+
     opacity: .5;
    background-image: url(../images/thumbnail-pictures/event-3.jpg);
 }
@@ -778,15 +968,17 @@ input {
     padding-right: 1.13em;
 }
 
+
 .prep-lists {
     padding-left: 1.3em;
     padding-right: 2em;
     padding-bottom: 2em;
-    transition: all 200ms ease-in-out; 
+    transition: all 200ms ease-in-out;
 }
 
 .prep-lists li:hover{
     color: $darkpink;
+}
 }
 
 
