@@ -613,22 +613,29 @@ input {
 }
 
 .homepage-grey {
-    background-color: $lightgrey;
+    //-color: $lightgrey;
 }
 
 .homepage-pressinfo-list {
-  padding-left: 5px;
+  padding-left: 0px;
+  padding-right: 5px;
+  font-style: italic;
 }
 
 .homepage-list a{
   text-decoration: none;
+  font-style: normal;
   font-weight: bold;
   color: $darkteal;
 }
 
 .homepage-list a:hover {
-  color: $lightteal;
+  color: $darkpink;
   border-bottom: solid 3pt;
+}
+
+.homepage-h1 {
+  color: $darkpink;
 }
 
 @media only screen and (min-width: 25em) {
