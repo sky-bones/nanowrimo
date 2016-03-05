@@ -32,6 +32,14 @@ img {
   right: 20px;
 }
 
+.name {
+  position: absolute;
+  top: 35px;
+  right: 20px;
+  color: #005352;
+  font-weight: bold;
+}
+
 .btn {
   background-color: #005352;
   line-height: 35px;
@@ -60,6 +68,15 @@ img {
 
 .light-grey {
   background-color: #e6e6e6;
+}
+
+.prof-banner {
+  background-image: url(../images/banner-images/header-profile.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: #fff;
+  margin-top: 5em;
+  padding-bottom: 25em;
 }
 
 .banner {
