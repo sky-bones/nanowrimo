@@ -141,9 +141,7 @@ li {
   top: 60px;
   padding-top: 30px;
   padding-left: 20px;
-  -webkit-transform: scale(2);
-      -ms-transform: scale(2);
-          transform: scale(2);
+  transform: scale(2);
   transition: all 0.3s ease-in-out;
 }
 
@@ -208,9 +206,7 @@ li {
 }
 
 #toggle-nav:checked ~ .box ul {
-  -webkit-transform: scale(1);
-      -ms-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
 }
 
 #toggle-nav:checked ~ #toggle-nav-label {
@@ -219,9 +215,7 @@ li {
 }
 
 #toggle-nav:checked ~ #toggle-nav-label .plus {
-  -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 #content {
@@ -644,9 +638,7 @@ input {
     padding-left: 8px;
   }
   #toggle-nav:checked ~ #toggle-nav-label .plus {
-    -webkit-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-            transform: rotate(45deg);
+    transform: rotate(45deg);
     position: absolute;
   }
   .full-mark {
@@ -735,30 +727,25 @@ input {
   display: -ms-flexbox;
   -ms-flex-flow: row wrap;
   display: flex;
-  -webkit-flex-flow: row wrap;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+  flex-flow: row wrap;
 }
 
 .grid-bottom {
   -webkit-align-items: flex-end;
   -ms-align-items: flex-end;
-  -ms-flex-align: end;
-      align-items: flex-end;
+  align-items: flex-end;
 }
 
 .grid-middle {
   -webkit-align-items: center;
   -ms-align-items: center;
-  -ms-flex-align: center;
-      align-items: center;
+  align-items: center;
 }
 
 .grid-stretch {
   -webkit-align-items: stretch;
   -ms-align-items: stretch;
-  -ms-flex-align: stretch;
-      align-items: stretch;
+  align-items: stretch;
 }
 
 .opera-only :-o-prefocus, .grid {
@@ -1514,8 +1501,7 @@ input {
 .content-fill {
   -ms-flex-grow: 2;
   -webkit-flex-grow: 2;
-  -ms-flex-positive: 2;
-      flex-grow: 2;
+  flex-grow: 2;
   max-width: 100%;
   /* @bugfix: IE 10, 11 */
 }
@@ -1523,8 +1509,7 @@ input {
 .content-shrink {
   -ms-align-self: center;
   -webkit-align-self: center;
-      -ms-flex-item-align: center;
-          align-self: center;
+  align-self: center;
 }
 
 html {
