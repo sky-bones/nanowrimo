@@ -326,8 +326,6 @@ li {
 /* BODY */
 
 .content {
-    margin-left: 20px;
-    margin-right: 20px;
     margin-top: 2rem;
 }
 
@@ -490,6 +488,24 @@ input {
   font-size: 0.75em;
   border-radius: 5px;
 }
+
+.join-us {
+    background-color: $lightgrey;
+    padding: 1rem;
+}
+
+.join-us-info {
+    padding: 20px;
+}
+
+.test-body {
+    max-width: 50rem;
+    display: block;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+
+
 
 /* Custom dropdown */
 .container {
