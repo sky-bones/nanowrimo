@@ -302,10 +302,6 @@ li {
 }
 
 /* BODY */
-.content {
-  margin-top: 2rem;
-}
-
 /* FOOTER */
 .back-top {
   text-align: center;
@@ -569,6 +565,10 @@ input {
   padding-top: 1.5em;
 }
 
+.homepage-grey {
+  background-color: #e6e6e6;
+}
+
 .homepage-pressinfo-list {
   padding-left: 0px;
   padding-right: 5px;
@@ -589,6 +589,18 @@ input {
 
 .homepage-h1 {
   color: #dd1945;
+}
+
+.homepage-btn {
+  background-color: #005352;
+  line-height: 40px;
+  text-align: center;
+  width: 12em;
+  color: #e6e6e6;
+}
+
+.homepage-btn:hover {
+  background-color: #fdc46e;
 }
 
 @media only screen and (min-width: 25em) {
