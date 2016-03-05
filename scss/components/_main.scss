@@ -318,7 +318,7 @@ li {
     margin-top: 5rem;
 }
 
-.join-icon {
+.join-icon-2 {
     margin-top: 5rem;
 }
 
@@ -421,10 +421,6 @@ footer {
 
 
 /* SIGN UP */
-
-.join-icon-2 {
-  z-index: 99;
-}
 
 .join-words {
   padding: 5%;
@@ -562,6 +558,31 @@ input {
   color: $white;
   outline-offset: -2px;
 }
+
+
+/* FAQ */
+
+.thanks {
+    background-color: $opacgrey;
+}
+
+.mission {
+    color: $darkteal;
+    margin-top: 2rem;
+}
+
+.mission h2 {
+    line-height: 30px;
+}
+
+.mission-pic {
+    border: 6px solid;
+}
+
+
+
+
+
 
 
 /* CAROUSEL */
