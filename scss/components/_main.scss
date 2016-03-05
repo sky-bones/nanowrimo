@@ -616,6 +616,21 @@ input {
     background-color: $lightgrey;
 }
 
+.homepage-pressinfo-list {
+  padding-left: 5px;
+}
+
+.homepage-list a{
+  text-decoration: none;
+  font-weight: bold;
+  color: $darkteal;
+}
+
+.homepage-list a:hover {
+  color: $lightteal;
+  border-bottom: solid 3pt;
+}
+
 @media only screen and (min-width: 25em) {
 
 
