@@ -55,7 +55,7 @@ img {
 .light-grey {
     background-color: $lightgrey;
 }
-    
+
 
 
 
@@ -374,7 +374,7 @@ li {
 }
 
 .social-btns:hover  {
-    background-color: $golden;     
+    background-color: $golden;
 }
 
 li.social-btns {
@@ -461,7 +461,7 @@ input + label {
 }
 
 .join-form {
-  color: $white; 
+  color: $white;
   text-align: center;
 }
 
@@ -605,6 +605,15 @@ input {
     padding-left: 8px;
 }
 
+/* HOMEPAGE */
+
+.homepage-icon {
+    padding-top: 1.5em;
+}
+
+.homepage-grey {
+    background-color: $lightgrey;
+}
 
 @media only screen and (min-width: 25em) {
 
@@ -615,12 +624,12 @@ input {
 }
 
 @media only screen and (min-width: 38em) {
-  
+
   .plus  {
     font-size: 40px;
   }
 
-    
+
   .footer-nav {
       display: block;
       margin: auto;
@@ -639,28 +648,28 @@ input {
     display: inline-block;
     width: 40%;
   }
-  
+
   input[type="text"],
   input[type="email"],
   input[type="password"],
   textarea {
     width: 90%;
   }
-  
+
   .uname,
   .pword,
   .c-dropdown {
     text-align: right;
     margin-right: 10px;
   }
-  
+
   .e-mail,
   .cpword,
   .r-dropdown {
     text-align: left;
     margin-left: 10px;
   }
-  
+
   .uname,
   .e-mail {
     margin-bottom: 1em;
@@ -670,7 +679,7 @@ input {
 
 
 @media only screen and (min-width: 60em) {
-    
+
     .prep-intro-para {
         padding-right: 33.3%;
     }
@@ -681,7 +690,7 @@ input {
     .form-back {
         padding-top: 9em;
     }
-  
+
     .skip-title {
         margin-top: 80px;
     }
@@ -727,14 +736,14 @@ input {
 .donate-icon {
         padding-top: 4rem;
     }
-    
+
 .acro-mark-top{
     display: none;
 }
 }
 
 .test {
-   
+
 }
 
 .foot-layout {
@@ -769,7 +778,7 @@ input {
     width: 7em;
 }
 
-.prep-event-one:hover { 
+.prep-event-one:hover {
     opacity: .5;
    background-image: url(../images/thumbnail-pictures/event-3.jpg);
 }
@@ -782,7 +791,7 @@ input {
     padding-left: 1.3em;
     padding-right: 2em;
     padding-bottom: 2em;
-    transition: all 200ms ease-in-out; 
+    transition: all 200ms ease-in-out;
 }
 
 .prep-lists li:hover{
