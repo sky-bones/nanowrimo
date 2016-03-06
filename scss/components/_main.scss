@@ -38,6 +38,7 @@ img {
   @include btn-design;
 }
 
+
 .link {
     color: $lightgrey;
     text-decoration: none;
@@ -338,6 +339,10 @@ li {
     color:$darkpink;
 }
 
+.prep-subtitle {
+    color: $darkteal;
+}
+
 .prep-para {
     padding-top: 6em;
 }
@@ -437,8 +442,18 @@ li {
 /* shop */
 
 
+.shop-btn{
+  @include btn-shop-design;
+}
 
+.shop-item{
+    opacity: 1;
+    transition: all 100ms ease-in-out;
+}
 
+.shop-item:hover{
+    opacity: .5;
+}
 
 /* FOOTER */
 

@@ -9,3 +9,15 @@
 
   }
 }
+
+@mixin btn-shop-design {
+    background-color: $darkteal; 
+    line-height: 35px;
+    text-align: center;
+    width: 7rem;
+    color: $lightgrey;
+    &:hover {
+    background-color: $golden;
+
+  }
+}

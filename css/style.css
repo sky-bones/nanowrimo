@@ -309,6 +309,10 @@ li {
   color: #dd1945;
 }
 
+.prep-subtitle {
+  color: #005352;
+}
+
 .prep-para {
   padding-top: 6em;
 }
@@ -406,6 +410,27 @@ li {
 }
 
 /* shop */
+.shop-btn {
+  background-color: #005352;
+  line-height: 35px;
+  text-align: center;
+  width: 7rem;
+  color: #e6e6e6;
+}
+
+.shop-btn:hover {
+  background-color: #fdc46e;
+}
+
+.shop-item {
+  opacity: 1;
+  transition: all 100ms ease-in-out;
+}
+
+.shop-item:hover {
+  opacity: .5;
+}
+
 /* FOOTER */
 .back-top {
   text-align: center;
