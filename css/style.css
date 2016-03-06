@@ -304,6 +304,108 @@ li {
   margin-top: 2rem;
 }
 
+/* Prep */
+.prep-title {
+  color: #dd1945;
+}
+
+.prep-para {
+  padding-top: 6em;
+}
+
+.prep-grey-bkg {
+  background-color: #e6e6e6;
+}
+
+.prep-podcast-thumbnail {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+}
+
+.prep-event-one {
+  display: block;
+  background-image: url(../images/thumbnail-pictures/event-2.jpg);
+  background-size: 100%;
+  height: 7em;
+  width: 7em;
+}
+
+.prep-event-one:hover {
+  opacity: .5;
+  background-image: url(../images/thumbnail-pictures/event-3.jpg);
+}
+
+.prep-pad-right {
+  padding-right: 1.13em;
+}
+
+.prep-lists {
+  padding-left: 1.3em;
+  padding-right: 2em;
+  padding-bottom: 2em;
+  transition: all 200ms ease-in-out;
+}
+
+.prep-lists li:hover {
+  color: #dd1945;
+}
+
+.prep-event {
+  background-size: 100%;
+  height: 7em;
+  width: 7em;
+}
+
+.prep-event1 {
+  background-image: url(../images/thumbnail-pictures/event-1.jpg);
+}
+
+.prep-event1:hover {
+  background-image: url(../images/thumbnail-pictures/event-1-hover.jpg);
+}
+
+.prep-event2 {
+  background-image: url(../images/thumbnail-pictures/event-2.jpg);
+}
+
+.prep-event2:hover {
+  background-image: url(../images/thumbnail-pictures/event-2-hover.jpg);
+}
+
+.prep-event3 {
+  background-image: url(../images/thumbnail-pictures/event-3.jpg);
+}
+
+.prep-event3:hover {
+  background-image: url(../images/thumbnail-pictures/event-3-hover.jpg);
+}
+
+.prep-event4 {
+  background-image: url(../images/thumbnail-pictures/event-4.jpg);
+}
+
+.prep-event4:hover {
+  background-image: url(../images/thumbnail-pictures/event-4-hover.jpg);
+}
+
+.prep-event5 {
+  background-image: url(../images/thumbnail-pictures/event-5.jpg);
+}
+
+.prep-event5:hover {
+  background-image: url(../images/thumbnail-pictures/event-5-hover.jpg);
+}
+
+.prep-event6 {
+  background-image: url(../images/thumbnail-pictures/event-3.jpg);
+}
+
+.prep-event6:hover {
+  background-image: url(../images/thumbnail-pictures/event-3-hover.jpg);
+}
+
+/* shop */
 /* FOOTER */
 .back-top {
   text-align: center;
@@ -570,6 +672,11 @@ input {
   .prep-para {
     padding-top: 2em;
   }
+  .prep-event {
+    background-size: 100%;
+    height: 10em;
+    width: 10em;
+  }
 }
 
 @media only screen and (min-width: 38em) {
@@ -673,108 +780,6 @@ input {
   margin-bottom: 0;
 }
 
-/* Prep */
-.prep-title {
-  color: #dd1945;
-}
-
-.prep-para {
-  padding-top: 6em;
-}
-
-.prep-grey-bkg {
-  background-color: #e6e6e6;
-}
-
-.prep-podcast-thumbnail {
-  padding: 0;
-  margin: 0;
-  opacity: 1;
-}
-
-.prep-event-one {
-  display: block;
-  background-image: url(../images/thumbnail-pictures/event-2.jpg);
-  background-size: 100%;
-  height: 7em;
-  width: 7em;
-}
-
-.prep-event-one:hover {
-  opacity: .5;
-  background-image: url(../images/thumbnail-pictures/event-3.jpg);
-}
-
-.prep-pad-right {
-  padding-right: 1.13em;
-}
-
-.prep-lists {
-  padding-left: 1.3em;
-  padding-right: 2em;
-  padding-bottom: 2em;
-  transition: all 200ms ease-in-out;
-}
-
-.prep-lists li:hover {
-  color: #dd1945;
-}
-
-.prep-event {
-  background-size: 100%;
-  height: 7em;
-  width: 7em;
-}
-
-.prep-event1 {
-  background-image: url(../images/thumbnail-pictures/event-1.jpg);
-}
-
-.prep-event1:hover {
-  background-image: url(../images/thumbnail-pictures/event-1-hover.jpg);
-}
-
-.prep-event2 {
-  background-image: url(../images/thumbnail-pictures/event-2.jpg);
-}
-
-.prep-event2:hover {
-  background-image: url(../images/thumbnail-pictures/event-2-hover.jpg);
-}
-
-.prep-event3 {
-  background-image: url(../images/thumbnail-pictures/event-3.jpg);
-}
-
-.prep-event3:hover {
-  background-image: url(../images/thumbnail-pictures/event-3-hover.jpg);
-}
-
-.prep-event4 {
-  background-image: url(../images/thumbnail-pictures/event-4.jpg);
-}
-
-.prep-event4:hover {
-  background-image: url(../images/thumbnail-pictures/event-4-hover.jpg);
-}
-
-.prep-event5 {
-  background-image: url(../images/thumbnail-pictures/event-5.jpg);
-}
-
-.prep-event5:hover {
-  background-image: url(../images/thumbnail-pictures/event-5-hover.jpg);
-}
-
-.prep-event6 {
-  background-image: url(../images/thumbnail-pictures/event-3.jpg);
-}
-
-.prep-event6:hover {
-  background-image: url(../images/thumbnail-pictures/event-3-hover.jpg);
-}
-
-/* shop */
 /*
   Gridifier || Code released under the UNLICENSE
   https://thomasjbradley.github.io/gridifier/#xs,2,0,0,0;s,2,25,0,0;m,4,38,1,1;l,12,60,1,1
