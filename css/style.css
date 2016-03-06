@@ -672,11 +672,6 @@ input {
   .prep-para {
     padding-top: 2em;
   }
-  .prep-event {
-    background-size: 100%;
-    height: 10em;
-    width: 10em;
-  }
 }
 
 @media only screen and (min-width: 38em) {
@@ -724,6 +719,11 @@ input {
 }
 
 @media only screen and (min-width: 60em) {
+  .prep-event {
+    background-size: 100%;
+    height: 7em;
+    width: 7em;
+  }
   .prep-intro-para {
     padding-right: 33.3%;
   }
@@ -772,6 +772,14 @@ input {
   }
   .acro-mark-top {
     display: none;
+  }
+}
+
+@media only screen and (min-width: 80em) {
+  .prep-event {
+    background-size: 100%;
+    height: 10em;
+    width: 10em;
   }
 }
 
