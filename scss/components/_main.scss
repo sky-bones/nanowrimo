@@ -612,9 +612,7 @@ input {
     padding-top: 2em;
 }
 
-
-
-
+    
 }
 
 @media only screen and (min-width: 38em) {
@@ -634,7 +632,7 @@ input {
       margin: 0 auto;
       margin-top: 3rem;
   }
-
+    
   .uname,
   .e-mail,
   .pword,
@@ -668,6 +666,7 @@ input {
   .e-mail {
     margin-bottom: 1em;
   }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -841,3 +840,7 @@ input {
 .prep-event6:hover{
     background-image:  url(../images/thumbnail-pictures/event-3-hover.jpg);
 }
+
+/* shop */
+
+

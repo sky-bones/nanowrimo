@@ -668,6 +668,7 @@ input {
   }
 }
 
+/* media query ends */
 .foot-layout {
   margin-bottom: 0;
 }
@@ -773,6 +774,7 @@ input {
   background-image: url(../images/thumbnail-pictures/event-3-hover.jpg);
 }
 
+/* shop */
 /*
   Gridifier || Code released under the UNLICENSE
   https://thomasjbradley.github.io/gridifier/#xs,2,0,0,0;s,2,25,0,0;m,4,38,1,1;l,12,60,1,1
