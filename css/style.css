@@ -566,6 +566,12 @@ input {
   padding-left: 8px;
 }
 
+@media only screen and (min-width: 25em) {
+  .prep-para {
+    padding-top: 2em;
+  }
+}
+
 @media only screen and (min-width: 38em) {
   .plus {
     font-size: 40px;
