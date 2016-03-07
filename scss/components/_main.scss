@@ -155,10 +155,6 @@ li {
 	transition: all 0.3s ease-in-out;
 }
 
-#menu li {
-	display: block;
-    margin-bottom: 20px;
-}
 
 #menu li a {
 	border-radius: 3px;
@@ -203,19 +199,28 @@ li {
     padding-left: 15px;
 }
 
-#menu li a i {
+
+.nav-link {
+	    margin-bottom: 20px;
 	margin-right: 5px;
 	font-size: 24px;
 }
 
 #toggle-nav {
     display: none;
+
+}
+
+.box {
+    display: none;
 }
 
 #toggle-nav:checked ~ .box {
+    display: block;
 	opacity: 1;
 	z-index: 400;
 }
+
 
 #toggle-nav:checked ~ .box ul {
 
@@ -230,7 +235,6 @@ li {
 #toggle-nav:checked ~ #toggle-nav-label .plus {
     transform: rotate(45deg);
 }
-
 
 
 #content {
@@ -741,6 +745,7 @@ input {
     padding-left: 8px;
 }
 
+
 /* HOMEPAGE */
 
 .homepage-icon {
@@ -949,6 +954,10 @@ input {
 
 }
 
+.under-nav {
+    height: 95px;
+
+
 .faq-title {
     background-image: url(../images/banner-images/header-FAQ.jpg);
     background-size: cover;
@@ -969,10 +978,8 @@ input {
     font-size: 50px;
     text-align: center;
     padding-top: 6rem;
+
 }
-
-
-
 
 
 
@@ -1458,12 +1465,12 @@ input {
         position: absolute;
         left: 20px;
         top: 0;
-        padding-left: 20px;
+        padding-left: 30px;
 }
 
     #toggle-nav-label {
         display: inline-block;
-        width: 9rem;
+        width: 10rem;
         font-size: 20px;
         text-align: left;
         padding-left: 8px;
@@ -1529,6 +1536,7 @@ input {
 
 }
 
+}
 }
 
 
