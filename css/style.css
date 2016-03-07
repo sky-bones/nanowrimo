@@ -731,7 +731,26 @@ input {
   .mission-pic {
     border: 6px solid;
   }
-  /* CAROUSEL */
+  .faq-title {
+    background-image: url(../images/banner-images/header-FAQ.jpg);
+    background-size: cover;
+    height: 100vh;
+  }
+  .main-title {
+    font-size: 100px;
+    font-family: "Satisfy", cursive;
+    color: #fff;
+    text-align: center;
+    padding-top: 16rem;
+    line-height: 120px;
+  }
+  .down-arrow {
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 6rem;
+  }
+  /* TESTIMONIAL CAROUSEL */
   .slider {
     padding: 20px;
   }
@@ -761,6 +780,43 @@ input {
     margin-bottom: 0;
     color: #005352;
     padding-left: 8px;
+  }
+  /* FAQ CAROUSEL */
+  .faq-content {
+    margin: 20px;
+  }
+  .filter-list li {
+    font-size: 14px;
+    color: #fff;
+    line-height: 24px;
+  }
+  .slider-sidebar {
+    background-color: #005352;
+    padding-top: 20px;
+  }
+  .slider-sidebar p {
+    padding-left: 20px;
+    font-weight: 500;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+  .filter-title {
+    color: #005352;
+  }
+  .top-faq {
+    margin: 0;
+  }
+  .question {
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 2px;
+  }
+  .answer {
+    color: #808080;
+  }
+  .answer:hover {
+    color: rgba(0, 83, 82, 0.8);
   }
 }
 
@@ -805,6 +861,12 @@ input {
   .uname,
   .e-mail {
     margin-bottom: 1em;
+  }
+  .top-faq {
+    margin-top: 53px;
+  }
+  .filter-list {
+    margin-bottom: 0;
   }
 }
 
