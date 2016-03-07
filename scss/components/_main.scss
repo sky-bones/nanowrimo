@@ -15,6 +15,14 @@ img {
     width: 100%;
 }
 
+/*
+.default-lrg-screen {
+    max-width: 1200px;
+    margin:auto;
+}
+
+*/
+
 /* BANNER */
 
 .nav-bar {
@@ -462,6 +470,10 @@ li {
 }
 
 /* Prep */
+
+.prep-resource-image{
+    align-content: left;
+}
 
 .prep-lists {
     padding-left: 1.3em;
