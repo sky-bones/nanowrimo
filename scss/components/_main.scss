@@ -154,10 +154,6 @@ li {
 	transition: all 0.3s ease-in-out;
 }
 
-#menu li {
-	display: block;
-    margin-bottom: 20px;
-}
 
 #menu li a {
 	border-radius: 3px;
@@ -202,19 +198,28 @@ li {
     padding-left: 15px;
 }
 
-#menu li a i {
+
+.nav-link {
+	    margin-bottom: 20px;
 	margin-right: 5px;
 	font-size: 24px;
 }
 
 #toggle-nav {
     display: none;
+    
+}
+
+.box {
+    display: none;
 }
 
 #toggle-nav:checked ~ .box {
+    display: block;
 	opacity: 1;
 	z-index: 400;
 }
+
 
 #toggle-nav:checked ~ .box ul {
 
@@ -229,7 +234,6 @@ li {
 #toggle-nav:checked ~ #toggle-nav-label .plus {
     transform: rotate(45deg);
 }
-
 
 
 #content {
