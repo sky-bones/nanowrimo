@@ -34,6 +34,14 @@ img {
     right: 20px;
 }
 
+.name {
+  position: absolute;
+  top: 35px;
+  right: 20px;
+  color: $darkteal;
+  font-weight: bold;
+}
+
 .btn {
   @include btn-design;
 }
@@ -57,8 +65,14 @@ img {
     background-color: $lightgrey;
 }
 
-
-
+.prof-banner {
+    background-image: url(../images/banner-images/header-profile.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: $white;
+    margin-top: 5em;
+    padding-bottom: 25em;
+}
 
 .banner-home {
     background-image: url(../images/banner-images/header-home.jpg);
@@ -104,7 +118,6 @@ img {
     margin: auto;
     padding-top: 90px;
     text-align: center;
-
 }
 
 h1 {
@@ -116,8 +129,65 @@ h1 {
     color: $lightgrey;
 }
 
+/*PROFILE*/
 
 
+.prof-img {
+  position: relative;
+  padding-top: 1em;
+  width: 200px;
+  left: calc(50% - 100px);
+}
+
+.graph {
+  padding: 5%;
+}
+
+/*DONATION*/
+
+.donate-banner {
+    background-image: url(../images/banner-images/header-donate.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: $white;
+    margin-top: 5em;
+    padding-bottom: 25em;
+}
+
+.dollar-btn {
+  position: relative;
+}
+
+.donate-form {
+  background-color: $lightgrey;
+}
+
+.pay-info {
+  color: $darkpink;
+  padding-left: 1em;
+  padding-top: 1em;
+}
+
+.card-no {
+  width: 100%;
+  padding: 2%;
+}
+
+.card-no-box {
+  padding: 0 1em;
+}
+
+
+input[type="texarea"],
+textarea {
+  padding: 0.75em;
+  xwidth: 70%;
+}
+
+textarea {
+  height: auto;
+  border-radius: 8px;
+}
 
 /* DROP NAV */
 
@@ -387,7 +457,7 @@ li {
     background-size: 100%;
     height: 7em;
     width: 7em;
-    
+
 }
 
 .prep-event-one:hover {
@@ -578,6 +648,7 @@ footer {
 
 .join-words {
   padding: 5%;
+  margin-top: 4.5em;
 }
 
 label {
@@ -597,7 +668,7 @@ input + label {
 }
 
 .join-words h1 {
-  color: $darkteal;
+  color: $darkpink;
 }
 
 
@@ -634,6 +705,7 @@ textarea {
   color: $black;
   background-color: $white;
   font-size: 1.25em;
+  border: none;
 }
 
 .signup-btn:hover {
@@ -757,6 +829,18 @@ input {
 }
 
 
+@media only screen and (min-width: 25em) {
+
+  .join-words {
+    width: 40em;
+    margin: auto;
+  }
+
+  .prof-img {
+    width: 16em;
+    left: calc(50% - 8em);
+  }
+
 /* HOMEPAGE */
 
 .homepage-icon {
@@ -778,7 +862,7 @@ input {
     display: block;
     margin: auto;
     position: relative;
-    left: calc(50% - 6em);      
+    left: calc(50% - 6em);
 }
 
 .press-release-info {
@@ -792,10 +876,21 @@ input {
   color: $darkteal;
 }
 
+
+  .facts {
+    margin-top: 4em;
+  }
+
+  .footer-nav {
+      display: block;
+      margin: auto;
+  }
+
 .homepage-list a:hover {
   color: $darkpink;
   border-bottom: solid 3pt;
 }
+
 
 .homepage-h1 {
   color: $darkpink;
@@ -809,6 +904,17 @@ input {
   .prep-para {
     padding-top: 2em;
   }
+
+  .join-words {
+    padding: 2%;
+    margin-top: 4em;
+  }
+
+  .join-icon {
+    width: 8em;
+    left: calc(50% - 4em);
+    margin-top: 0;
+  }
 }
 
 
@@ -819,6 +925,31 @@ input {
   text-align: center;
   color: $white;
 }
+
+     .hidden-nav {
+        display: block;
+        position: absolute;
+        left: 20px;
+        top: 0;
+        padding-left: 20px;
+     }
+
+    #toggle-nav-label {
+        display: inline-block;
+        width: 9rem;
+        font-size: 20px;
+        text-align: left;
+        padding-left: 8px;
+    }
+
+    #toggle-nav:checked ~ #toggle-nav-label .plus {
+    transform: rotate(45deg);
+        position: absolute;
+    }
+
+    .bio-info {
+      max-width: 40em;
+    }
 
 .form-back {
   background: url(../images/banner-images/header-signup.jpg);
@@ -838,6 +969,7 @@ textarea {
   width: 70%;
 
 }
+
 
 textarea {
   height: auto;
@@ -883,7 +1015,7 @@ input {
     padding-bottom: 2rem;
 }
 
-    
+
 
 
 /* Custom dropdown */
@@ -1456,15 +1588,15 @@ input {
 .press-btns {
     padding: 20px;
 
-    position: static;      
+    position: static;
 }
-    
-    
+
+
     .prep-event{
     background-size: 100%;
     height: 7em;
     width: 7em;
-        
+
 }
 
 
@@ -1570,6 +1702,9 @@ input {
 
 }
 }
+}
+
+
 
 
 
