@@ -1,5 +1,5 @@
 @mixin btn-design {
-    background-color: $darkteal; 
+    background-color: $darkteal;
     line-height: 35px;
     text-align: center;
     width: 5rem;
@@ -10,8 +10,9 @@
   }
 }
 
+
 @mixin btn-shop-design {
-    background-color: $darkteal; 
+    background-color: $darkteal;
     line-height: 35px;
     text-align: center;
     width: 7rem;
@@ -21,3 +22,15 @@
 
   }
 }
+
+@mixin homepage-btn {
+	  background-color: $darkteal;
+    line-height: 40px;
+    text-align: center;
+    width: 12em;
+    color: $lightgrey;
+    &:hover {
+    background-color: $golden;
+	}
+}
+

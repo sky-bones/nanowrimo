@@ -56,9 +56,6 @@ img {
 .light-grey {
     background-color: $lightgrey;
 }
-    
-
-
 
 
 
@@ -308,6 +305,8 @@ li {
     margin-top: 1rem;
 }
 
+
+
 .nav-icon {
     width: 70%;
     display: block;
@@ -319,21 +318,36 @@ li {
     margin-top: 5rem;
 }
 
-.join-icon {
+.donate-skip {
+    padding: 2rem;
+}
+
+.join-icon-2 {
     margin-top: 5rem;
 }
 
 
 /* BODY */
 
-.content {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 2rem;
-}
+
 
 
 /* Prep */
+
+
+
+
+.prep-lists {
+    padding-left: 1.3em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    transition: all 200ms ease-in-out;
+}
+
+.prep-lists li:hover {
+    color: $darkpink;
+
+}
 
 .prep-title {
     color:$darkpink;
@@ -365,7 +379,7 @@ li {
     width: 7em;
 }
 
-.prep-event-one:hover { 
+.prep-event-one:hover {
     opacity: .5;
    background-image: url(../images/thumbnail-pictures/event-3.jpg);
 }
@@ -378,7 +392,7 @@ li {
     padding-left: 1.3em;
     padding-right: 2em;
     padding-bottom: 2em;
-    transition: all 200ms ease-in-out; 
+    transition: all 200ms ease-in-out;
 }
 
 .prep-lists li:hover{
@@ -388,51 +402,51 @@ li {
 .prep-event{
     background-size: 100%;
     height: 7em;
-    width: 7em; 
+    width: 7em;
 }
 
 .prep-event1{
-    background-image:  url(../images/thumbnail-pictures/event-1.jpg); 
+    background-image:  url(../images/thumbnail-pictures/event-1.jpg);
 }
 
 .prep-event1:hover{
-    background-image:  url(../images/thumbnail-pictures/event-1-hover.jpg); 
+    background-image:  url(../images/thumbnail-pictures/event-1-hover.jpg);
 }
 
 .prep-event2{
-    background-image:  url(../images/thumbnail-pictures/event-2.jpg); 
+    background-image:  url(../images/thumbnail-pictures/event-2.jpg);
 }
 
 .prep-event2:hover{
-    background-image:  url(../images/thumbnail-pictures/event-2-hover.jpg); 
+    background-image:  url(../images/thumbnail-pictures/event-2-hover.jpg);
 }
 
 .prep-event3{
-    background-image:  url(../images/thumbnail-pictures/event-3.jpg); 
+    background-image:  url(../images/thumbnail-pictures/event-3.jpg);
 }
 
 .prep-event3:hover{
-    background-image:  url(../images/thumbnail-pictures/event-3-hover.jpg); 
+    background-image:  url(../images/thumbnail-pictures/event-3-hover.jpg);
 }
 
 .prep-event4{
-    background-image:  url(../images/thumbnail-pictures/event-4.jpg); 
+    background-image:  url(../images/thumbnail-pictures/event-4.jpg);
 }
 
 .prep-event4:hover{
-    background-image:  url(../images/thumbnail-pictures/event-4-hover.jpg); 
+    background-image:  url(../images/thumbnail-pictures/event-4-hover.jpg);
 }
 
 .prep-event5{
-    background-image:  url(../images/thumbnail-pictures/event-5.jpg); 
+    background-image:  url(../images/thumbnail-pictures/event-5.jpg);
 }
 
 .prep-event5:hover{
-    background-image:  url(../images/thumbnail-pictures/event-5-hover.jpg); 
+    background-image:  url(../images/thumbnail-pictures/event-5-hover.jpg);
 }
 
 .prep-event6{
-    background-image:  url(../images/thumbnail-pictures/event-3.jpg); 
+    background-image:  url(../images/thumbnail-pictures/event-3.jpg);
 }
 
 .prep-event6:hover{
@@ -457,6 +471,10 @@ li {
 
 /* FOOTER */
 
+
+.foot-layout {
+  margin-bottom: 0;
+}
 
 .back-top {
     text-align: center;
@@ -498,7 +516,7 @@ li {
 }
 
 .social-btns:hover  {
-    background-color: $golden;     
+    background-color: $golden;
 }
 
 li.social-btns {
@@ -546,10 +564,6 @@ footer {
 
 /* SIGN UP */
 
-.join-icon-2 {
-  z-index: 99;
-}
-
 .join-words {
   padding: 5%;
 }
@@ -574,6 +588,7 @@ input + label {
   color: $darkteal;
 }
 
+
 .join-form h2 {
   text-align: center;
   color: $white;
@@ -585,7 +600,7 @@ input + label {
 }
 
 .join-form {
-  color: $white; 
+  color: $white;
   text-align: center;
 }
 
@@ -729,6 +744,41 @@ input {
     padding-left: 8px;
 }
 
+/* HOMEPAGE */
+
+.homepage-icon {
+    padding-top: 1.5em;
+}
+
+.homepage-grey {
+  background-color: $lightgrey;
+}
+
+.homepage-pressinfo-list {
+  padding-left: 0px;
+  padding-right: 5px;
+  font-style: italic;
+}
+
+.homepage-list a{
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  color: $darkteal;
+}
+
+.homepage-list a:hover {
+  color: $darkpink;
+  border-bottom: solid 3pt;
+}
+
+.homepage-h1 {
+  color: $darkpink;
+}
+
+.homepage-btn {
+  @include homepage-btn;
+}
 
 @media only screen and (min-width: 25em) {
 
@@ -736,19 +786,310 @@ input {
     padding-top: 2em;
 }
 
-  
-    
+
+
 }
 
 @media only screen and (min-width: 38em) {
-      
 
-    
+
+.join-form h2 {
+  text-align: center;
+  color: $white;
+}
+
+.form-back {
+  background: url(../images/banner-images/header-signup.jpg);
+  padding-top: 1em;
+}
+
+.join-form {
+  color: $white;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  padding: 0.75em;
+  width: 70%;
+
+}
+
+textarea {
+  height: auto;
+  border-radius: 8px;
+}
+
+
+
   .plus  {
     font-size: 40px;
   }
 
-    
+
+
+.signup-btn {
+  padding: 0.5em 2em;
+  color: $black;
+  background-color: $white;
+  font-size: 1.25em;
+}
+
+.signup-btn:hover {
+  color: $white;
+  background-color: $darkpink;
+}
+
+input {
+  font-size: 0.75em;
+  border-radius: 5px;
+}
+
+.join-us {
+    background-color: $opacgrey;
+    padding: 1rem;
+}
+
+.join-us-info {
+    padding: 20px;
+}
+
+.test-body {
+    max-width: 50rem;
+    display: block;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+
+
+
+/* Custom dropdown */
+.container {
+  margin: 80px auto;
+  width: 400px;
+  text-align: center;
+}
+
+.container > .dropdown {
+  margin: 0 20px;
+  vertical-align: top;
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  height: 2em;
+  width: 7em;
+  background: $golden;
+  border-radius: 3px;
+}
+
+.dropdown:before, .dropdown:after {
+  content: '';
+  position: absolute;
+  z-index: 2;
+  top: 9px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 4px dashed;
+  pointer-events: none;
+}
+
+.dropdown:before {
+  border-bottom-style: solid;
+  border-top: none;
+}
+
+.dropdown:after {
+  margin-top: 7px;
+  xpadding-left: 7px;
+  border-top-style: solid;
+  border-bottom: none;
+}
+
+.dropdown-select {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 6px 8px 6px 10px;
+  height: 28px;
+  line-height: 14px;
+  font-size: 12px;
+  color: $black;
+  background: $golden;
+  border: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+.dropdown-select:focus {
+  z-index: 3;
+  width: 100%;
+  color: $white;
+  outline-offset: -2px;
+}
+
+
+/* FAQ */
+
+.thanks {
+    background-color: $opacgrey;
+}
+
+.mission {
+    color: $darkteal;
+    margin-top: 2rem;
+}
+
+.mission h2 {
+    line-height: 30px;
+}
+
+.mission-pic {
+    border: 6px solid;
+}
+
+.page-titles {
+
+}
+
+.faq-title {
+    background-image: url(../images/banner-images/header-FAQ.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.main-title {
+    font-size: 100px;
+    font-family: $fonty;
+    color: $white;
+    text-align: center;
+    padding-top: 16rem;
+    line-height: 120px;
+}
+
+.down-arrow {
+    color: $white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 6rem;
+}
+
+
+
+
+
+
+/* TESTIMONIAL CAROUSEL */
+
+.slider {
+    padding: 20px;
+}
+
+.slider-item {
+    padding: 8px;
+}
+
+.slider-item h5 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    font-size: 17px;
+    color: $darkpink;
+
+}
+
+.slider-item p {
+    font-size: 12px;
+    color: $darkteal;
+
+}
+
+.slider-item img {
+    border: solid 4px $black;
+}
+
+.slider-item img:hover {
+    border: solid 4px $darkpink;
+}
+
+.slider h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    color: $darkteal;
+    padding-left: 8px;
+}
+
+
+
+/* FAQ CAROUSEL */
+
+
+.faq-content {
+    margin: 20px;
+}
+
+.filter-list li {
+    font-size: 14px;
+    color: $white;
+    line-height: 24px;
+}
+
+.filter-list {
+
+}
+
+.slider-sidebar {
+    background-color: $darkteal;
+    padding-top: 20px;
+}
+
+.slider-sidebar p {
+   padding-left: 20px;
+    font-weight: 500;
+    color: $white;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.filter-title {
+    color: $darkteal;
+}
+
+.top-faq {
+       margin: 0;
+   }
+
+.question {
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 2px;
+}
+
+     .answer {
+        color: $grey;
+    }
+
+    .answer:hover {
+        color: $opacdteal;
+    }
+
+
+
+
+@media only screen and (min-width: 38em) {
+
+  .plus  {
+    font-size: 40px;
+  }
+
+
+
   .footer-nav {
       display: block;
       margin: auto;
@@ -759,7 +1100,7 @@ input {
       margin: 0 auto;
       margin-top: 3rem;
   }
-    
+
   .uname,
   .e-mail,
   .pword,
@@ -767,43 +1108,65 @@ input {
     display: inline-block;
     width: 40%;
   }
-  
+
   input[type="text"],
   input[type="email"],
   input[type="password"],
   textarea {
     width: 90%;
   }
-  
+
   .uname,
   .pword,
   .c-dropdown {
     text-align: right;
     margin-right: 10px;
   }
-  
+
   .e-mail,
   .cpword,
   .r-dropdown {
     text-align: left;
     margin-left: 10px;
   }
-  
+
   .uname,
   .e-mail {
     margin-bottom: 1em;
   }
 
+
+   .top-faq {
+    margin-top: 53px;
 }
 
+    .filter-list {
+    margin-bottom: 0;
+    }
+
+
+}
+
+
+
 @media only screen and (min-width: 60em) {
-    
+
+
     .prep-event{
     background-size: 100%;
     height: 7em;
-    width: 7em; 
+    width: 7em;
 }
-    
+
+    .prep-intro-para {
+        padding-right: 33.3%;
+    }
+    .prep-para-event {
+        padding-top: 20em;
+    }
+
+
+
     .prep-intro-para {
         padding-right: 33.3%;
     }
@@ -814,7 +1177,8 @@ input {
     .form-back {
         padding-top: 9em;
     }
-  
+
+
     .skip-title {
         margin-top: 80px;
     }
@@ -860,24 +1224,35 @@ input {
 .donate-icon {
         padding-top: 4rem;
     }
-    
+
 .acro-mark-top{
     display: none;
 }
-}
 
 
-@media only screen and (min-width: 80em){
-        .prep-event{
-    background-size: 100%;
-    height: 10em;
-    width: 10em; 
-}
-}
-
-/* media query ends */
 
 .foot-layout {
   margin-bottom: 0;
 }
+}
+
+@media only screen and (min-width: 80em) {
+        .prep-event{
+    background-size: 100%;
+    height: 10em;
+    width: 10em;
+}
+
+
+
+.prep-event-one:hover {
+    opacity: .5;
+   background-image: url(../images/thumbnail-pictures/event-3.jpg);
+
+}
+
+}
+
+}
+
 
