@@ -162,7 +162,20 @@ h1 {
   position: relative;
 }
 
-.donate-form {
+.form-wrap-donate {
+  background-color: #e6e6e6;
+}
+
+h2 {
+  color: #dd1945;
+}
+
+.full-form {
+  display: block;
+  margin: auto;
+  width: 90%;
+  height: 45rem;
+  padding-top: 2rem;
   background-color: #e6e6e6;
 }
 
@@ -371,6 +384,17 @@ li {
   padding-bottom: .5rem;
 }
 
+.cf-join-icon {
+  padding: 7em 0 0;
+  width: 18em;
+  display: block;
+  margin: auto;
+}
+
+.joining-words {
+  padding-top: 0;
+}
+
 .donate-btn {
   display: block;
   margin: auto;
@@ -392,7 +416,11 @@ li {
   padding: 2rem;
 }
 
-.join-icon-2 {
+.cc-stuff {
+  max-width: 35em;
+}
+
+.join-icon {
   margin-top: 5rem;
 }
 
@@ -446,7 +474,9 @@ li {
 
 /* Prep */
 .prep-resource-image {
-  align-content: left;
+  -webkit-align-content: left;
+      -ms-flex-line-pack: left;
+          align-content: left;
 }
 
 .prep-lists {
@@ -585,6 +615,94 @@ li {
 
 .shop-item:hover {
   opacity: .5;
+}
+
+/* SIGN IN */
+.si-uname,
+.si-pword {
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.signin {
+  text-align: center;
+  left: 50%;
+}
+
+.signin-box {
+  background-image: url(../images/banner-images/header-donate.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 25em;
+  max-height: 30em;
+}
+
+.signin-wrapper {
+  display: block;
+  margin: auto;
+}
+
+.signin h2 {
+  color: #fff;
+  text-align: center;
+}
+
+.forgot {
+  color: #fff;
+}
+
+.form-donate-btn a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.25em;
+}
+
+.donate-intro {
+  background-color: rgba(230, 230, 230, 0.2);
+}
+
+.form-donate-btn {
+  padding: 0.5em 2em;
+  background-color: #dd1945;
+  display: block;
+  margin: auto;
+  width: 10rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.form-donate-btn-2 {
+  padding: 0.5em 2em;
+  background-color: #dd1945;
+  display: block;
+  margin: auto;
+  width: 10rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.form-donate-btn-2 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.donate-words {
+  max-width: 40em;
+}
+
+.donate-book {
+  display: block;
+  margin: auto;
+  padding: 2em 0;
+}
+
+.form-donate-btn:hover {
+  background-color: #005352;
+}
+
+.si-btn {
+  text-decoration: none;
+  font-weight: bold;
 }
 
 /* FOOTER */
@@ -726,8 +844,7 @@ input + label {
 
 input[type="text"],
 input[type="email"],
-input[type="password"],
-textarea {
+input[type="password"] {
   padding: 0.75em;
   width: 70%;
 }
@@ -898,6 +1015,32 @@ input {
     font-weight: bold;
     color: #005352;
   }
+  .prep-para {
+    padding-top: 2em;
+  }
+  .join-words {
+    padding: 2%;
+    margin-top: 4em;
+  }
+  .join-icon {
+    width: 8em;
+    left: calc(50% - 4em);
+    margin-top: 0;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+  .full-form {
+    width: 50%;
+  }
+  .plus {
+    font-size: 40px;
+  }
+  .si-uname,
+  .si-pword {
+    margin-left: 30vw;
+    margin-right: 30vw;
+  }
   .facts {
     margin-top: 4em;
   }
@@ -924,22 +1067,7 @@ input {
   }
 }
 
-@media only screen and (min-width: 25em) and (min-width: 25em) {
-  .prep-para {
-    padding-top: 2em;
-  }
-  .join-words {
-    padding: 2%;
-    margin-top: 4em;
-  }
-  .join-icon {
-    width: 8em;
-    left: calc(50% - 4em);
-    margin-top: 0;
-  }
-}
-
-@media only screen and (min-width: 25em) and (min-width: 38em) {
+@media only screen and (min-width: 38em) and (min-width: 38em) {
   .join-form h2 {
     text-align: center;
     color: #fff;
@@ -1309,6 +1437,12 @@ input {
   .under-nav .mission-pic {
     border: 6px solid;
   }
+  .under-nav .donate-icon {
+    padding-top: 4rem;
+  }
+  .under-nav .acro-mark-top {
+    display: none;
+  }
   .under-nav .faq-title {
     background-image: url(../images/banner-images/header-FAQ.jpg);
     background-size: cover;
@@ -1443,7 +1577,7 @@ input {
   }
 }
 
-@media only screen and (min-width: 25em) and (min-width: 38em) and (min-width: 60em) {
+@media only screen and (min-width: 38em) and (min-width: 60em) {
   .press-btns {
     padding: 20px;
     position: static;
@@ -1515,7 +1649,7 @@ input {
   }
 }
 
-@media only screen and (min-width: 25em) and (min-width: 38em) and (min-width: 80em) {
+@media only screen and (min-width: 38em) and (min-width: 80em) {
   .prep-event {
     background-size: 100%;
     height: 10em;
