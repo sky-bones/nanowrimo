@@ -150,7 +150,20 @@ h1 {
   position: relative;
 }
 
-.donate-form {
+.form-wrap-donate {
+    background-color: $lightgrey;
+}
+
+h2 {
+  color: $darkpink;
+}
+
+.full-form {
+  display: block;
+  margin: auto;
+  width: 90%;
+  height: 45rem;
+  padding-top: 2rem;
   background-color: $lightgrey;
 }
 
@@ -370,6 +383,16 @@ li {
     padding-bottom: .5rem;
 }
 
+.cf-join-icon {
+  padding: 7em 0 0;
+  width: 18em;
+  display: block;
+  margin: auto;
+}
+
+.joining-words {
+  padding-top: 0;
+}
 
 .donate-btn {
     display: block;
@@ -386,6 +409,10 @@ li {
 
 .donate-icon {
     margin-top: 5rem;
+}
+
+.cc-stuff {
+  max-width: 35em; 
 }
 
 .join-icon {
@@ -434,6 +461,42 @@ li {
 
 .forgot {
   color: $white;
+}
+
+
+
+.form-donate-btn a{
+  color: $white;
+  text-decoration: none;
+    font-size: 1.25em;
+}
+
+.donate-intro {
+  background-color: $opacgrey;
+}
+
+.form-donate-btn {
+  padding: 0.5em 2em;
+  background-color: $darkpink;
+  display: block;
+  margin: auto;
+  width: 10rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.donate-words {
+  max-width: 40em;
+}
+
+.donate-book {
+  display: block;
+  margin: auto;
+  padding: 2em 0;
+}
+
+.form-donate-btn:hover {
+ background-color: $darkteal
 }
 
 .si-btn {
@@ -732,6 +795,12 @@ input {
 
 @media only screen and (min-width: 38em) {
   
+  .full-form {
+
+  width: 50%;
+
+}
+  
   .plus  {
     font-size: 40px;
   }
@@ -864,8 +933,8 @@ input {
 }
 
 .donate-icon {
-        padding-top: 4rem;
-    }
+    padding-top: 4rem;
+}
     
 .acro-mark-top{
     display: none;

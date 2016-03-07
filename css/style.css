@@ -146,7 +146,20 @@ h1 {
   position: relative;
 }
 
-.donate-form {
+.form-wrap-donate {
+  background-color: #e6e6e6;
+}
+
+h2 {
+  color: #dd1945;
+}
+
+.full-form {
+  display: block;
+  margin: auto;
+  width: 90%;
+  height: 45rem;
+  padding-top: 2rem;
   background-color: #e6e6e6;
 }
 
@@ -355,6 +368,17 @@ li {
   padding-bottom: .5rem;
 }
 
+.cf-join-icon {
+  padding: 7em 0 0;
+  width: 18em;
+  display: block;
+  margin: auto;
+}
+
+.joining-words {
+  padding-top: 0;
+}
+
 .donate-btn {
   display: block;
   margin: auto;
@@ -370,6 +394,10 @@ li {
 
 .donate-icon {
   margin-top: 5rem;
+}
+
+.cc-stuff {
+  max-width: 35em;
 }
 
 .join-icon {
@@ -415,6 +443,40 @@ li {
 
 .forgot {
   color: #fff;
+}
+
+.form-donate-btn a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.25em;
+}
+
+.donate-intro {
+  background-color: rgba(230, 230, 230, 0.2);
+}
+
+.form-donate-btn {
+  padding: 0.5em 2em;
+  background-color: #dd1945;
+  display: block;
+  margin: auto;
+  width: 10rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.donate-words {
+  max-width: 40em;
+}
+
+.donate-book {
+  display: block;
+  margin: auto;
+  padding: 2em 0;
+}
+
+.form-donate-btn:hover {
+  background-color: #005352;
 }
 
 .si-btn {
@@ -697,6 +759,9 @@ input {
 }
 
 @media only screen and (min-width: 38em) {
+  .full-form {
+    width: 50%;
+  }
   .plus {
     font-size: 40px;
   }
