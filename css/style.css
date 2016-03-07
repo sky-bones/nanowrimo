@@ -62,8 +62,17 @@ img {
   background-color: #e6e6e6;
 }
 
-.banner {
-  background-image: url(../images/header.jpg);
+.banner-home {
+  background-image: url(../images/banner-images/header-home.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: #fff;
+  margin-top: 60px;
+  padding-bottom: 3rem;
+}
+
+.banner-donate {
+  background-image: url(../images/banner-images/header-donate.jpg);
   background-size: cover;
   background-position: center;
   background-color: #fff;
