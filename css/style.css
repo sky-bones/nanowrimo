@@ -386,6 +386,21 @@ li {
 
 /* BODY */
 /*Blog*/
+.blog-arrow-key {
+  font-size: 2em;
+  padding-top: .25em;
+  padding-right: .25em;
+  padding-left: .125em;
+  background-color: #73dad2;
+  border-radius: 100%;
+  color: white;
+}
+
+.blog-arrow-key:hover {
+  background-color: #fdc46e;
+  color: #005352;
+}
+
 .blog-tag {
   color: black;
 }
@@ -398,6 +413,23 @@ li {
 .blog-category:hover {
   color: #dd1945;
   text-decoration: underline;
+}
+
+.blog-icon {
+  color: #808080;
+  padding-right: .5em;
+}
+
+.blog-search-bar {
+  background-color: #e6e6e6;
+  padding: .5em;
+  border: 1px solid #808080;
+  border-radius: 2px;
+  color: #808080;
+}
+
+.blog-padding {
+  padding-right: 10em;
 }
 
 /* Prep */
