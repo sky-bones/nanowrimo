@@ -413,7 +413,21 @@ li {
 
 /* BODY */
 
+/*Blog*/
 
+.blog-tag {
+    color: black;
+}
+
+.blog-category {
+    color: black;
+    line-height: 1.5em;
+}
+
+.blog-category:hover{
+    color: $darkpink;
+    text-decoration: underline;
+}
 
 /* Prep */
 
@@ -431,6 +445,7 @@ li {
 
 .prep-title {
     color:$darkpink;
+    line-height: 1.25em;
 }
 
 .prep-subtitle {

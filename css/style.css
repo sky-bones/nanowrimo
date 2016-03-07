@@ -385,6 +385,21 @@ li {
 }
 
 /* BODY */
+/*Blog*/
+.blog-tag {
+  color: black;
+}
+
+.blog-category {
+  color: black;
+  line-height: 1.5em;
+}
+
+.blog-category:hover {
+  color: #dd1945;
+  text-decoration: underline;
+}
+
 /* Prep */
 .prep-lists {
   padding-left: 1.3em;
@@ -399,6 +414,7 @@ li {
 
 .prep-title {
   color: #dd1945;
+  line-height: 1.25em;
 }
 
 .prep-subtitle {
