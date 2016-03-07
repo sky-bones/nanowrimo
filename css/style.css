@@ -137,7 +137,7 @@ li {
   left: 20px;
   top: 30px;
   height: 30rem;
-  background: rgba(0, 83, 82, 0.8);
+  background: rgba(0, 83, 82, 0.9);
   transition: all 0.3s ease-in-out;
 }
 
@@ -152,11 +152,6 @@ li {
   padding-left: 20px;
   transform: scale(2);
   transition: all 0.3s ease-in-out;
-}
-
-#menu li {
-  display: block;
-  margin-bottom: 20px;
 }
 
 #menu li a {
@@ -200,7 +195,8 @@ li {
   padding-left: 15px;
 }
 
-#menu li a i {
+.nav-link {
+  margin-bottom: 20px;
   margin-right: 5px;
   font-size: 24px;
 }
@@ -209,7 +205,12 @@ li {
   display: none;
 }
 
+.box {
+  display: none;
+}
+
 #toggle-nav:checked ~ .box {
+  display: block;
   opacity: 1;
   z-index: 400;
 }
@@ -888,12 +889,21 @@ input {
   .mission-pic {
     border: 6px solid;
   }
-  .faq-title {
+  .under-nav {
+    height: 95px;
+    /* TESTIMONIAL CAROUSEL */
+    /* FAQ CAROUSEL */
+    /* Custom dropdown */
+    /* FAQ */
+    /* TESTIMONIAL CAROUSEL */
+    /* FAQ CAROUSEL */
+  }
+  .under-nav .faq-title {
     background-image: url(../images/banner-images/header-FAQ.jpg);
     background-size: cover;
     height: 100vh;
   }
-  .main-title {
+  .under-nav .main-title {
     font-size: 100px;
     font-family: "Satisfy", cursive;
     color: #fff;
@@ -901,144 +911,141 @@ input {
     padding-top: 16rem;
     line-height: 120px;
   }
-  .down-arrow {
+  .under-nav .down-arrow {
     color: #fff;
     font-size: 50px;
     text-align: center;
     padding-top: 6rem;
   }
-  /* TESTIMONIAL CAROUSEL */
-  .slider {
+  .under-nav .slider {
     padding: 20px;
   }
-  .slider-item {
+  .under-nav .slider-item {
     padding: 8px;
   }
-  .slider-item h5 {
+  .under-nav .slider-item h5 {
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 0;
     font-size: 17px;
     color: #dd1945;
   }
-  .slider-item p {
+  .under-nav .slider-item p {
     font-size: 12px;
     color: #005352;
   }
-  .slider-item img {
+  .under-nav .slider-item img {
     border: solid 4px #000;
   }
-  .slider-item img:hover {
+  .under-nav .slider-item img:hover {
     border: solid 4px #dd1945;
   }
-  .slider h3 {
+  .under-nav .slider h3 {
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 0;
     color: #005352;
     padding-left: 8px;
   }
-  /* FAQ CAROUSEL */
-  .faq-content {
+  .under-nav .faq-content {
     margin: 20px;
   }
-  .filter-list li {
+  .under-nav .filter-list li {
     font-size: 14px;
     color: #fff;
     line-height: 24px;
   }
-  .slider-sidebar {
+  .under-nav .slider-sidebar {
     background-color: #005352;
     padding-top: 20px;
   }
-  .slider-sidebar p {
+  .under-nav .slider-sidebar p {
     padding-left: 20px;
     font-weight: 500;
     color: #fff;
     font-size: 16px;
     letter-spacing: 1px;
   }
-  .filter-title {
+  .under-nav .filter-title {
     color: #005352;
   }
-  .top-faq {
+  .under-nav .top-faq {
     margin: 0;
   }
-  .question {
+  .under-nav .question {
     font-weight: 600;
     margin: 0;
     padding-bottom: 2px;
   }
-  .answer {
+  .under-nav .answer {
     color: #808080;
   }
-  .answer:hover {
-    color: rgba(0, 83, 82, 0.8);
+  .under-nav .answer:hover {
+    color: rgba(0, 83, 82, 0.9);
   }
-  .join-form h2 {
+  .under-nav .join-form h2 {
     text-align: center;
     color: #fff;
   }
-  .form-back {
+  .under-nav .form-back {
     background: url(../images/banner-images/header-signup.jpg);
     padding-top: 1em;
   }
-  .join-form {
+  .under-nav .join-form {
     color: #fff;
     text-align: center;
   }
-  input[type="text"],
-  input[type="email"],
-  input[type="password"],
-  textarea {
+  .under-nav input[type="text"],
+  .under-nav input[type="email"],
+  .under-nav input[type="password"],
+  .under-nav textarea {
     padding: 0.75em;
     width: 70%;
   }
-  textarea {
+  .under-nav textarea {
     height: auto;
     border-radius: 8px;
   }
-  .plus {
+  .under-nav .plus {
     font-size: 40px;
   }
-  .signup-btn {
+  .under-nav .signup-btn {
     padding: 0.5em 2em;
     color: #000;
     background-color: #fff;
     font-size: 1.25em;
   }
-  .signup-btn:hover {
+  .under-nav .signup-btn:hover {
     color: #fff;
     background-color: #dd1945;
   }
-  input {
+  .under-nav input {
     font-size: 0.75em;
     border-radius: 5px;
   }
-  .join-us {
+  .under-nav .join-us {
     background-color: rgba(230, 230, 230, 0.2);
     padding: 1rem;
   }
-  .join-us-info {
+  .under-nav .join-us-info {
     padding: 20px;
   }
-  .test-body {
+  .under-nav .test-body {
     max-width: 50rem;
     display: block;
     margin: auto;
     padding-bottom: 2rem;
   }
-  /* Custom dropdown */
-  .container {
+  .under-nav .container {
     margin: 80px auto;
     width: 400px;
     text-align: center;
   }
-  .container > .dropdown {
+  .under-nav .container > .dropdown {
     margin: 0 20px;
     vertical-align: top;
   }
-  .dropdown {
+  .under-nav .dropdown {
     display: inline-block;
     position: relative;
     overflow: hidden;
@@ -1047,7 +1054,7 @@ input {
     background: #fdc46e;
     border-radius: 3px;
   }
-  .dropdown:before, .dropdown:after {
+  .under-nav .dropdown:before, .under-nav .dropdown:after {
     content: '';
     position: absolute;
     z-index: 2;
@@ -1058,17 +1065,17 @@ input {
     border: 4px dashed;
     pointer-events: none;
   }
-  .dropdown:before {
+  .under-nav .dropdown:before {
     border-bottom-style: solid;
     border-top: none;
   }
-  .dropdown:after {
+  .under-nav .dropdown:after {
     margin-top: 7px;
     xpadding-left: 7px;
     border-top-style: solid;
     border-bottom: none;
   }
-  .dropdown-select {
+  .under-nav .dropdown-select {
     position: relative;
     width: 100%;
     margin: 0;
@@ -1082,32 +1089,31 @@ input {
     border-radius: 0;
     -webkit-appearance: none;
   }
-  .dropdown-select:focus {
+  .under-nav .dropdown-select:focus {
     z-index: 3;
     width: 100%;
     color: #fff;
     outline-offset: -2px;
   }
-  /* FAQ */
-  .thanks {
+  .under-nav .thanks {
     background-color: rgba(230, 230, 230, 0.2);
   }
-  .mission {
+  .under-nav .mission {
     color: #005352;
     margin-top: 2rem;
   }
-  .mission h2 {
+  .under-nav .mission h2 {
     line-height: 30px;
   }
-  .mission-pic {
+  .under-nav .mission-pic {
     border: 6px solid;
   }
-  .faq-title {
+  .under-nav .faq-title {
     background-image: url(../images/banner-images/header-FAQ.jpg);
     background-size: cover;
     height: 100vh;
   }
-  .main-title {
+  .under-nav .main-title {
     font-size: 100px;
     font-family: "Satisfy", cursive;
     color: #fff;
@@ -1115,130 +1121,128 @@ input {
     padding-top: 16rem;
     line-height: 120px;
   }
-  .down-arrow {
+  .under-nav .down-arrow {
     color: #fff;
     font-size: 50px;
     text-align: center;
     padding-top: 6rem;
   }
-  /* TESTIMONIAL CAROUSEL */
-  .slider {
+  .under-nav .slider {
     padding: 20px;
   }
-  .slider-item {
+  .under-nav .slider-item {
     padding: 8px;
   }
-  .slider-item h5 {
+  .under-nav .slider-item h5 {
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 0;
     font-size: 17px;
     color: #dd1945;
   }
-  .slider-item p {
+  .under-nav .slider-item p {
     font-size: 12px;
     color: #005352;
   }
-  .slider-item img {
+  .under-nav .slider-item img {
     border: solid 4px #000;
   }
-  .slider-item img:hover {
+  .under-nav .slider-item img:hover {
     border: solid 4px #dd1945;
   }
-  .slider h3 {
+  .under-nav .slider h3 {
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 0;
     color: #005352;
     padding-left: 8px;
   }
-  /* FAQ CAROUSEL */
-  .faq-content {
+  .under-nav .faq-content {
     margin: 20px;
   }
-  .filter-list li {
+  .under-nav .filter-list li {
     font-size: 14px;
     color: #fff;
     line-height: 24px;
   }
-  .slider-sidebar {
+  .under-nav .slider-sidebar {
     background-color: #005352;
     padding-top: 20px;
   }
-  .slider-sidebar p {
+  .under-nav .slider-sidebar p {
     padding-left: 20px;
     font-weight: 500;
     color: #fff;
     font-size: 16px;
     letter-spacing: 1px;
   }
-  .filter-title {
+  .under-nav .filter-title {
     color: #005352;
   }
-  .top-faq {
+  .under-nav .top-faq {
     margin: 0;
   }
-  .question {
+  .under-nav .question {
     font-weight: 600;
     margin: 0;
     padding-bottom: 2px;
   }
-  .answer {
+  .under-nav .answer {
     color: #808080;
   }
-  .answer:hover {
-    color: rgba(0, 83, 82, 0.8);
+  .under-nav .answer:hover {
+    color: rgba(0, 83, 82, 0.9);
   }
-  .plus {
+  .under-nav .plus {
     font-size: 40px;
   }
-  .footer-nav {
+  .under-nav .footer-nav {
     display: block;
     margin: auto;
   }
-  .footer-nav.grid {
+  .under-nav .footer-nav.grid {
     max-width: 500px;
     margin: 0 auto;
     margin-top: 3rem;
   }
-  .uname,
-  .e-mail,
-  .pword,
-  .cpword {
+  .under-nav .uname,
+  .under-nav .e-mail,
+  .under-nav .pword,
+  .under-nav .cpword {
     display: inline-block;
     width: 40%;
   }
-  input[type="text"],
-  input[type="email"],
-  input[type="password"],
-  textarea {
+  .under-nav input[type="text"],
+  .under-nav input[type="email"],
+  .under-nav input[type="password"],
+  .under-nav textarea {
     width: 90%;
   }
-  .uname,
-  .pword,
-  .c-dropdown {
+  .under-nav .uname,
+  .under-nav .pword,
+  .under-nav .c-dropdown {
     text-align: right;
     margin-right: 10px;
   }
-  .e-mail,
-  .cpword,
-  .r-dropdown {
+  .under-nav .e-mail,
+  .under-nav .cpword,
+  .under-nav .r-dropdown {
     text-align: left;
     margin-left: 10px;
   }
-  .uname,
-  .e-mail {
+  .under-nav .uname,
+  .under-nav .e-mail {
     margin-bottom: 1em;
   }
-  .top-faq {
+  .under-nav .top-faq {
     margin-top: 53px;
   }
-  .filter-list {
+  .under-nav .filter-list {
     margin-bottom: 0;
   }
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 38em) and (min-width: 60em) {
   .prep-event {
     background-size: 100%;
     height: 7em;
@@ -1267,11 +1271,11 @@ input {
     position: absolute;
     left: 20px;
     top: 0;
-    padding-left: 20px;
+    padding-left: 30px;
   }
   #toggle-nav-label {
     display: inline-block;
-    width: 9rem;
+    width: 10rem;
     font-size: 20px;
     text-align: left;
     padding-left: 8px;
@@ -1304,7 +1308,7 @@ input {
   }
 }
 
-@media only screen and (min-width: 80em) {
+@media only screen and (min-width: 38em) and (min-width: 80em) {
   .prep-event {
     background-size: 100%;
     height: 10em;
