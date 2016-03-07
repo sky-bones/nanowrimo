@@ -769,7 +769,7 @@ input {
   .filter-list li {
     font-size: 14px;
     color: #fff;
-    line-height: 22px;
+    line-height: 24px;
   }
   .slider-sidebar {
     background-color: #005352;
@@ -781,6 +781,20 @@ input {
     color: #fff;
     font-size: 16px;
     letter-spacing: 1px;
+  }
+  .filter-title {
+    color: #005352;
+  }
+  .question {
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 2px;
+  }
+  .answer {
+    color: #e6e6e6;
+  }
+  .answer:hover {
+    color: #000;
   }
 }
 

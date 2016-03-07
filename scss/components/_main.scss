@@ -859,7 +859,7 @@ input {
 .filter-list li {
     font-size: 14px;
     color: $white;
-    line-height: 22px;
+    line-height: 24px;
 }
     
 .filter-list {
@@ -879,6 +879,23 @@ input {
     letter-spacing: 1px;
 }
     
+.filter-title {
+    color: $darkteal;
+}
+    
+.question {
+    font-weight: 600;  
+    margin: 0;
+    padding-bottom: 2px;
+}
+ 
+.answer {
+    color: $lightgrey;
+}
+    
+.answer:hover {
+    color: $black;
+}
     
     
     
