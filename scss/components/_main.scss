@@ -15,6 +15,14 @@ img {
     width: 100%;
 }
 
+/*
+.default-lrg-screen {
+    max-width: 1200px;
+    margin:auto;
+}
+
+*/
+
 /* BANNER */
 
 .nav-bar {
@@ -413,9 +421,59 @@ li {
 
 /* BODY */
 
+/*Blog*/
 
+.blog-arrow-key{
+    font-size: 2em;
+    padding-top: .25em;
+    padding-right: .25em;
+    padding-left: .125em;
+    background-color: $lightteal;
+    border-radius: 100%;
+    color: white;
+}
+
+.blog-arrow-key:hover{
+    background-color: $golden;
+    color: $darkteal;
+}
+
+.blog-tag {
+    color: black;
+}
+
+.blog-category {
+    color: black;
+    line-height: 1.5em;
+}
+
+.blog-category:hover{
+    color: $darkpink;
+    text-decoration: underline;
+}
+
+.blog-icon{
+    color:$grey;
+    padding-right: .5em;
+}
+
+.blog-search-bar{
+    background-color: $lightgrey;
+    padding: .5em;
+    border: 1px solid $grey;
+    border-radius: 2px;
+    color: $grey;
+}
+
+.blog-padding{
+    padding-right: 10em;
+}
 
 /* Prep */
+
+.prep-resource-image{
+    align-content: left;
+}
 
 .prep-lists {
     padding-left: 1.3em;
@@ -431,6 +489,7 @@ li {
 
 .prep-title {
     color:$darkpink;
+    line-height: 1.25em;
 }
 
 .prep-subtitle {
