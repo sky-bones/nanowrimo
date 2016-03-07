@@ -15,6 +15,13 @@ img {
   width: 100%;
 }
 
+/*
+.default-lrg-screen {
+    max-width: 1200px;
+    margin:auto;
+}
+
+*/
 /* BANNER */
 .nav-bar {
   background-color: #73dad2;
@@ -222,7 +229,6 @@ li {
   width: 10rem;
   left: 20px;
   top: 30px;
-  height: 30rem;
   background: rgba(0, 83, 82, 0.9);
   transition: all 0.3s ease-in-out;
 }
@@ -236,7 +242,9 @@ li {
   top: 60px;
   padding-top: 30px;
   padding-left: 20px;
-  transform: scale(2);
+  -webkit-transform: scale(2);
+      -ms-transform: scale(2);
+          transform: scale(2);
   transition: all 0.3s ease-in-out;
 }
 
@@ -302,7 +310,9 @@ li {
 }
 
 #toggle-nav:checked ~ .box ul {
-  transform: scale(1);
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
 }
 
 #toggle-nav:checked ~ #toggle-nav-label {
@@ -311,7 +321,9 @@ li {
 }
 
 #toggle-nav:checked ~ #toggle-nav-label .plus {
-  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 
 #content {
@@ -413,7 +425,60 @@ li {
 }
 
 /* BODY */
+/*Blog*/
+.blog-arrow-key {
+  font-size: 2em;
+  padding-top: .25em;
+  padding-right: .25em;
+  padding-left: .125em;
+  background-color: #73dad2;
+  border-radius: 100%;
+  color: white;
+}
+
+.blog-arrow-key:hover {
+  background-color: #fdc46e;
+  color: #005352;
+}
+
+.blog-tag {
+  color: black;
+}
+
+.blog-category {
+  color: black;
+  line-height: 1.5em;
+}
+
+.blog-category:hover {
+  color: #dd1945;
+  text-decoration: underline;
+}
+
+.blog-icon {
+  color: #808080;
+  padding-right: .5em;
+}
+
+.blog-search-bar {
+  background-color: #e6e6e6;
+  padding: .5em;
+  border: 1px solid #808080;
+  border-radius: 2px;
+  color: #808080;
+}
+
+.blog-padding {
+  padding-right: 10em;
+}
+
 /* Prep */
+.prep-resource-image {
+  -webkit-align-content: left;
+      -ms-flex-line-pack: left;
+          align-content: left;
+}
+
 .prep-lists {
   padding-left: 1.3em;
   padding-right: 2em;
@@ -427,6 +492,7 @@ li {
 
 .prep-title {
   color: #dd1945;
+  line-height: 1.25em;
 }
 
 .prep-subtitle {
@@ -656,7 +722,7 @@ li {
 }
 
 .social-media {
-  padding-bottom: 5px;
+  padding-bottom: 3rem;
   width: 20em;
   position: relative;
   left: calc(50% - 7rem);
@@ -694,17 +760,27 @@ li.social-btns {
   color: #fff;
 }
 
-footer {
+.footer {
   background-color: #73dad2;
   overflow: hidden;
+  width: 100%;
 }
 
 .ftr-links {
   font-size: 12px;
 }
 
-.ftr-links li:hover {
-  opacity: .5;
+.ftr-title a {
+  color: #000;
+  text-decoration: none;
+}
+
+.ftr-title a:hover {
+  opacity: .8;
+}
+
+.ftr-title-no a:hover {
+  opacity: 1;
 }
 
 .acro-mark {
@@ -1011,7 +1087,9 @@ input {
     padding-left: 8px;
   }
   #toggle-nav:checked ~ #toggle-nav-label .plus {
-    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
     position: absolute;
   }
   .bio-info {
@@ -1457,7 +1535,7 @@ input {
     display: block;
     margin: auto;
   }
-  .under-nav .footer-nav.grid {
+  .under-nav .footer-nav .grid {
     max-width: 500px;
     margin: 0 auto;
     margin-top: 3rem;
@@ -1542,7 +1620,9 @@ input {
     padding-left: 8px;
   }
   #toggle-nav:checked ~ #toggle-nav-label .plus {
-    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
     position: absolute;
   }
   .full-mark {
@@ -1601,25 +1681,30 @@ input {
   display: -ms-flexbox;
   -ms-flex-flow: row wrap;
   display: flex;
-  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
 }
 
 .grid-bottom {
   -webkit-align-items: flex-end;
   -ms-align-items: flex-end;
-  align-items: flex-end;
+  -ms-flex-align: end;
+      align-items: flex-end;
 }
 
 .grid-middle {
   -webkit-align-items: center;
   -ms-align-items: center;
-  align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
 }
 
 .grid-stretch {
   -webkit-align-items: stretch;
   -ms-align-items: stretch;
-  align-items: stretch;
+  -ms-flex-align: stretch;
+      align-items: stretch;
 }
 
 .opera-only :-o-prefocus, .grid {
@@ -2375,7 +2460,8 @@ input {
 .content-fill {
   -ms-flex-grow: 2;
   -webkit-flex-grow: 2;
-  flex-grow: 2;
+  -ms-flex-positive: 2;
+      flex-grow: 2;
   max-width: 100%;
   /* @bugfix: IE 10, 11 */
 }
@@ -2383,7 +2469,8 @@ input {
 .content-shrink {
   -ms-align-self: center;
   -webkit-align-self: center;
-  align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
 }
 
 html {
