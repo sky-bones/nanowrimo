@@ -25,6 +25,11 @@ img {
 
 /* BANNER */
 
+.under-nav {
+    height: 95px;
+    
+}
+
 .nav-bar {
     background-color: $lightteal;
     height: 95px;
@@ -100,6 +105,11 @@ img {
     margin-top: 60px;
     padding-bottom: 3rem;
 
+}
+
+.push-bar {
+    background-color: $white;
+    height: 100vh;
 }
 
 
@@ -955,6 +965,61 @@ input {
 
 /* CAROUSEL */
 
+.slider-sidebar {
+    background-color: $darkteal;
+    padding-top: 20px;
+}
+
+.slider-sidebar p {
+   padding-left: 20px;
+    font-weight: 500;
+    color: $white;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+/* FAQ CAROUSEL */
+
+
+.faq-content {
+    margin: 20px;
+}
+
+.filter-list li {
+    font-size: 14px;
+    color: $white;
+    line-height: 24px;
+}
+
+.filter-list {
+    margin-bottom: 2rem;
+}
+
+.filter-title {
+    color: $darkteal;
+}
+
+.top-faq {
+       margin: 0;
+   }
+
+
+
+.question {
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 2px;
+}
+
+     .answer {
+        color: $grey;
+    }
+
+    .answer:hover {
+        color: $opacdteal;
+    }
+
+
 .slider {
     padding: 20px;
 }
@@ -1061,6 +1126,10 @@ input {
 
 
 @media only screen and (min-width: 38em) {
+    
+    .filter-list {
+    margin-bottom: 0;
+}
 
   .full-form {
 
@@ -1102,8 +1171,6 @@ input {
   @include homepage-btn;
 }
 
-
-@media only screen and (min-width: 38em) {
 
 .join-form h2 {
   text-align: center;
@@ -1294,9 +1361,6 @@ input {
 
 }
 
-.under-nav {
-    height: 95px;
-
 
 .faq-title {
     background-image: url(../images/banner-images/header-FAQ.jpg);
@@ -1366,57 +1430,6 @@ input {
 
 
 
-/* FAQ CAROUSEL */
-
-
-.faq-content {
-    margin: 20px;
-}
-
-.filter-list li {
-    font-size: 14px;
-    color: $white;
-    line-height: 24px;
-}
-
-.filter-list {
-
-}
-
-.slider-sidebar {
-    background-color: $darkteal;
-    padding-top: 20px;
-}
-
-.slider-sidebar p {
-   padding-left: 20px;
-    font-weight: 500;
-    color: $white;
-    font-size: 16px;
-    letter-spacing: 1px;
-}
-
-.filter-title {
-    color: $darkteal;
-}
-
-.top-faq {
-       margin: 0;
-   }
-
-.question {
-    font-weight: 600;
-    margin: 0;
-    padding-bottom: 2px;
-}
-
-     .answer {
-        color: $grey;
-    }
-
-    .answer:hover {
-        color: $opacdteal;
-    }
 
 
 .join-form h2 {
@@ -1671,20 +1684,7 @@ input {
 }
 
 .filter-list {
-
-}
-
-.slider-sidebar {
-    background-color: $darkteal;
-    padding-top: 20px;
-}
-
-.slider-sidebar p {
-   padding-left: 20px;
-    font-weight: 500;
-    color: $white;
-    font-size: 16px;
-    letter-spacing: 1px;
+    margin-bottom: auto;
 }
 
 .filter-title {
@@ -1770,7 +1770,6 @@ input {
     }
 
 
-}
 
 }
 
@@ -1891,19 +1890,4 @@ input {
     padding-bottom: 2em;
     transition: all 200ms ease-in-out;
 
-}
-
-}
-
-}
-
-
-
-
-
-
-
-
-
-
-
+}}

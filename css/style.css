@@ -23,6 +23,10 @@ img {
 
 */
 /* BANNER */
+.under-nav {
+  height: 95px;
+}
+
 .nav-bar {
   background-color: #73dad2;
   height: 95px;
@@ -102,6 +106,11 @@ img {
   background-color: #fff;
   margin-top: 60px;
   padding-bottom: 3rem;
+}
+
+.push-bar {
+  background-color: #fff;
+  height: 100vh;
 }
 
 .acro-mark-top {
@@ -915,6 +924,56 @@ input {
 }
 
 /* CAROUSEL */
+.slider-sidebar {
+  background-color: #005352;
+  padding-top: 20px;
+}
+
+.slider-sidebar p {
+  padding-left: 20px;
+  font-weight: 500;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+/* FAQ CAROUSEL */
+.faq-content {
+  margin: 20px;
+}
+
+.filter-list li {
+  font-size: 14px;
+  color: #fff;
+  line-height: 24px;
+}
+
+.filter-list {
+  margin-bottom: 2rem;
+}
+
+.filter-title {
+  color: #005352;
+}
+
+.top-faq {
+  margin: 0;
+}
+
+.question {
+  font-weight: 600;
+  margin: 0;
+  padding-bottom: 2px;
+}
+
+.answer {
+  color: #808080;
+}
+
+.answer:hover {
+  color: rgba(0, 83, 82, 0.9);
+}
+
 .slider {
   padding: 20px;
 }
@@ -1004,6 +1063,9 @@ input {
 }
 
 @media only screen and (min-width: 38em) {
+  .filter-list {
+    margin-bottom: 0;
+  }
   .full-form {
     width: 50%;
   }
@@ -1039,9 +1101,6 @@ input {
   .homepage-btn:hover {
     background-color: #fdc46e;
   }
-}
-
-@media only screen and (min-width: 38em) and (min-width: 38em) {
   .join-form h2 {
     text-align: center;
     color: #fff;
@@ -1190,21 +1249,12 @@ input {
   .mission-pic {
     border: 6px solid;
   }
-  .under-nav {
-    height: 95px;
-    /* TESTIMONIAL CAROUSEL */
-    /* FAQ CAROUSEL */
-    /* Custom dropdown */
-    /* FAQ */
-    /* TESTIMONIAL CAROUSEL */
-    /* FAQ CAROUSEL */
-  }
-  .under-nav .faq-title {
+  .faq-title {
     background-image: url(../images/banner-images/header-FAQ.jpg);
     background-size: cover;
     height: 100vh;
   }
-  .under-nav .main-title {
+  .main-title {
     font-size: 100px;
     font-family: "Satisfy", cursive;
     color: #fff;
@@ -1212,141 +1262,107 @@ input {
     padding-top: 16rem;
     line-height: 120px;
   }
-  .under-nav .down-arrow {
+  .down-arrow {
     color: #fff;
     font-size: 50px;
     text-align: center;
     padding-top: 6rem;
   }
-  .under-nav .slider {
+  /* TESTIMONIAL CAROUSEL */
+  .slider {
     padding: 20px;
   }
-  .under-nav .slider-item {
+  .slider-item {
     padding: 8px;
   }
-  .under-nav .slider-item h5 {
+  .slider-item h5 {
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 0;
     font-size: 17px;
     color: #dd1945;
   }
-  .under-nav .slider-item p {
+  .slider-item p {
     font-size: 12px;
     color: #005352;
   }
-  .under-nav .slider-item img {
+  .slider-item img {
     border: solid 4px #000;
   }
-  .under-nav .slider-item img:hover {
+  .slider-item img:hover {
     border: solid 4px #dd1945;
   }
-  .under-nav .slider h3 {
+  .slider h3 {
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 0;
     color: #005352;
     padding-left: 8px;
   }
-  .under-nav .faq-content {
-    margin: 20px;
-  }
-  .under-nav .filter-list li {
-    font-size: 14px;
-    color: #fff;
-    line-height: 24px;
-  }
-  .under-nav .slider-sidebar {
-    background-color: #005352;
-    padding-top: 20px;
-  }
-  .under-nav .slider-sidebar p {
-    padding-left: 20px;
-    font-weight: 500;
-    color: #fff;
-    font-size: 16px;
-    letter-spacing: 1px;
-  }
-  .under-nav .filter-title {
-    color: #005352;
-  }
-  .under-nav .top-faq {
-    margin: 0;
-  }
-  .under-nav .question {
-    font-weight: 600;
-    margin: 0;
-    padding-bottom: 2px;
-  }
-  .under-nav .answer {
-    color: #808080;
-  }
-  .under-nav .answer:hover {
-    color: rgba(0, 83, 82, 0.9);
-  }
-  .under-nav .join-form h2 {
+  .join-form h2 {
     text-align: center;
     color: #fff;
   }
-  .under-nav .form-back {
+  .form-back {
     background: url(../images/banner-images/header-signup.jpg);
     padding-top: 1em;
   }
-  .under-nav .join-form {
+  .join-form {
     color: #fff;
     text-align: center;
   }
-  .under-nav input[type="text"],
-  .under-nav input[type="email"],
-  .under-nav input[type="password"],
-  .under-nav textarea {
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  textarea {
     padding: 0.75em;
     width: 70%;
   }
-  .under-nav textarea {
+  textarea {
     height: auto;
     border-radius: 8px;
   }
-  .under-nav .plus {
+  .plus {
     font-size: 40px;
   }
-  .under-nav .signup-btn {
+  .signup-btn {
     padding: 0.5em 2em;
     color: #000;
     background-color: #fff;
     font-size: 1.25em;
   }
-  .under-nav .signup-btn:hover {
+  .signup-btn:hover {
     color: #fff;
     background-color: #dd1945;
   }
-  .under-nav input {
+  input {
     font-size: 0.75em;
     border-radius: 5px;
   }
-  .under-nav .join-us {
+  .join-us {
     background-color: rgba(230, 230, 230, 0.2);
     padding: 1rem;
   }
-  .under-nav .join-us-info {
+  .join-us-info {
     padding: 20px;
   }
-  .under-nav .test-body {
+  .test-body {
     max-width: 50rem;
     display: block;
     margin: auto;
     padding-bottom: 2rem;
   }
-  .under-nav .container {
+  /* Custom dropdown */
+  .container {
     margin: 80px auto;
     width: 400px;
     text-align: center;
   }
-  .under-nav .container > .dropdown {
+  .container > .dropdown {
     margin: 0 20px;
     vertical-align: top;
   }
-  .under-nav .dropdown {
+  .dropdown {
     display: inline-block;
     position: relative;
     overflow: hidden;
@@ -1355,7 +1371,7 @@ input {
     background: #fdc46e;
     border-radius: 3px;
   }
-  .under-nav .dropdown:before, .under-nav .dropdown:after {
+  .dropdown:before, .dropdown:after {
     content: '';
     position: absolute;
     z-index: 2;
@@ -1366,17 +1382,17 @@ input {
     border: 4px dashed;
     pointer-events: none;
   }
-  .under-nav .dropdown:before {
+  .dropdown:before {
     border-bottom-style: solid;
     border-top: none;
   }
-  .under-nav .dropdown:after {
+  .dropdown:after {
     margin-top: 7px;
     xpadding-left: 7px;
     border-top-style: solid;
     border-bottom: none;
   }
-  .under-nav .dropdown-select {
+  .dropdown-select {
     position: relative;
     width: 100%;
     margin: 0;
@@ -1390,37 +1406,38 @@ input {
     border-radius: 0;
     -webkit-appearance: none;
   }
-  .under-nav .dropdown-select:focus {
+  .dropdown-select:focus {
     z-index: 3;
     width: 100%;
     color: #fff;
     outline-offset: -2px;
   }
-  .under-nav .thanks {
+  /* FAQ */
+  .thanks {
     background-color: rgba(230, 230, 230, 0.2);
   }
-  .under-nav .mission {
+  .mission {
     color: #005352;
     margin-top: 2rem;
   }
-  .under-nav .mission h2 {
+  .mission h2 {
     line-height: 30px;
   }
-  .under-nav .mission-pic {
+  .mission-pic {
     border: 6px solid;
   }
-  .under-nav .donate-icon {
+  .donate-icon {
     padding-top: 4rem;
   }
-  .under-nav .acro-mark-top {
+  .acro-mark-top {
     display: none;
   }
-  .under-nav .faq-title {
+  .faq-title {
     background-image: url(../images/banner-images/header-FAQ.jpg);
     background-size: cover;
     height: 100vh;
   }
-  .under-nav .main-title {
+  .main-title {
     font-size: 100px;
     font-family: "Satisfy", cursive;
     color: #fff;
@@ -1428,128 +1445,122 @@ input {
     padding-top: 16rem;
     line-height: 120px;
   }
-  .under-nav .down-arrow {
+  .down-arrow {
     color: #fff;
     font-size: 50px;
     text-align: center;
     padding-top: 6rem;
   }
-  .under-nav .slider {
+  /* TESTIMONIAL CAROUSEL */
+  .slider {
     padding: 20px;
   }
-  .under-nav .slider-item {
+  .slider-item {
     padding: 8px;
   }
-  .under-nav .slider-item h5 {
+  .slider-item h5 {
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 0;
     font-size: 17px;
     color: #dd1945;
   }
-  .under-nav .slider-item p {
+  .slider-item p {
     font-size: 12px;
     color: #005352;
   }
-  .under-nav .slider-item img {
+  .slider-item img {
     border: solid 4px #000;
   }
-  .under-nav .slider-item img:hover {
+  .slider-item img:hover {
     border: solid 4px #dd1945;
   }
-  .under-nav .slider h3 {
+  .slider h3 {
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 0;
     color: #005352;
     padding-left: 8px;
   }
-  .under-nav .faq-content {
+  /* FAQ CAROUSEL */
+  .faq-content {
     margin: 20px;
   }
-  .under-nav .filter-list li {
+  .filter-list li {
     font-size: 14px;
     color: #fff;
     line-height: 24px;
   }
-  .under-nav .slider-sidebar {
-    background-color: #005352;
-    padding-top: 20px;
+  .filter-list {
+    margin-bottom: auto;
   }
-  .under-nav .slider-sidebar p {
-    padding-left: 20px;
-    font-weight: 500;
-    color: #fff;
-    font-size: 16px;
-    letter-spacing: 1px;
-  }
-  .under-nav .filter-title {
+  .filter-title {
     color: #005352;
   }
-  .under-nav .top-faq {
+  .top-faq {
     margin: 0;
   }
-  .under-nav .question {
+  .question {
     font-weight: 600;
     margin: 0;
     padding-bottom: 2px;
   }
-  .under-nav .answer {
+  .answer {
     color: #808080;
   }
-  .under-nav .answer:hover {
+  .answer:hover {
     color: rgba(0, 83, 82, 0.9);
   }
-  .under-nav .plus {
+  .plus {
     font-size: 40px;
   }
-  .under-nav .footer-nav {
+  .footer-nav {
     display: block;
     margin: auto;
   }
-  .under-nav .footer-nav .grid {
+  .footer-nav .grid {
     max-width: 500px;
     margin: 0 auto;
     margin-top: 3rem;
   }
-  .under-nav .uname,
-  .under-nav .e-mail,
-  .under-nav .pword,
-  .under-nav .cpword {
+  .uname,
+  .e-mail,
+  .pword,
+  .cpword {
     display: inline-block;
     width: 40%;
   }
-  .under-nav input[type="text"],
-  .under-nav input[type="email"],
-  .under-nav input[type="password"],
-  .under-nav textarea {
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  textarea {
     width: 90%;
   }
-  .under-nav .uname,
-  .under-nav .pword,
-  .under-nav .c-dropdown {
+  .uname,
+  .pword,
+  .c-dropdown {
     text-align: right;
     margin-right: 10px;
   }
-  .under-nav .e-mail,
-  .under-nav .cpword,
-  .under-nav .r-dropdown {
+  .e-mail,
+  .cpword,
+  .r-dropdown {
     text-align: left;
     margin-left: 10px;
   }
-  .under-nav .uname,
-  .under-nav .e-mail {
+  .uname,
+  .e-mail {
     margin-bottom: 1em;
   }
-  .under-nav .top-faq {
+  .top-faq {
     margin-top: 53px;
   }
-  .under-nav .filter-list {
+  .filter-list {
     margin-bottom: 0;
   }
 }
 
-@media only screen and (min-width: 38em) and (min-width: 60em) {
+@media only screen and (min-width: 60em) {
   .press-btns {
     padding: 20px;
     position: static;
@@ -1619,7 +1630,7 @@ input {
   }
 }
 
-@media only screen and (min-width: 38em) and (min-width: 80em) {
+@media only screen and (min-width: 80em) {
   .prep-event {
     background-size: 100%;
     height: 10em;
