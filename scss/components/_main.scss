@@ -601,6 +601,7 @@ input {
     padding-left: 8px;
 }
 
+
 /* HOMEPAGE */
 
 .homepage-icon {
@@ -804,32 +805,11 @@ input {
  
 }
     
-.faq-title {
-    background-image: url(../images/banner-images/header-FAQ.jpg);
-    background-size: cover;
-    height: 100vh;
+.under-nav { 
+    height: 95px;
 }
 
-.main-title {
-    font-size: 100px;
-    font-family: $fonty;
-    color: $white;
-    text-align: center;
-    padding-top: 16rem;
-    line-height: 120px;
-}
-
-.down-arrow {
-    color: $white; 
-    font-size: 50px;
-    text-align: center;
-    padding-top: 6rem;
-}
-
-
-
-
-
+    
 
 /* TESTIMONIAL CAROUSEL */
 

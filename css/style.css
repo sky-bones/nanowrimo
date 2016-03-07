@@ -731,24 +731,8 @@ input {
   .mission-pic {
     border: 6px solid;
   }
-  .faq-title {
-    background-image: url(../images/banner-images/header-FAQ.jpg);
-    background-size: cover;
-    height: 100vh;
-  }
-  .main-title {
-    font-size: 100px;
-    font-family: "Satisfy", cursive;
-    color: #fff;
-    text-align: center;
-    padding-top: 16rem;
-    line-height: 120px;
-  }
-  .down-arrow {
-    color: #fff;
-    font-size: 50px;
-    text-align: center;
-    padding-top: 6rem;
+  .under-nav {
+    height: 95px;
   }
   /* TESTIMONIAL CAROUSEL */
   .slider {
