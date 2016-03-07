@@ -465,6 +465,21 @@ li {
   margin-top: 4rem;
 }
 
+.form-donate-btn-2 {
+  padding: 0.5em 2em;
+  background-color: #dd1945;
+  display: block;
+  margin: auto;
+  width: 10rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.form-donate-btn-2 a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .donate-words {
   max-width: 40em;
 }
