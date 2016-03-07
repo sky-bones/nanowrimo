@@ -209,7 +209,6 @@ li {
   width: 10rem;
   left: 20px;
   top: 30px;
-  height: 30rem;
   background: rgba(0, 83, 82, 0.9);
   transition: all 0.3s ease-in-out;
 }
@@ -546,7 +545,7 @@ li {
 }
 
 .social-media {
-  padding-bottom: 5px;
+  padding-bottom: 3rem;
   width: 20em;
   position: relative;
   left: calc(50% - 7rem);
@@ -584,17 +583,27 @@ li.social-btns {
   color: #fff;
 }
 
-footer {
+.footer {
   background-color: #73dad2;
   overflow: hidden;
+  width: 100%;
 }
 
 .ftr-links {
   font-size: 12px;
 }
 
-.ftr-links li:hover {
-  opacity: .5;
+.ftr-title a {
+  color: #000;
+  text-decoration: none;
+}
+
+.ftr-title a:hover {
+  opacity: .8;
+}
+
+.ftr-title-no a:hover {
+  opacity: 1;
 }
 
 .acro-mark {
@@ -1333,7 +1342,7 @@ input {
     display: block;
     margin: auto;
   }
-  .under-nav .footer-nav.grid {
+  .under-nav .footer-nav .grid {
     max-width: 500px;
     margin: 0 auto;
     margin-top: 3rem;
