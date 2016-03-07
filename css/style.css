@@ -741,14 +741,14 @@ input {
     font-family: "Satisfy", cursive;
     color: #fff;
     text-align: center;
-    padding-top: 18rem;
+    padding-top: 16rem;
     line-height: 120px;
   }
   .down-arrow {
     color: #fff;
     font-size: 50px;
     text-align: center;
-    padding-top: 10rem;
+    padding-top: 6rem;
   }
   /* TESTIMONIAL CAROUSEL */
   .slider {
