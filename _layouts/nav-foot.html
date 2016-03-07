@@ -5,11 +5,15 @@
     <title>NNWM</title>
     <meta name="description" content="NNWM is a non-for-profit organization">
 
+    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/libraries/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/libraries/slick/slick-theme.css"/>
+
     <link href="{{site.baseurl}}/css/style.css" rel="stylesheet">
 
-    <link href="https://file.myfontastic.com/ByYgcfmddFUXmrFSe9SRAH/icons.css" rel="stylesheet">
+    <link href="https://file.myfontastic.com/FS7ojkLqCv6pfHasydRi5k/icons.css" rel="stylesheet">
 
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,600,500,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -28,7 +32,7 @@
     		      <label id="toggle-nav-label" for="toggle-nav">
 
                     <div class="hidden-nav">Navigate</div>
-                    <div class="plus">+ </div>
+                    <div class="plus">+</div>
 
 
 
@@ -37,14 +41,14 @@
 
     		<div class="box">
 	    		<ul>
-	    			<li><a href="{{site.baseurl}}/">Home</a></li>
-	    			<li><a href="{{site.baseurl}}/donate">Donate</a></li>
-	    			<li><a href="{{site.baseurl}}/login">Join Us</a></li>
-	    			<li><a href="{{site.baseurl}}/profile">Profile</a></li>
-	    			<li><a href="{{site.baseurl}}/resources-prep">Resources</a></li>
-	    			<li><a href="#">FAQ</a></li>
-	    			<li><a href="#">Sponsors</a></li>
-	    			<li><a href="{{site.baseurl}}/shop">Shop</a></li>
+	    			<li class="nav-link"><a href="{{site.baseurl}}/">Home</a></li>
+	    			<li class="nav-link"><a href="{{site.baseurl}}/donate">Donate</a></li>
+	    			<li class="nav-link"><a href="{{site.baseurl}}/login">Join Us</a></li>
+	    			<li class="nav-link"><a href="{{site.baseurl}}/profile">Profile</a></li>
+	    			<li class="nav-link"><a href="{{site.baseurl}}/resources-prep">Resources</a></li>
+	    			<li class="nav-link"><a href="{{site.baseurl}}/faq">FAQ</a></li>
+	    			<li class="nav-link"><a href="#">Sponsors</a></li>
+	    			<li class="nav-link"><a href="{{site.baseurl}}/shop">Shop</a></li>
 	    		</ul>
     		</div>
 
@@ -56,13 +60,16 @@
             </div>
         </section>
 
-       
+
 
         {{content}}
 
 
-
+<<<<<<< HEAD
         <footer class="footer">
+=======
+ <footer class="footer">
+>>>>>>> gh-pages
 
             <div class="back-top">
                 <a class="up-arrow" href="#top"><i class="icon icon-up-open"></i></a>
@@ -87,51 +94,58 @@
                                   <div class="unit unit-xs-hidden unit-m-1-4 ftr-links">
                                     <ul>
                                       <li class="push bold ftr-title">Quick Links</li>
-                                      <li class="bold ftr-title">My profile</li>
-                                      <li class="bold ftr-title">FAQ</li>
-                                      <li class="bold ftr-title">Donate</li>
-                                      <li class="bold ftr-title">Shop</li>
+
+                                      <li class="bold ftr-title"> <a class="" href="{{site.baseurl}}/profile">My profile</a></li>
+                                      <li class="bold ftr-title"> <a class="" href="{{site.baseurl}}/faq">FAQ</a></li>
+                                      <li class="bold ftr-title"> <a class="" href="{{site.baseurl}}/donate">Donate</a></li>
+                                      <li class="bold ftr-title"> <a class="" href="{{site.baseurl}}/shop">Shop</a></li>
+
                                     </ul>
                                   </div>
 
                                   <div class="unit unit-xs-hidden unit-m-1-4 ftr-links">
                                     <ul>
-                                      <li class="bold ftr-title">Sign Up</li>
-                                      <li>Confirmation</li>
-                                      <li class="push">Profile Page</li>
 
-                                      <li class="bold ftr-title">Resources</li>
-                                      <li>Forums</li>
-                                      <li>Prep</li>
-                                      <li>Pep Talks</li>
+                                      <li class="bold ftr-title"><a class="" href="{{site.baseurl}}/login">Sign Up</a></li>
+                                      <li class="push"><a class="" href="{{site.baseurl}}/">Profile Page</a></li>
+
+                                      <li class="bold ftr-title"><a class="" href="{{site.baseurl}}/resources-prep">Resources</a></li>
+                                      <li><a class="" href="{{site.baseurl}}/blog">Blog</a></li>
+                                      <li><a class="" href="{{site.baseurl}}/resources-prep">Prep</a></li>
+                                      <li><a class="" href="#">Pep Talks</a></li>
+
                                     </ul>
                                   </div>
 
                                   <div class="unit unit-xs-hidden unit-m-1-4 ftr-links">
                                     <ul>
                                       <li class="bold ftr-title">Join Us</li>
-                                      <li>Events</li>
-                                      <li>Find your region</li>
-                                      <li class="push">Volunteer</li>
-                                      <li class="bold ftr-title">Sponsors</li>
-                                      <li>Corporate</li>
-                                      <li>Personal</li>
+
+                                      <li><a class="" href="#">Events</a></li>
+                                      <li><a class="" href="#">Find your region</a></li>
+                                      <li class="push"><a class="" href="">Volunteer</a></li>
+                                      <li class="bold ftr-title"><a class="" href="{{site.baseurl}}/">Sponsors</a></li>
+                                      <li><a class="" href="">Corporate</a></li>
+                                      <li><a class="" href="">Personal</a></li>
+
                                     </ul>
                                   </div>
 
                                   <div class="unit unit-xs-hidden unit-m-1-4 ftr-links">
                                     <ul>
                                       <li class="bold ftr-title">A Look Inside</li>
-                                      <li>Board of Directors</li>
-                                      <li>History</li>
-                                      <li>Staff</li>
+
+                                      <li><a class="" href="">Board of Directors</a></li>
+                                      <li><a class="" href="">History</a></li>
+                                      <li><a class="" href="">Staff</a></li>
                                     </ul>
                                   </div>
                     </div>
- 
 
 
-            <div class="legal-info">
+
+            <div class="unit legal-info">
+
                 <p class="push-0">Copyright © 1999 - 2016 National Novel Writing Month</p>
                 <p>All posted novel excerpts remain copyright to their authors.</p>
             </div>
