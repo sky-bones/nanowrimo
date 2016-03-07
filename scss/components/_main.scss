@@ -135,6 +135,52 @@ h1 {
   padding: 5%;
 }
 
+/*DONATION*/
+
+.donate-banner {
+    background-image: url(../images/banner-images/header-donate.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: $white;
+    margin-top: 5em;
+    padding-bottom: 25em;
+} 
+
+.dollar-btn {
+  position: relative;
+}
+
+.donate-form {
+  background-color: $lightgrey;
+}
+
+.pay-info {
+  color: $darkpink;
+  padding-left: 1em;
+  padding-top: 1em;
+}
+
+.card-no {
+  width: 100%;
+  padding: 2%;
+}
+
+.card-no-box {
+  padding: 0 1em;
+}
+
+
+input[type="texarea"],
+textarea {
+  padding: 0.75em;
+  xwidth: 70%;
+}
+
+textarea {
+  height: auto;
+  border-radius: 8px;
+}
+
 /* DROP NAV */
 
 .plus p {
