@@ -731,6 +731,25 @@ input {
   .mission-pic {
     border: 6px solid;
   }
+  .faq-title {
+    background-image: url(../images/banner-images/header-FAQ.jpg);
+    background-size: cover;
+    height: 100vh;
+  }
+  .main-title {
+    font-size: 100px;
+    font-family: "Satisfy", cursive;
+    color: #fff;
+    text-align: center;
+    padding-top: 18rem;
+    line-height: 120px;
+  }
+  .down-arrow {
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 10rem;
+  }
   /* TESTIMONIAL CAROUSEL */
   .slider {
     padding: 20px;
@@ -845,6 +864,9 @@ input {
   }
   .top-faq {
     margin-top: 53px;
+  }
+  .filter-list {
+    margin-bottom: 0;
   }
 }
 

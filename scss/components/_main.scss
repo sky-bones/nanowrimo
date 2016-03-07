@@ -799,7 +799,32 @@ input {
 .mission-pic {
     border: 6px solid;
 }
+    
+.page-titles {
+ 
+}
+    
+.faq-title {
+    background-image: url(../images/banner-images/header-FAQ.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+    
+.main-title {
+    font-size: 100px;
+    font-family: $fonty;
+    color: $white;
+    text-align: center;
+    padding-top: 18rem;
+    line-height: 120px;
+}
 
+.down-arrow {
+    color: $white; 
+    font-size: 50px;
+    text-align: center;
+    padding-top: 10rem;
+}
 
 
 
@@ -970,6 +995,10 @@ input {
    .top-faq {
     margin-top: 53px;
 }
+    
+    .filter-list {
+    margin-bottom: 0;
+    }
     
     
 }
