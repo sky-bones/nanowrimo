@@ -806,7 +806,7 @@ input {
 
 
 
-/* CAROUSEL */
+/* TESTIMONIAL CAROUSEL */
 
 .slider {
     padding: 20px;
@@ -846,6 +846,43 @@ input {
     color: $darkteal;
     padding-left: 8px;
 }
+
+    
+    
+/* FAQ CAROUSEL */
+    
+    
+.faq-content {
+    margin: 20px;
+}
+    
+.filter-list li {
+    font-size: 14px;
+    color: $white;
+    line-height: 22px;
+}
+    
+.filter-list {
+    
+}
+    
+.slider-sidebar {
+    background-color: $darkteal;
+    padding-top: 20px;
+}
+    
+.slider-sidebar p {
+   padding-left: 20px;
+    font-weight: 500;
+    color: $white;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+    
+    
+    
+    
+    
 
 
 @media only screen and (min-width: 25em) {

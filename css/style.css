@@ -731,7 +731,7 @@ input {
   .mission-pic {
     border: 6px solid;
   }
-  /* CAROUSEL */
+  /* TESTIMONIAL CAROUSEL */
   .slider {
     padding: 20px;
   }
@@ -761,6 +761,26 @@ input {
     margin-bottom: 0;
     color: #005352;
     padding-left: 8px;
+  }
+  /* FAQ CAROUSEL */
+  .faq-content {
+    margin: 20px;
+  }
+  .filter-list li {
+    font-size: 14px;
+    color: #fff;
+    line-height: 22px;
+  }
+  .slider-sidebar {
+    background-color: #005352;
+    padding-top: 20px;
+  }
+  .slider-sidebar p {
+    padding-left: 20px;
+    font-weight: 500;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
   }
 }
 
