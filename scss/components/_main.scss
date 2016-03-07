@@ -799,14 +799,39 @@ input {
 .mission-pic {
     border: 6px solid;
 }
+    
+.page-titles {
+ 
+}
+    
+.faq-title {
+    background-image: url(../images/banner-images/header-FAQ.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.main-title {
+    font-size: 100px;
+    font-family: $fonty;
+    color: $white;
+    text-align: center;
+    padding-top: 16rem;
+    line-height: 120px;
+}
+
+.down-arrow {
+    color: $white; 
+    font-size: 50px;
+    text-align: center;
+    padding-top: 6rem;
+}
 
 
 
 
 
 
-
-/* CAROUSEL */
+/* TESTIMONIAL CAROUSEL */
 
 .slider {
     padding: 20px;
@@ -846,6 +871,64 @@ input {
     color: $darkteal;
     padding-left: 8px;
 }
+
+    
+    
+/* FAQ CAROUSEL */
+    
+    
+.faq-content {
+    margin: 20px;
+}
+    
+.filter-list li {
+    font-size: 14px;
+    color: $white;
+    line-height: 24px;
+}
+    
+.filter-list {
+    
+}
+    
+.slider-sidebar {
+    background-color: $darkteal;
+    padding-top: 20px;
+}
+    
+.slider-sidebar p {
+   padding-left: 20px;
+    font-weight: 500;
+    color: $white;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+    
+.filter-title {
+    color: $darkteal;
+}
+
+.top-faq {
+       margin: 0;
+   }
+    
+.question {
+    font-weight: 600;  
+    margin: 0;
+    padding-bottom: 2px;
+}
+ 
+     .answer {
+        color: $grey;
+    }
+    
+    .answer:hover {
+        color: $opacdteal;
+    }
+    
+    
+    
+    
 
 
 @media only screen and (min-width: 25em) {
@@ -908,6 +991,16 @@ input {
   .e-mail {
     margin-bottom: 1em;
   }
+    
+   .top-faq {
+    margin-top: 53px;
+}
+    
+    .filter-list {
+    margin-bottom: 0;
+    }
+    
+    
 }
 
 
@@ -1023,7 +1116,6 @@ input {
 
 
 .prep-event-one:hover {
-
     opacity: .5;
    background-image: url(../images/thumbnail-pictures/event-3.jpg);
 }
@@ -1043,6 +1135,19 @@ input {
 .prep-lists li:hover{
     color: $darkpink;
 }
+    
+    
+
+
+    
+
+
+
+    
+    
+    
+    
+    
 }
 
 
