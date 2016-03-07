@@ -785,16 +785,19 @@ input {
   .filter-title {
     color: #005352;
   }
+  .top-faq {
+    margin: 0;
+  }
   .question {
     font-weight: 600;
     margin: 0;
     padding-bottom: 2px;
   }
   .answer {
-    color: #e6e6e6;
+    color: #808080;
   }
   .answer:hover {
-    color: #000;
+    color: rgba(0, 83, 82, 0.8);
   }
 }
 
@@ -839,6 +842,9 @@ input {
   .uname,
   .e-mail {
     margin-bottom: 1em;
+  }
+  .top-faq {
+    margin-top: 53px;
   }
 }
 

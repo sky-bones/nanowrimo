@@ -882,6 +882,10 @@ input {
 .filter-title {
     color: $darkteal;
 }
+
+.top-faq {
+       margin: 0;
+   }
     
 .question {
     font-weight: 600;  
@@ -889,13 +893,13 @@ input {
     padding-bottom: 2px;
 }
  
-.answer {
-    color: $lightgrey;
-}
+     .answer {
+        color: $grey;
+    }
     
-.answer:hover {
-    color: $black;
-}
+    .answer:hover {
+        color: $opacdteal;
+    }
     
     
     
@@ -962,6 +966,12 @@ input {
   .e-mail {
     margin-bottom: 1em;
   }
+    
+   .top-faq {
+    margin-top: 53px;
+}
+    
+    
 }
 
 
@@ -1097,6 +1107,14 @@ input {
 .prep-lists li:hover{
     color: $darkpink;
 }
+    
+    
+
+    
+    
+    
+    
+    
 }
 
 
