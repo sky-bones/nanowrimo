@@ -962,6 +962,12 @@ input {
 }
 
 /* FAQ CAROUSEL */
+.faq-search-bar {
+  margin-left: 20px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
 .faq-content {
   margin: 20px;
 }
