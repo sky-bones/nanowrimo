@@ -39,7 +39,7 @@ img {
 .sign-btn {
   position: absolute;
   top: 30px;
-  right: 190px;
+  right: 18vw;
 }
 
 .name {
@@ -66,7 +66,7 @@ img {
   background-color: #dd1945;
   line-height: 95px;
   text-align: center;
-  width: 9em;
+  width: 16.67vw;
   color: #e6e6e6;
 }
 
@@ -754,7 +754,7 @@ li {
 }
 
 .social-btns:hover {
-  background-color: #fdc46e;
+  background-color: #dd1945;
 }
 
 li.social-btns {
