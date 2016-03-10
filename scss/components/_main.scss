@@ -33,10 +33,16 @@ img {
 
 }
 
-.sign-btn {
+.donate-nav-btn {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+ .sign-btn {
     position: absolute;
     top: 30px;
-    right: 20px;
+    right: 190px;
 }
 
 .name {
@@ -47,8 +53,14 @@ img {
   font-weight: bold;
 }
 
+
+
 .btn {
   @include btn-design;
+}
+
+.btn-donate {
+  @include btn-donate;
 }
 
 
@@ -167,6 +179,18 @@ h1 {
 
 /*DONATION*/
 
+.donate-form {
+    width: 50vw;
+    min-width: 25em;
+    
+    
+}
+
+.donate-div {
+    display: block;
+    margin: auto;
+}
+
 .donate-banner {
     background-image: url(../images/banner-images/header-donate.jpg);
     background-size: cover;
@@ -210,6 +234,7 @@ h2 {
 
 .card-no-box {
   padding: 0 1em;
+    
 }
 
 
@@ -648,6 +673,7 @@ li {
   background-size: cover;
   background-position: center;
   padding-bottom: 25em;
+  padding-top: 4.5rem;
   max-height: 30em;
 }
 
@@ -707,7 +733,6 @@ li {
 .donate-book {
   display: block;
   margin: auto;
-  padding: 2em 0;
 }
 
 .form-donate-btn:hover {
@@ -1130,6 +1155,10 @@ input {
 
 @media only screen and (min-width: 38em) {
     
+    .donate-book {
+    padding-right: 2rem;
+    }
+    
     .full-mark {
     display: inherit;
     text-align: center;
@@ -1175,10 +1204,6 @@ input {
 
 .homepage-h1 {
   color: $darkpink;
-}
-
-.homepage-btn {
-  @include homepage-btn;
 }
 
 

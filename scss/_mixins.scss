@@ -11,7 +11,6 @@
 }
 
 
-
 @mixin btn-shop-design {
     background-color: $darkteal;
     line-height: 35px;
@@ -25,14 +24,14 @@
 }
 
 
-@mixin homepage-btn {
-	  background-color: $darkteal;
-    line-height: 40px;
+@mixin btn-donate {
+	  background-color: $darkpink;
+    line-height: 95px;
     text-align: center;
-    width: 12em;
+    width: 9em;
     color: $lightgrey;
     &:hover {
+        color: $darkteal;
     background-color: $golden;
 	}
 }
-

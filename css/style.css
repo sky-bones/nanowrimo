@@ -30,10 +30,16 @@ img {
   z-index: 100;
 }
 
+.donate-nav-btn {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
 .sign-btn {
   position: absolute;
   top: 30px;
-  right: 20px;
+  right: 190px;
 }
 
 .name {
@@ -53,6 +59,19 @@ img {
 }
 
 .btn:hover {
+  background-color: #fdc46e;
+}
+
+.btn-donate {
+  background-color: #dd1945;
+  line-height: 95px;
+  text-align: center;
+  width: 9em;
+  color: #e6e6e6;
+}
+
+.btn-donate:hover {
+  color: #005352;
   background-color: #fdc46e;
 }
 
@@ -157,6 +176,16 @@ h1 {
 }
 
 /*DONATION*/
+.donate-form {
+  width: 50vw;
+  min-width: 25em;
+}
+
+.donate-div {
+  display: block;
+  margin: auto;
+}
+
 .donate-banner {
   background-image: url(../images/banner-images/header-donate.jpg);
   background-size: cover;
@@ -612,6 +641,7 @@ li {
   background-size: cover;
   background-position: center;
   padding-bottom: 25em;
+  padding-top: 4.5rem;
   max-height: 30em;
 }
 
@@ -671,7 +701,6 @@ li {
 .donate-book {
   display: block;
   margin: auto;
-  padding: 2em 0;
 }
 
 .form-donate-btn:hover {
@@ -1058,6 +1087,9 @@ input {
 }
 
 @media only screen and (min-width: 38em) {
+  .donate-book {
+    padding-right: 2rem;
+  }
   .full-mark {
     display: inherit;
     text-align: center;
@@ -1092,16 +1124,6 @@ input {
   }
   .homepage-h1 {
     color: #dd1945;
-  }
-  .homepage-btn {
-    background-color: #005352;
-    line-height: 40px;
-    text-align: center;
-    width: 12em;
-    color: #e6e6e6;
-  }
-  .homepage-btn:hover {
-    background-color: #fdc46e;
   }
   .join-form h2 {
     text-align: center;
