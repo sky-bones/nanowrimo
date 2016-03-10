@@ -85,6 +85,7 @@ img {
     background-position: center;
     background-color: $white;
     padding-bottom: 3rem;
+    padding-top: 3rem;
 
 }
 
@@ -125,7 +126,7 @@ img {
     height: auto;
     display: block;
     margin: auto;
-    padding-top: 90px;
+    padding-top: 10rem;
     text-align: center;
 }
 
@@ -137,6 +138,16 @@ h1 {
 .banner-logo p {
     color: $lightgrey;
 }
+
+
+/* HOMEPAGE */
+
+.home-bars {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
 
 /*PROFILE*/
 
@@ -151,6 +162,8 @@ h1 {
 .graph {
   padding: 5%;
 }
+
+
 
 /*DONATION*/
 
@@ -784,7 +797,7 @@ li.social-btns {
 }
 
 .ftr-title a:hover{
-    opacity: .8;
+    opacity: .6;
 }
 
 .ftr-title-no a:hover{
@@ -1063,8 +1076,9 @@ input {
 
 /* HOMEPAGE */
 
+    
 .homepage-icon {
-    padding-top: 1.5em;
+    padding-right: 2rem;
 }
 
 .homepage-grey {
@@ -1151,11 +1165,6 @@ input {
 
   .facts {
     margin-top: 4em;
-  }
-
-  .footer-nav {
-      display: block;
-      margin: auto;
   }
 
 .homepage-list a:hover {
@@ -1709,17 +1718,13 @@ input {
     font-size: 40px;
   }
 
-
   .footer-nav {
       display: block;
-      margin: auto;
+      width: 60%;
+      position: relative;
+      left: calc(50% - 30%);
   }
-
-  .footer-nav .grid {
-      max-width: 500px;
-      margin: 0 auto;
-      margin-top: 3rem;
-  }
+    
     
   .uname,
   .e-mail,
@@ -1771,6 +1776,16 @@ input {
 
 
 @media only screen and (min-width: 60em) {
+    
+    .side-bar {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+    
+    .banner-logo {
+    padding-top: 5rem;
+    }
 
 .press-btns {
     padding: 20px;
@@ -1826,7 +1841,7 @@ input {
         text-align: left;
         padding-left: 8px;
     }
-
+ 
 
     #toggle-nav:checked ~ #toggle-nav-label .plus {
     transform: rotate(45deg);
