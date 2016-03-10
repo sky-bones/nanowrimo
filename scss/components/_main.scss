@@ -478,6 +478,14 @@ li {
     color: white;
 }
 
+.arrow-left{
+    margin-left: 20px;
+}
+
+.arrow-right{
+    margin-right: 20px;
+}
+
 .blog-arrow-key:hover{
     background-color: $golden;
     color: $darkteal;
@@ -500,14 +508,6 @@ li {
 .blog-icon{
     color:$grey;
     padding-right: .5em;
-}
-
-.blog-search-bar{
-    background-color: $lightgrey;
-    padding: .5em;
-    border: 1px solid $grey;
-    border-radius: 2px;
-    color: $grey;
 }
 
 .blog-padding{
@@ -1007,11 +1007,17 @@ input {
 
 /* FAQ CAROUSEL */
 
-.faq-search-bar {
+.search-bar {
     margin-left: 20px;
     margin-top: 2rem;
     margin-bottom: 1rem;
+    background-color: $lightgrey;
+    border: 1px solid $grey;
+    border-radius: 2px;
+    color: $grey;
 }
+
+
 
 .faq-content {
     margin: 20px;
