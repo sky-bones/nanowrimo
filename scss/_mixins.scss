@@ -23,12 +23,11 @@
   }
 }
 
-
 @mixin btn-donate {
 	  background-color: $darkpink;
-    line-height: 95px;
+    line-height: 35px;
     text-align: center;
-    width: 16.67vw;
+    width: 7rem;
     color: $lightgrey;
     &:hover {
         color: $darkteal;
