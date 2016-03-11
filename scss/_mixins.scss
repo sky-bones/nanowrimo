@@ -34,3 +34,9 @@
     background-color: $golden;
 	}
 }
+
+
+@mixin homepage-btn {
+    background-color: $darkteal;
+    line-height: 40px;
+}

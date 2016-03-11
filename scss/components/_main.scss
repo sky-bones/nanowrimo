@@ -1247,6 +1247,22 @@ input {
 .homepage-h1 {
   color: $darkpink;
 }
+    
+.homepage-btn {
+    @include homepage-btn;
+}
+    
+.homepage-btn {
+    background-color: #005352;
+    line-height: 40px;
+    text-align: center;
+    width: 12em;
+    color: #e6e6e6;
+  }
+    
+.homepage-btn:hover {
+    background-color: #fdc46e;
+  }
 
 
 .join-form h2 {
@@ -1861,7 +1877,7 @@ input {
 
 .press-btns {
     padding: 20px;
-
+    margin-top: 6rem;
     position: static;
 }
 
