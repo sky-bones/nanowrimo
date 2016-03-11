@@ -275,7 +275,8 @@ li {
 	width: 10rem;
 	left: 20px;
 	top: 30px;
-    height: 80vh;
+    height: 70vh;
+    min-height: 30rem;
 	background: $opacdteal;
 	transition: all 0.3s ease-in-out;
 }
@@ -287,18 +288,15 @@ li {
 
 #menu ul {
 	position: relative;
-	top: 60px;
-    padding-top: 30px;
-    padding-left: 20px;
+	top: 55px;
+    padding-left: 10px;
 	transform: scale(2);
-
 	transition: all 0.3s ease-in-out;
 }
 
 
 #menu li a {
 	border-radius: 3px;
-	padding: 10px;
     padding-left: 0;
     margin-left: 0;
 	border: 1px solid transparent;
@@ -335,13 +333,12 @@ li {
 #menu li a:hover {
     background-color: $darkpink;
     color: $white;
-    margin-left: 15px;
-    padding-left: 15px;
+    padding: 5px 15px 5px 15px;
 }
 
 
 .nav-link {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 	margin-right: 5px;
 	font-size: 24px;
 }
@@ -464,7 +461,23 @@ li {
 }
 
 
-/* BODY */
+/* SPONSOR */
+
+
+.sponsor-pic {
+    max-width: 20rem;
+    display: block;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.sponsor-logo {
+    border: 4px solid $opacgrey;
+    padding: 8px;
+}
+
+
+
 
 /*Blog*/
 
