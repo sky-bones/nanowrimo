@@ -185,12 +185,7 @@ h1 {
 
 /*DONATION*/
 
-.donate-form {
-    width: 50vw;
-    min-width: 25em;
-    
-    
-}
+
 
 .donate-div {
     display: block;
@@ -206,11 +201,13 @@ h1 {
     padding-bottom: 25em;
 }
 
+
 .dollar-btn {
   position: relative;
 }
 
 .form-wrap-donate {
+    background-image: url(../images/banner-images/header-donate.jpg);
     background-color: $lightgrey;
 }
 
@@ -222,13 +219,24 @@ h2 {
   display: block;
   margin: auto;
   width: 90%;
-  height: 45rem;
   padding-top: 2rem;
-  background-color: $lightgrey;
+}
+
+.full-form ul {
+    color: $lightgrey;
+}
+
+.full-form p {
+    padding-bottom: 5px;
+}
+
+.full-form li {
+    padding-bottom: 5px;
+    letter-spacing: 1px;
 }
 
 .pay-info {
-  color: $darkpink;
+  color: $lightgrey;
   padding-left: 1em;
   padding-top: 1em;
 }
@@ -248,6 +256,10 @@ input[type="texarea"],
 textarea {
   padding: 0.75em;
   xwidth: 70%;
+}
+
+input[type="radio"]{
+  margin: 0 20px 0 0;
 }
 
 textarea {
@@ -693,7 +705,7 @@ li {
 }
 
 .signin-box {
-  background-image: url(../images/banner-images/header-donate.jpg);
+  background-image: url(../images/banner-images/header-signup.jpg);
   background-size: cover;
   background-position: center;
   padding-bottom: 25em;
@@ -721,10 +733,6 @@ li {
     font-size: 1.25em;
 }
 
-.donate-intro {
-  background-color: $opacgrey;
-}
-
 .form-donate-btn {
   padding: 0.5em 2em;
   background-color: $darkpink;
@@ -732,26 +740,10 @@ li {
   margin: auto;
   width: 10rem;
   text-align: center;
-  margin-top: 4rem;
 }
 
-.form-donate-btn-2 {
-  padding: 0.5em 2em;
-  background-color: $darkpink;
-  display: block;
-  margin: auto;
-  width: 10rem;
-  text-align: center;
-  margin-top: 1rem;
-}
-
-.form-donate-btn-2 a {
-  text-decoration: none;
-  color: $white;
-}
-
-.donate-words {
-  max-width: 40em;
+.donate-btn-wrap {
+    padding: 4rem 0;
 }
 
 .donate-book {
@@ -1124,6 +1116,12 @@ input {
 
 @media only screen and (min-width: 25em) {
     
+    
+
+.donate-title {
+    text-align: left;
+}
+    
     .plan-icons {
     margin-top: -6rem;
 }
@@ -1220,7 +1218,6 @@ input {
 
   .full-form {
       width: 50%;
-
 }
 
   .plus  {
@@ -1295,10 +1292,6 @@ input {
       max-width: 40em;
     }
 
-.form-back {
-  background: url(../images/banner-images/header-signup.jpg);
-  padding-top: 1em;
-}
 
 .join-form {
   color: $white;
@@ -1861,7 +1854,7 @@ input {
 @media only screen and (min-width: 60em) {
     
       .full-form {
-        padding-left: 5vw;
+        padding-left: 10vw;
 
 }
     
