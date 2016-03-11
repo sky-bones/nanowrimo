@@ -157,6 +157,60 @@ h1 {
 }
 
 /* HOMEPAGE */
+.homepage-list a:hover {
+  color: #dd1945;
+  border-bottom: solid 3pt;
+}
+
+.homepage-h1 {
+  color: #dd1945;
+}
+
+.homepage-btn {
+  background-color: #005352;
+  line-height: 40px;
+  text-align: center;
+  width: 12em;
+  color: #e6e6e6;
+}
+
+.homepage-btn:hover {
+  background-color: #fdc46e;
+}
+
+.homepage-icon {
+  padding-right: 2rem;
+}
+
+.homepage-grey {
+  background-color: #e6e6e6;
+}
+
+.homepage-pressinfo-list {
+  padding-left: 0px;
+  padding-right: 5px;
+  font-style: italic;
+}
+
+.press-btns {
+  padding: 20px;
+  display: block;
+  margin: auto;
+  position: relative;
+  left: calc(50% - 6em);
+}
+
+.press-release-info {
+  overflow: hidden;
+}
+
+.homepage-list a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  color: #005352;
+}
+
 .max-width {
   max-width: 60rem;
   display: block;
@@ -1099,46 +1153,6 @@ input {
     width: 16em;
     left: calc(50% - 8em);
   }
-  /* HOMEPAGE */
-  .homepage-icon {
-    padding-right: 2rem;
-  }
-  .homepage-grey {
-    background-color: #e6e6e6;
-  }
-  .homepage-pressinfo-list {
-    padding-left: 0px;
-    padding-right: 5px;
-    font-style: italic;
-  }
-  .press-btns {
-    padding: 20px;
-    display: block;
-    margin: auto;
-    position: relative;
-    left: calc(50% - 6em);
-  }
-  .press-release-info {
-    overflow: hidden;
-  }
-  .homepage-list a {
-    text-decoration: none;
-    font-style: normal;
-    font-weight: bold;
-    color: #005352;
-  }
-  .prep-para {
-    padding-top: 2em;
-  }
-  .join-words {
-    padding: 2%;
-    margin-top: 4em;
-  }
-  .join-icon {
-    width: 8em;
-    left: calc(50% - 4em);
-    margin-top: 0;
-  }
 }
 
 @media only screen and (min-width: 38em) {
@@ -1179,27 +1193,6 @@ input {
   }
   .facts {
     margin-top: 4em;
-  }
-  .homepage-list a:hover {
-    color: #dd1945;
-    border-bottom: solid 3pt;
-  }
-  .homepage-h1 {
-    color: #dd1945;
-  }
-  .homepage-btn {
-    background-color: #005352;
-    line-height: 40px;
-  }
-  .homepage-btn {
-    background-color: #005352;
-    line-height: 40px;
-    text-align: center;
-    width: 12em;
-    color: #e6e6e6;
-  }
-  .homepage-btn:hover {
-    background-color: #fdc46e;
   }
   .join-form h2 {
     text-align: center;

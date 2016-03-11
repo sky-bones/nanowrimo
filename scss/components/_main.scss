@@ -153,6 +153,54 @@ h1 {
 
 /* HOMEPAGE */
 
+.homepage-list a:hover {
+  color: $darkpink;
+  border-bottom: solid 3pt;
+}
+
+
+.homepage-h1 {
+  color: $darkpink;
+}
+    
+.homepage-btn {
+    @include homepage-btn;
+}
+    
+.homepage-icon {
+    padding-right: 2rem;
+}
+
+.homepage-grey {
+  background-color: $lightgrey;
+}
+
+.homepage-pressinfo-list {
+  padding-left: 0px;
+  padding-right: 5px;
+  font-style: italic;
+}
+
+.press-btns {
+    padding: 20px;
+    display: block;
+    margin: auto;
+    position: relative;
+    left: calc(50% - 6em);
+}
+
+.press-release-info {
+    overflow: hidden;
+}
+
+.homepage-list a{
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  color: $darkteal;
+}
+
+
 .max-width {
     max-width: 60rem;
     display: block;
@@ -1164,56 +1212,10 @@ input {
     left: calc(50% - 8em);
   }
 
-/* HOMEPAGE */
 
-    
-.homepage-icon {
-    padding-right: 2rem;
-}
 
-.homepage-grey {
-  background-color: $lightgrey;
-}
 
-.homepage-pressinfo-list {
-  padding-left: 0px;
-  padding-right: 5px;
-  font-style: italic;
-}
 
-.press-btns {
-    padding: 20px;
-    display: block;
-    margin: auto;
-    position: relative;
-    left: calc(50% - 6em);
-}
-
-.press-release-info {
-    overflow: hidden;
-}
-
-.homepage-list a{
-  text-decoration: none;
-  font-style: normal;
-  font-weight: bold;
-  color: $darkteal;
-}
-
-  .prep-para {
-    padding-top: 2em;
-  }
-
-  .join-words {
-    padding: 2%;
-    margin-top: 4em;
-  }
-
-  .join-icon {
-    width: 8em;
-    left: calc(50% - 4em);
-    margin-top: 0;
-  }
 
 }
 
@@ -1269,31 +1271,6 @@ input {
     margin-top: 4em;
   }
 
-.homepage-list a:hover {
-  color: $darkpink;
-  border-bottom: solid 3pt;
-}
-
-
-.homepage-h1 {
-  color: $darkpink;
-}
-    
-.homepage-btn {
-    @include homepage-btn;
-}
-    
-.homepage-btn {
-    background-color: #005352;
-    line-height: 40px;
-    text-align: center;
-    width: 12em;
-    color: #e6e6e6;
-  }
-    
-.homepage-btn:hover {
-    background-color: #fdc46e;
-  }
 
 
 .join-form h2 {
