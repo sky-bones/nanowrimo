@@ -158,6 +158,12 @@ h1 {
 }
 
 /* HOMEPAGE */
+.max-width {
+  max-width: 60rem;
+  display: block;
+  margin: auto;
+}
+
 .home-bars {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -492,6 +498,11 @@ li {
 }
 
 /* Prep */
+.plan-icons {
+  margin-top: -7.5rem;
+  margin-left: -2rem;
+}
+
 .prep-resource-image {
   align-content: left;
 }
@@ -1056,6 +1067,9 @@ input {
 }
 
 @media only screen and (min-width: 25em) {
+  .plan-icons {
+    margin-top: -6rem;
+  }
   .join-words {
     width: 40em;
     margin: auto;
@@ -1107,6 +1121,9 @@ input {
 }
 
 @media only screen and (min-width: 38em) {
+  .plan-icons {
+    margin-top: -5rem;
+  }
   .donate-book {
     padding-right: 2rem;
   }
@@ -1617,15 +1634,6 @@ input {
     background-size: 100%;
     height: 7em;
     width: 7em;
-  }
-  .prep-intro-para {
-    padding-right: 33.3%;
-  }
-  .prep-para-event {
-    padding-top: 20em;
-  }
-  .prep-intro-para {
-    padding-right: 33.3%;
   }
   .prep-para-event {
     padding-top: 20em;
