@@ -120,7 +120,7 @@ img {
 .acro-mark-top {
     display: block;
     font-size: 200px;
-    padding-top: 4rem;
+
     padding-bottom: 0;
     margin: 0;
     color: $white;
@@ -152,6 +152,13 @@ h1 {
 
 
 /* HOMEPAGE */
+
+.intro {
+    color: $white;
+    font-size: 30px;
+    padding-bottom: 20px;
+    margin: 0;
+}
 
 .homepage-list a:hover {
   color: $darkpink;
@@ -320,6 +327,8 @@ textarea {
 }
 
 /* DROP NAV */
+
+
 
 .plus p {
     font-size: 30px;
@@ -643,10 +652,6 @@ li {
 
 .prep-subtitle {
     color: $darkteal;
-}
-
-.prep-para {
-    padding-top: 6em;
 }
 
 .prep-grey-bkg {
@@ -1215,13 +1220,15 @@ input {
 
 
 
-
-
-
 }
 
 
 @media only screen and (min-width: 38em) {
+    
+    .prep-title {
+        padding-top: 3rem;
+    }
+
     
     .shop-title {
         padding-top: 6rem;
@@ -1865,6 +1872,12 @@ input {
 
 @media only screen and (min-width: 60em) {
     
+        
+    .intro {
+        padding-top: 2rem;
+        padding-bottom: 20px;
+}
+    
       .full-form {
         padding-left: 10vw;
 
@@ -1894,9 +1907,7 @@ input {
 
 }
 
-    .prep-para-event {
-        padding-top: 20em;
-    }
+ 
 
     .form-back {
         padding-top: 9em;
