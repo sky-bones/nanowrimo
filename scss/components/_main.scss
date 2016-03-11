@@ -87,7 +87,6 @@ img {
     background-size: cover;
     background-position: center;
     background-color: $white;
-    margin-top: 5em;
     padding-bottom: 25em;
 }
 
@@ -568,7 +567,7 @@ li {
 
 }
 
-.prep-title {
+.shop-title {
     color:$lightgrey;
     text-align: center;
     padding-top: 8rem;
@@ -576,7 +575,7 @@ li {
     font-size: 30px;
 }
 
-.prep-title-wrap {
+.shop-title-wrap {
     width: 70vw;
     display: block;
     margin: auto;
@@ -1138,7 +1137,7 @@ input {
 
 @media only screen and (min-width: 25em) {
     
-    .prep-title {
+    .shop-title {
         padding-top: 7rem;
         font-size: 40px;
     }
@@ -1217,7 +1216,7 @@ input {
 
 @media only screen and (min-width: 38em) {
     
-    .prep-title {
+    .shop-title {
         padding-top: 6rem;
         font-size: 60px;
     }
