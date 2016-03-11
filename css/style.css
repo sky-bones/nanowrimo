@@ -1588,9 +1588,6 @@ input {
   .filter-title {
     color: #005352;
   }
-  .top-faq {
-    margin: 0;
-  }
   .question {
     font-weight: 600;
     margin: 0;
@@ -1640,15 +1637,15 @@ input {
   .e-mail {
     margin-bottom: 1em;
   }
-  .top-faq {
-    margin-top: 53px;
-  }
   .filter-list {
     margin-bottom: 0;
   }
 }
 
 @media only screen and (min-width: 60em) {
+  .top-faq {
+    margin-top: 53px;
+  }
   .intro {
     padding-top: 2rem;
     padding-bottom: 20px;

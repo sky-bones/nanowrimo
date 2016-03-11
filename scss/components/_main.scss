@@ -556,8 +556,6 @@ li {
 }
 
 
-
-
 /*Blog*/
 
 .blog-arrow-key{
@@ -1790,10 +1788,6 @@ input {
     color: $darkteal;
 }
 
-.top-faq {
-       margin: 0;
-   }
-
 .question {
     font-weight: 600;
     margin: 0;
@@ -1856,10 +1850,6 @@ input {
   }
 
 
-   .top-faq {
-    margin-top: 53px;
-}
-
     .filter-list {
     margin-bottom: 0;
     }
@@ -1871,6 +1861,11 @@ input {
 
 
 @media only screen and (min-width: 60em) {
+    
+       .top-faq {
+    margin-top: 53px;
+}
+
     
         
     .intro {
