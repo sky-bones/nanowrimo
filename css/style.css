@@ -530,8 +530,24 @@ li {
 }
 
 .prep-title {
-  color: #dd1945;
-  line-height: 1.25em;
+  color: #e6e6e6;
+  text-align: center;
+  padding-top: 8rem;
+  font-family: "Satisfy", cursive;
+  font-size: 30px;
+}
+
+.prep-title-wrap {
+  width: 70vw;
+  display: block;
+  margin: auto;
+}
+
+.shop-header {
+  background-image: url(../images/banner-images/header-shop-two.jpg);
+  background-size: cover;
+  height: 20rem;
+  min-height: 10rem;
 }
 
 .prep-subtitle {
@@ -635,6 +651,10 @@ li {
 }
 
 /* shop */
+.shop-grid {
+  margin-bottom: 4rem;
+}
+
 .shop-btn {
   background-color: #005352;
   line-height: 35px;
@@ -654,6 +674,10 @@ li {
 
 .shop-item:hover {
   opacity: .5;
+}
+
+.buy {
+  padding: 0 2rem;
 }
 
 /* SIGN IN */
@@ -1058,6 +1082,10 @@ input {
 }
 
 @media only screen and (min-width: 25em) {
+  .prep-title {
+    padding-top: 7rem;
+    font-size: 40px;
+  }
   .donate-title {
     text-align: left;
   }
@@ -1115,6 +1143,10 @@ input {
 }
 
 @media only screen and (min-width: 38em) {
+  .prep-title {
+    padding-top: 6rem;
+    font-size: 60px;
+  }
   .plan-icons {
     margin-top: -5rem;
   }
