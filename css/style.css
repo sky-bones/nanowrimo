@@ -172,6 +172,8 @@ h1 {
   text-align: center;
   width: 12em;
   color: #e6e6e6;
+  display: block;
+  margin: auto;
 }
 
 .homepage-btn:hover {
@@ -196,8 +198,6 @@ h1 {
   padding: 20px;
   display: block;
   margin: auto;
-  position: relative;
-  left: calc(50% - 6em);
 }
 
 .press-release-info {
